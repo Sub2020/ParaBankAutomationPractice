@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a3c8022-3a49-4fd3-9c45-0f234a5f4c5a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/NepalDevAutomation/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/NepalDevAutomation/AppTest.java" afterDir="false" />
+    <list default="true" id="4a3c8022-3a49-4fd3-9c45-0f234a5f4c5a" name="Changes" comment="ParaBank Automation">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NepalDevAutomation/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NepalDevAutomation/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NepalDevAutomation/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NepalDevAutomation/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +39,7 @@
       <recent name="C:\Users\Devraj\IdeaProjects\ParabankParasoftCom\ChromeDriver" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AppTest.test2">
+  <component name="RunManager" selected="JUnit.AppTest.test3">
     <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ParabankParasoftCom" />
       <extension name="coverage">
@@ -92,8 +87,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ParabankParasoftCom" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="NepalDevAutomation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="NepalDevAutomation" />
+      <option name="MAIN_CLASS_NAME" value="NepalDevAutomation.AppTest" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppTest.test3" />
         <item itemvalue="JUnit.AppTest.test2" />
         <item itemvalue="JUnit.AppTest" />
         <item itemvalue="JUnit.AppTest.test1" />
@@ -109,6 +121,14 @@
       <option name="presentableId" value="Default" />
       <updated>1656646983674</updated>
     </task>
+    <task id="LOCAL-00001" summary="ParaBank Automation">
+      <created>1656740214061</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1656740214061</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,5 +141,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ParaBank Automation" />
+    <option name="LAST_COMMIT_MESSAGE" value="ParaBank Automation" />
   </component>
 </project>
