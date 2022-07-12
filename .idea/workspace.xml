@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a3c8022-3a49-4fd3-9c45-0f234a5f4c5a" name="Changes" comment="ParaBank Automation" />
+    <list default="true" id="4a3c8022-3a49-4fd3-9c45-0f234a5f4c5a" name="Changes" comment="ParaBank Automation">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NepalDevAutomation/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NepalDevAutomation/base/CommonAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NepalDevAutomation/BasicTestComponents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NepalDevAutomation/BasicTestComponents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NepalDevAutomation/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NepalDevAutomation/Contact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NepalDevAutomation/EnterCredetial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NepalDevAutomation/EnterCredetial.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,8 +51,8 @@
       <recent name="C:\Users\Devraj\IdeaProjects\ParabankParasoftCom\ChromeDriver" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EnterCredetial">
-    <configuration name="BasicTestComponents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Contact">
+    <configuration name="BasicTestComponents.login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ParabankParasoftCom" />
       <extension name="coverage">
         <pattern>
@@ -56,7 +62,8 @@
       </extension>
       <option name="PACKAGE_NAME" value="NepalDevAutomation" />
       <option name="MAIN_CLASS_NAME" value="NepalDevAutomation.BasicTestComponents" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="login" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -76,7 +83,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnterCredetial" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Contact.contact" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ParabankParasoftCom" />
       <extension name="coverage">
         <pattern>
@@ -85,8 +92,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="NepalDevAutomation" />
-      <option name="MAIN_CLASS_NAME" value="NepalDevAutomation.EnterCredetial" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="NepalDevAutomation.Contact" />
+      <option name="METHOD_NAME" value="contact" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -124,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EnterCredetial" />
         <item itemvalue="JUnit.Contact" />
-        <item itemvalue="JUnit.SecondTitle.test" />
+        <item itemvalue="JUnit.Contact.contact" />
         <item itemvalue="JUnit.SecondTitle" />
-        <item itemvalue="JUnit.BasicTestComponents" />
+        <item itemvalue="JUnit.SecondTitle.test" />
+        <item itemvalue="JUnit.BasicTestComponents.login" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +177,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657583180442</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ParaBank Automation not complete">
+      <created>1657583676094</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657583676094</updated>
+    </task>
+    <task id="LOCAL-00006" summary="ParaBank Automation">
+      <created>1657583870342</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657583870342</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -196,6 +218,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="ParaBank Automation not complete" />
     <MESSAGE value="ParaBank Automation" />
     <option name="LAST_COMMIT_MESSAGE" value="ParaBank Automation" />
   </component>

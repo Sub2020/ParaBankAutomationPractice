@@ -3,6 +3,7 @@ package NepalDevAutomation.base;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -17,6 +18,22 @@ public class CommonAPI {
         driver.get("https://parabank.parasoft.com/");
 
 
+    }
+
+    public void click(String locator){
+        try{
+            driver.findElement(By.id(locator)).click();
+        }catch (Exception e){
+            driver.findElement(By.xpath(locator)).click();
+        }
+    }
+    public void type(String locator, String text){
+        try {
+            driver.findElement(By.name(locator)).sendKeys(text);
+        }catch (Exception e){
+            driver.findElement(By.xpath(locator)).sendKeys(text);
+
+        }
     }
 //    @After
 //    public void tearDown() {

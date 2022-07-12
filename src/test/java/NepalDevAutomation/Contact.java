@@ -12,12 +12,10 @@ public class Contact extends CommonAPI {
         WebElement ConButton = driver.findElement(By.xpath("//*[@id=\"headerPanel\"]/ul[2]/li[3]/a"));
         ConButton.click();
 
-        WebElement ConField = driver.findElement(By.id("name"));
-        ConField.sendKeys("Subrat Devkota");
+        type("name", "Subrat Devkota");
         System.out.println("Name entered to contact");
 
-        WebElement EmailField = driver.findElement(By.id("email"));
-        EmailField.sendKeys("NepalDev@USA.com");
+        type("email", "NepalDev@USA.com");
         System.out.println("Email Entered");
     }
 }

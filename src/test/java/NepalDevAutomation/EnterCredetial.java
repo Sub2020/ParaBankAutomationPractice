@@ -8,13 +8,11 @@ import org.openqa.selenium.WebElement;
 public class EnterCredetial extends CommonAPI {
     @Test
     public void test(){
-        WebElement nameField = driver.findElement(By.name("username"));
-        nameField.sendKeys("BabuNepali");
-        System.out.println("Username entered " + nameField);
+        type("username","BabuNepali" );
+        System.out.println("Username entered ");
 
-        WebElement passwordField = driver.findElement(By.name("password"));
-        passwordField.sendKeys("subrat123");
-        System.out.println("password entered " + passwordField);
+        type("password", "subrat123");
+        System.out.println("password entered ");
 
         WebElement loginBtnField = driver.findElement(By.xpath("//*[@id='loginPanel']/form/div[3]/input"));
         loginBtnField.click();

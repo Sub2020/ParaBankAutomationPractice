@@ -14,6 +14,7 @@ public class BasicTestComponents extends CommonAPI {
 
     @Test
     public void login() {
+
         WebElement nameField = driver.findElement(By.name("username"));
         boolean nameFieldDisplayed = nameField.isDisplayed();
         System.out.printf("Check if UserName field is displayed: %s%n", nameFieldDisplayed);
