@@ -1,9 +1,9 @@
-package NepalDevAutomation;
+package com.parasoftbank;
 
-import NepalDevAutomation.base.CommonAPI;
-import org.junit.Test;
+import Base.CommonAPI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.testng.annotations.Test;
 
 public class EnterCredetial extends CommonAPI {
     @Test

@@ -1,21 +1,23 @@
-package NepalDevAutomation;
+package com.parasoftbank;
 
-import NepalDevAutomation.base.CommonAPI;
-import org.junit.Assert;
-import org.junit.Test;
+import Base.CommonAPI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import static org.junit.Assert.assertTrue;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+;import static org.testng.AssertJUnit.assertTrue;
 
-public class LoginTest extends CommonAPI {
+
+public class BasicTestComponents extends CommonAPI {
 
 
     @Test
     public void login() {
+
         WebElement nameField = driver.findElement(By.name("username"));
         boolean nameFieldDisplayed = nameField.isDisplayed();
         System.out.printf("Check if UserName field is displayed: %s%n", nameFieldDisplayed);
-        assertTrue(nameFieldDisplayed);
+        assert (nameFieldDisplayed);
 
         WebElement passwordField = driver.findElement(By.name("password"));
         boolean passwordFieldIsDisplayed = passwordField.isDisplayed();
@@ -28,3 +30,9 @@ public class LoginTest extends CommonAPI {
         Assert.assertTrue(loginPanellIsDisplayed);
     }
 }
+
+
+
+
+
+

@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a3c8022-3a49-4fd3-9c45-0f234a5f4c5a" name="Changes" comment="ParaBank Automation">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/WelcometoNewpage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NepalDevAutomation/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/NepalDevAutomation/base/CommonAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/NepalDevAutomation/BasicTestComponents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NepalDevAutomation/BasicTestComponents.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/NepalDevAutomation/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NepalDevAutomation/Contact.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/NepalDevAutomation/EnterCredetial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/NepalDevAutomation/EnterCredetial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/NepalDevAutomation/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Base/CommonAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NepalDevAutomation/BasicTestComponents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/BasicTestComponents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NepalDevAutomation/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/Contact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NepalDevAutomation/EnterCredetial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/EnterCredetial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NepalDevAutomation/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/NepalDevAutomation/SecondTitle.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,92 +55,92 @@
       <recent name="C:\Users\Devraj\IdeaProjects\ParabankParasoftCom\ChromeDriver" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Contact">
-    <configuration name="BasicTestComponents.login" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ParabankParasoftCom" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="NepalDevAutomation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="NepalDevAutomation" />
-      <option name="MAIN_CLASS_NAME" value="NepalDevAutomation.BasicTestComponents" />
-      <option name="METHOD_NAME" value="login" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Contact" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ParabankParasoftCom" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="NepalDevAutomation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="NepalDevAutomation" />
-      <option name="MAIN_CLASS_NAME" value="NepalDevAutomation.Contact" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Contact.contact">
     <configuration name="Contact.contact" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ParabankParasoftCom" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="NepalDevAutomation.*" />
+          <option name="PATTERN" value="com.parasoftbank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="NepalDevAutomation" />
-      <option name="MAIN_CLASS_NAME" value="NepalDevAutomation.Contact" />
+      <option name="PACKAGE_NAME" value="com.parasoftbank" />
+      <option name="MAIN_CLASS_NAME" value="com.parasoftbank.Contact" />
       <option name="METHOD_NAME" value="contact" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BasicTestComponents" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ParabankParasoftCom" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="NepalDevAutomation.*" />
+          <option name="PATTERN" value="com.parasoftbank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="NepalDevAutomation" />
-      <option name="MAIN_CLASS_NAME" value="NepalDevAutomation.SecondTitle" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.parasoftbank" />
+      <option name="MAIN_CLASS_NAME" value="com.parasoftbank.BasicTestComponents" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondTitle.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="C:/Users/Devraj/IdeaProjects/ParabankParasoftCom/src/test/resource/runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ParabankParasoftCom" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resource/runner.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WelcometoNewpage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ParabankParasoftCom" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="NepalDevAutomation.*" />
+          <option name="PATTERN" value="com.parasoftbank.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="NepalDevAutomation" />
-      <option name="MAIN_CLASS_NAME" value="NepalDevAutomation.SecondTitle" />
+      <option name="PACKAGE_NAME" value="com.parasoftbank" />
+      <option name="MAIN_CLASS_NAME" value="com.parasoftbank.WelcometoNewpage" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WelcometoNewpage.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ParabankParasoftCom" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.parasoftbank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.parasoftbank" />
+      <option name="MAIN_CLASS_NAME" value="com.parasoftbank.WelcometoNewpage" />
       <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Contact" />
         <item itemvalue="JUnit.Contact.contact" />
-        <item itemvalue="JUnit.SecondTitle" />
-        <item itemvalue="JUnit.SecondTitle.test" />
-        <item itemvalue="JUnit.BasicTestComponents.login" />
+        <item itemvalue="TestNG.C:/Users/Devraj/IdeaProjects/ParabankParasoftCom/src/test/resource/runner.xml" />
+        <item itemvalue="TestNG.BasicTestComponents" />
+        <item itemvalue="TestNG.WelcometoNewpage.test" />
+        <item itemvalue="TestNG.WelcometoNewpage" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +195,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657583870342</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ParaBank Automation">
+      <created>1657591739494</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1657591739494</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -225,6 +236,16 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ParabankParasoftCom$AppTest_login.ic" NAME="AppTest.login Coverage Results" MODIFIED="1657257240810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>NepalDevAutomation.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ParabankParasoftCom$Contact_contact.ic" NAME="Contact.contact Coverage Results" MODIFIED="1657668700010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.parasoftbank.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ParabankParasoftCom$C__Users_Devraj_IdeaProjects_ParabankParasoftCom_src_test_resource_runner_xml.ic" NAME="$PROJECT_DIR$/src/test/resource/runner.xml Coverage Results" MODIFIED="1657671826558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/ParabankParasoftCom$BasicTestComponents.ic" NAME="BasicTestComponents Coverage Results" MODIFIED="1657673873129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.parasoftbank.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ParabankParasoftCom$LoginTest.ic" NAME="LoginTest Coverage Results" MODIFIED="1657668573606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.parasoftbank.*</FILTER>
     </SUITE>
   </component>
 </project>

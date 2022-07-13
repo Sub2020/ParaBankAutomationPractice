@@ -1,7 +1,7 @@
-package NepalDevAutomation;
+package com.parasoftbank;
 
-import NepalDevAutomation.base.CommonAPI;
-import org.junit.Test;
+import Base.CommonAPI;
+import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 

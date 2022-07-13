@@ -1,16 +1,15 @@
-package NepalDevAutomation.base;
+package Base;
 
-import org.junit.After;
-import org.junit.Assert;
-import org.junit.Before;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 
 public class CommonAPI {
     public WebDriver driver;
 
-    @Before
+    @BeforeMethod
     public void setup() {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\Devraj\\IdeaProjects\\ParabankParasoftCom\\ChromeDriver\\New.exe");
         driver = new ChromeDriver();
@@ -35,7 +34,10 @@ public class CommonAPI {
 
         }
     }
-//    @After
+//    public String getPageTitle(){
+//        return driver.getTitle();
+//    }
+//    @AfterMethod
 //    public void tearDown() {
 //        driver.close();
 //    }
