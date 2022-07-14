@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="parasoftbank test">
+      <test name="basic components">
+          <classes>
+              <class name="com.parasoftbank.BasicTestComponents"></class>
+          </classes>
+      </test>
+    <test name="login">
+        <classes>
+            <class name="com.parasoftbank.LoginTest"></class>
+        </classes>
+    </test>
+
+    <test name="EnterCredetial">
+        <classes>
+            <class name="com.parasoftbank.EnterCredetial"></class>
+        </classes>
+    </test>
+
+    <test name="Welcome">
+        <classes>
+            <class name="com.parasoftbank.WelcometoNewpage"></class>
+        </classes>
+    </test>
+
+    <test name="Contact">
+        <classes>
+            <class name="com.parasoftbank.Contact"></class>
+        </classes>
+    </test>
+
+    <test name="Contact2">
+        <classes>
+            <class name="com.parasoftbank.BillPay"></class>
+        </classes>
+    </test>
+</suite>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
