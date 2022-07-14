@@ -3,6 +3,7 @@ package com.parasoftbank;
 import Base.CommonAPI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 public class WelcometoNewpage extends CommonAPI {
@@ -10,18 +11,10 @@ public class WelcometoNewpage extends CommonAPI {
     @Test
     public void test(){
 
-//        WebElement accountView = driver.findElement(By.xpath("//*[@id=\"rightPanel\"]/div/div/h1"));
-//        System.out.println("Welcome text with given name is displayed");
-        //String title = driver.getTitle();
-        //Assert.assertEquals("Welcome", title);
-        //String Title = driver.getTitle();
-        //System.out.println("Login Page tile: " + title);
-
-//        WebElement titleField = driver.findElement(By.xpath("titleFieldDisplayed"));
-//        boolean titleField = titleField.isDisplayed();
-//        System.out.printf("Check if title field is displayed: %s%n", titleFieldDisplayed);
-//        assert (titleFieldDisplayed);
-
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Devraj\\IdeaProjects\\ParabankParasoftCom\\ChromeDriver\\New.exe");
+        driver = new ChromeDriver();
+        driver.manage().window().maximize();
+        driver.get("https://parabank.parasoft.com/");
 
 
 

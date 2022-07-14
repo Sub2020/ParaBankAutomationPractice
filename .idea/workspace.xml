@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a3c8022-3a49-4fd3-9c45-0f234a5f4c5a" name="Changes" comment="ParaBank Automation">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/WelcometoNewpage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/NepalDevAutomation/base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Base/CommonAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/NepalDevAutomation/BasicTestComponents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/BasicTestComponents.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/NepalDevAutomation/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/Contact.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/NepalDevAutomation/EnterCredetial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/EnterCredetial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/NepalDevAutomation/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/NepalDevAutomation/SecondTitle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/WelcometoNewpage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/WelcometoNewpage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +48,8 @@
       <recent name="C:\Users\Devraj\IdeaProjects\ParabankParasoftCom\ChromeDriver" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Contact.contact">
-    <configuration name="Contact.contact" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.BillPay">
+    <configuration name="BillPay" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ParabankParasoftCom" />
       <extension name="coverage">
         <pattern>
@@ -65,23 +58,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.parasoftbank" />
-      <option name="MAIN_CLASS_NAME" value="com.parasoftbank.Contact" />
-      <option name="METHOD_NAME" value="contact" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BasicTestComponents" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ParabankParasoftCom" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.parasoftbank.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.parasoftbank" />
-      <option name="MAIN_CLASS_NAME" value="com.parasoftbank.BasicTestComponents" />
+      <option name="MAIN_CLASS_NAME" value="com.parasoftbank.BillPay" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -89,10 +66,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/Devraj/IdeaProjects/ParabankParasoftCom/src/test/resource/runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="BillPay.test7" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ParabankParasoftCom" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resource/runner.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.parasoftbank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.parasoftbank" />
+      <option name="MAIN_CLASS_NAME" value="com.parasoftbank.BillPay" />
+      <option name="METHOD_NAME" value="test7" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EnterCredetial.test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ParabankParasoftCom" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.parasoftbank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.parasoftbank" />
+      <option name="MAIN_CLASS_NAME" value="com.parasoftbank.EnterCredetial" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ParabankParasoftCom" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.parasoftbank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.parasoftbank" />
+      <option name="MAIN_CLASS_NAME" value="com.parasoftbank.LoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -116,30 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WelcometoNewpage.test" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ParabankParasoftCom" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.parasoftbank.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.parasoftbank" />
-      <option name="MAIN_CLASS_NAME" value="com.parasoftbank.WelcometoNewpage" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Contact.contact" />
-        <item itemvalue="TestNG.C:/Users/Devraj/IdeaProjects/ParabankParasoftCom/src/test/resource/runner.xml" />
-        <item itemvalue="TestNG.BasicTestComponents" />
-        <item itemvalue="TestNG.WelcometoNewpage.test" />
+        <item itemvalue="TestNG.BillPay" />
+        <item itemvalue="TestNG.BillPay.test7" />
+        <item itemvalue="TestNG.EnterCredetial.test" />
+        <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="TestNG.WelcometoNewpage" />
       </list>
     </recent_temporary>
@@ -202,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657591739494</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="ParaBank Automation">
+      <created>1657678074342</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1657678074342</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
