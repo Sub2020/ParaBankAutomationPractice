@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-public class EnterCredetial extends CommonAPI {
+public class Login extends CommonAPI {
     @Test
     public void test3(){
         type("username","BabuNepali" );

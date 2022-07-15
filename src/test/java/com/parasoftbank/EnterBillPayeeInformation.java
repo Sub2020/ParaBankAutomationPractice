@@ -9,7 +9,7 @@ public class EnterBillPayeeInformation extends CommonAPI {
 
     @Test
     public void test10(){
-        type("username", "BabuNepal");
+        type("username", "BabuNepali");
 
         type("password", "subrat123");
 
@@ -46,7 +46,6 @@ public class EnterBillPayeeInformation extends CommonAPI {
         type("amount", "10000");
         System.out.println("Payee entered amount.");
 
-        WebElement AmountAccId = driver.findElement(By.name("fromAccountId"));
         type("fromAccountId", "19116");
         System.out.println("Payee entered account no..");
 

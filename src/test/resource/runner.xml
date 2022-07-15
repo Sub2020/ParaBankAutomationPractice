@@ -13,25 +13,13 @@
         </classes>
     </test>
 
-    <test name="EnterCredetial">
+    <test name="Log-in">
         <classes>
-            <class name="com.parasoftbank.EnterCredetial"></class>
+            <class name="com.parasoftbank.Login"></class>
         </classes>
     </test>
 
-    <test name="Welcome">
-        <classes>
-            <class name="com.parasoftbank.WelcometoNewpage"></class>
-        </classes>
-    </test>
-
-    <test name="Contact">
-        <classes>
-            <class name="com.parasoftbank.Contact"></class>
-        </classes>
-    </test>
-
-    <test name="Contact2">
+    <test name="Bill Pay">
         <classes>
             <class name="com.parasoftbank.BillPay"></class>
         </classes>
@@ -70,6 +58,54 @@
     <test name="Payee Information">
         <classes>
             <class name="com.parasoftbank.EnterBillPayeeInformation"></class>
+        </classes>
+    </test>
+
+    <test name="Request Loan">
+        <classes>
+            <class name="com.parasoftbank.requestLoan"></class>
+        </classes>
+    </test>
+
+    <test name="Transfer fund">
+        <classes>
+            <class name="com.parasoftbank.TransferFund"></class>
+        </classes>
+    </test>
+
+    <test name="Contact">
+        <classes>
+            <class name="com.parasoftbank.contact"></class>
+        </classes>
+    </test>
+
+    <test name="Find Transaction">
+        <classes>
+            <class name="com.parasoftbank.FindTransactions"></class>
+        </classes>
+    </test>
+
+    <test name="Admin Page">
+        <classes>
+            <class name="com.parasoftbank.adminPage"></class>
+        </classes>
+    </test>
+
+    <test name="Home">
+        <classes>
+            <class name="com.parasoftbank.home"></class>
+        </classes>
+    </test>
+
+    <test name="Update Info">
+        <classes>
+            <class name="com.parasoftbank.upDateInfo"></class>
+        </classes>
+    </test>
+
+    <test name="Sign-out">
+        <classes>
+            <class name="com.parasoftbank.SignOut"></class>
         </classes>
     </test>
 </suite>

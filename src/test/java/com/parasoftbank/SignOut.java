@@ -2,16 +2,14 @@ package com.parasoftbank;
 
 import Base.CommonAPI;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class BillPay extends CommonAPI {
+public class SignOut extends CommonAPI {
 
     @Test
-    public void test4() {
-        type("username","BabuNepali");
+    public void test19(){
+        type("username", "BabuNepali");
         System.out.println("Username entered");
 
         type("password", "subrat123");
@@ -21,8 +19,10 @@ public class BillPay extends CommonAPI {
         clickLogIn.click();
         System.out.println("Login Success!!");
 
-        WebElement clickBillPay = driver.findElement(By.xpath("//*[@id=\"leftPanel\"]/ul/li[4]/a"));
-        clickBillPay.click();
-        System.out.println("Click on Bill Pay success!!");
+        WebElement SignOutButton = driver.findElement(By.linkText("Log Out"));
+        SignOutButton.click();
+
+        System.out.println("Sign Out success");
+
     }
 }
