@@ -15,7 +15,19 @@ public class CommonAPI {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://parabank.parasoft.com/");
+
+
     }
+    @AfterMethod
+    public String getPageTitle(){
+        return driver.getTitle();
+    }
+    @AfterMethod
+    public void tearDown()
+    {
+        driver.close();
+    }
+
 
     public void click(String locator){
         try{
@@ -32,12 +44,12 @@ public class CommonAPI {
 
         }
     }
-    public String getPageTitle(){
-        return driver.getTitle();
-    }
-    @AfterMethod
-    public void tearDown() {
-        driver.close();
+    public boolean isPresent(String locator){
+        try {
+            return driver.findElement(By.cssSelector(locator)).isDisplayed();
+        }catch(Exception e){
+            return driver.findElement(By.xpath(locator)).isDisplayed();
+        }
     }
 
 }

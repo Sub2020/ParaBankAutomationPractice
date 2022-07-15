@@ -15,6 +15,8 @@ public class LoginTest extends CommonAPI {
     public void loginTest2() {
         WebElement nameField = driver.findElement(By.name("username"));
         boolean nameFieldDisplayed = nameField.isDisplayed();
+
+
         System.out.printf("Check if UserName field is displayed: %s%n", nameFieldDisplayed);
         assertTrue(nameFieldDisplayed);
 
