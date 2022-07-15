@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 public class BillPay extends CommonAPI {
 
     @Test
-    public void test7() {
+    public void test4() {
         type("username","BabuNepal");
         System.out.println("Username entered");
 

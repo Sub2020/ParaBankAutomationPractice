@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class EnterCredetial extends CommonAPI {
     @Test
-    public void test(){
+    public void test3(){
         type("username","BabuNepali" );
         System.out.println("Username entered ");
 

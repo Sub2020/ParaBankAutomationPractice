@@ -12,7 +12,7 @@ public class BasicTestComponents extends CommonAPI {
 
 
     @Test
-    public void login() {
+    public void firstPageTest1() {
 
         WebElement nameField = driver.findElement(By.name("username"));
         boolean nameFieldDisplayed = nameField.isDisplayed();

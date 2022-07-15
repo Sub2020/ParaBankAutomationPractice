@@ -36,6 +36,42 @@
             <class name="com.parasoftbank.BillPay"></class>
         </classes>
     </test>
+
+    <test name="Bank News">
+        <classes>
+            <class name="com.parasoftbank.BankNews"></class>
+        </classes>
+    </test>
+
+    <test name="About Us">
+        <classes>
+            <class name="com.parasoftbank.aboutUs"></class>
+        </classes>
+    </test>
+
+    <test name="Service">
+        <classes>
+            <class name="com.parasoftbank.Service"></class>
+        </classes>
+    </test>
+
+    <test name="Product">
+        <classes>
+            <class name="com.parasoftbank.product"></class>
+        </classes>
+    </test>
+
+    <test name="Site Map">
+        <classes>
+            <class name="com.parasoftbank.siteMap"></class>
+        </classes>
+    </test>
+
+    <test name="Payee Information">
+        <classes>
+            <class name="com.parasoftbank.EnterBillPayeeInformation"></class>
+        </classes>
+    </test>
 </suite>
 
 
