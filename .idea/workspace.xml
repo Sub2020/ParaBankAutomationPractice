@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a3c8022-3a49-4fd3-9c45-0f234a5f4c5a" name="Changes" comment="ParaBank Automation">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/BasicTestComponents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/BasicTestComponents.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/BillPay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/BillPay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/EnterCredetial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/EnterCredetial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resource/runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resource/runner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/BankNews.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/EnterBillPayeeInformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/aboutUs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/locations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/siteMap.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657840397576</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="ParaBank Automation">
+      <created>1657845553888</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1657845553888</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
