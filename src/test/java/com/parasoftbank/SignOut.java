@@ -15,7 +15,7 @@ public class SignOut extends CommonAPI {
         type("password", "subrat123");
         System.out.println("password entered");
 
-        WebElement clickLogIn = driver.findElement(By.xpath("//*[@id=\"loginPanel\"]/form/div[3]/input"));
+        WebElement clickLogIn = driver.findElement(By.xpath("//*[@id='loginPanel']"));
 
         clickLogIn.click();
         System.out.println("Login Success!!");

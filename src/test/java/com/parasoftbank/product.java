@@ -9,8 +9,7 @@ public class product extends CommonAPI {
 
     @Test
     public void test7(){
-        WebElement ClickOnProduct = driver.findElement(By.xpath("//*[@id=\"headerPanel\"]/ul[1]/li[4]/a"));
-        ClickOnProduct.click();
+        click("//*[@id='headerPanel']");
         System.out.println("Click on Product success.");
         driver.navigate().back();
     }

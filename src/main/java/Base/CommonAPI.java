@@ -15,41 +15,58 @@ public class CommonAPI {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://parabank.parasoft.com/");
-
-
     }
+
     @AfterMethod
-    public String getPageTitle(){
+    public String getPageTitle() {
         return driver.getTitle();
     }
+
     @AfterMethod
-    public void tearDown()
-    {
+    public void tearDown() {
         driver.close();
     }
 
 
-    public void click(String locator){
-        try{
+    public void click(String locator) {
+        try {
             driver.findElement(By.id(locator)).click();
-        }catch (Exception e){
+        } catch (Exception e) {
             driver.findElement(By.xpath(locator)).click();
         }
     }
-    public void type(String locator, String text){
+
+    public void clear(String locator){
+        try {
+            driver.findElement(By.cssSelector(locator)).clear();
+        }catch (Exception e){
+            driver.findElement(By.xpath(locator)).clear();
+        }
+
+    }
+    public void type(String locator, String text) {
         try {
             driver.findElement(By.name(locator)).sendKeys(text);
-        }catch (Exception e){
+        } catch (Exception e) {
             driver.findElement(By.xpath(locator)).sendKeys(text);
 
         }
     }
-    public boolean isPresent(String locator){
+
+    public boolean isPresent(String locator) {
         try {
-            return driver.findElement(By.cssSelector(locator)).isDisplayed();
-        }catch(Exception e){
-            return driver.findElement(By.xpath(locator)).isDisplayed();
+            return driver.findElement(By.name(locator)).isDisplayed();
+        } catch (Exception e) {
+            return driver.findElement(By.id(locator)).isDisplayed();
         }
     }
 
+    public String getElementText(String locator) {
+        try {
+            return driver.findElement(By.cssSelector(locator)).getText();
+        }catch (Exception e) {
+            return driver.findElement(By.xpath(locator)).getText();
+        }
+    }
 }
+

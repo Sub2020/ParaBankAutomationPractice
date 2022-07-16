@@ -15,12 +15,10 @@ public class FindTransactions extends CommonAPI {
         type("password", "subrat123");
         System.out.println("password entered");
 
-        WebElement clickLogIn = driver.findElement(By.xpath("//*[@id=\"loginPanel\"]/form/div[3]/input"));
-        clickLogIn.click();
+        click("//*[@id='loginPanel']");
         System.out.println("Login Success!!");
 
-        WebElement ClickTransactions = driver.findElement(By.xpath("//*[@id=\"leftPanel\"]/ul/li[5]/a"));
-        ClickTransactions.click();
+        click("//*[@id='leftPanel']");
         System.out.println("Click on Find Transactions success.");
 
     }

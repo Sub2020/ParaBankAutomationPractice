@@ -44,7 +44,7 @@ public class upDateInfo extends CommonAPI {
         type("customer.phoneNumber", "911-123-4567");
         System.out.println("Customer entered phone #.");
 
-        WebElement ClickOnUpdate = driver.findElement(By.xpath("//*[@id=\"rightPanel\"]/div/div/form/table/tbody/tr[8]/td[2]/input"));
+        WebElement ClickOnUpdate = driver.findElement(By.xpath("//*[@id='rightPanel']"));
         ClickOnUpdate.click();
 
 

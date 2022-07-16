@@ -11,7 +11,7 @@ public class contact extends CommonAPI {
     public void test13(){
         WebElement homeclick = driver.findElement(By.linkText("contact"));
         homeclick.click();
-        System.out.println("click success");
+        System.out.println("click on contact success");
 
     }
 }

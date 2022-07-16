@@ -16,22 +16,25 @@ public class requestLoan extends CommonAPI {
         type("password", "subrat123");
         System.out.println("Password entered");
 
-        WebElement clickLogIn = driver.findElement(By.xpath("//*[@id=\"loginPanel\"]/form/div[3]/input"));
-        clickLogIn.click();
+        click("//*[@id='loginPanel']");
         System.out.println("Login Success.");
 
-        WebElement ClickRequestLoan = driver.findElement(By.xpath("//*[@id=\"leftPanel\"]/ul/li[7]/a"));
-        ClickRequestLoan.click();
 
-        WebElement EnterLoanAmount = driver.findElement(By.xpath("//*[@id=\"amount\"]"));
-        EnterLoanAmount.sendKeys("1000000");
+        click("//*[@id='leftPanel']");
+
+
+        //WebElement EnterLoanAmount = driver.findElement(By.xpath("//*[@id='amount']"));
+        type("//*[@id='amount']", "1000000");
+        //click("//*[@id='amount']");
+        //EnterLoanAmount.sendKeys("1000000");
         System.out.println("Loan amount entered.");
 
         WebElement EnterDownpayment = driver.findElement(By.xpath("//*[@id=\"downPayment\"]"));
         EnterDownpayment.sendKeys("500000");
         System.out.println("Account no. entered.");
 
-        WebElement LoanAccount = driver.findElement(By.xpath("//*[@id=\"fromAccountId\"]"));
+        WebElement LoanAccount = driver.findElement(By.xpath("//*[@id='fromAccountId']"));
+        //click("//*[@id='fromAccountId']");
         LoanAccount.sendKeys("19227");
         System.out.println("Down payment loan amount entered.");
 

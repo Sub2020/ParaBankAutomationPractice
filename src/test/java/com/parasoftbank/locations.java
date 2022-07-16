@@ -9,8 +9,7 @@ public class locations extends CommonAPI {
 
     @Test
     public void test8(){
-        WebElement ClickOnlocations = driver.findElement(By.xpath("//*[@id=\"headerPanel\"]/ul[1]/li[5]/a"));
-        ClickOnlocations.click();
+        click("//*[@id='headerPanel']");
         System.out.println("Click on locations success.");
         driver.navigate().back();
     }

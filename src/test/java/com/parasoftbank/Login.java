@@ -14,8 +14,7 @@ public class Login extends CommonAPI {
         type("password", "subrat123");
         System.out.println("password entered ");
 
-        WebElement loginBtnField = driver.findElement(By.xpath("//*[@id='loginPanel']/form/div[3]/input"));
-        loginBtnField.click();
+        click("//*[@id='loginPanel']");
         System.out.println("Click on login Button Success");
     }
 }

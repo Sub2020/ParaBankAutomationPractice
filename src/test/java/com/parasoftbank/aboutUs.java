@@ -9,8 +9,7 @@ public class aboutUs extends CommonAPI {
 
     @Test
     public void test6(){
-        WebElement ClickAboutUs = driver.findElement(By.xpath("//*[@id=\"headerPanel\"]/ul[1]/li[2]/a"));
-        ClickAboutUs.click();
+        click("//*[@id='headerPanel']");
         System.out.println("Click on About us success.");
     }
 }

@@ -16,11 +16,11 @@ public class TransferFund extends CommonAPI {
         type("password", "subrat123");
         System.out.println("password entered");
 
-        WebElement clickLogIn = driver.findElement(By.xpath("//*[@id=\"loginPanel\"]/form/div[3]/input"));
+        WebElement clickLogIn = driver.findElement(By.xpath("//*[@id='loginPanel']"));
         clickLogIn.click();
         System.out.println("Login Success!!");
 
-        WebElement clickTransferFund = driver.findElement(By.xpath("//*[@id=\"leftPanel\"]/ul/li[3]/a"));
+        WebElement clickTransferFund = driver.findElement(By.xpath("//*[@id='leftPanel']"));
         clickTransferFund.click();
         System.out.println("Click on transfer founds success!!");
 
