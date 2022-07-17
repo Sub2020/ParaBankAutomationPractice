@@ -29,7 +29,7 @@ public class requestLoan extends CommonAPI {
         //EnterLoanAmount.sendKeys("1000000");
         System.out.println("Loan amount entered.");
 
-        WebElement EnterDownpayment = driver.findElement(By.xpath("//*[@id=\"downPayment\"]"));
+        WebElement EnterDownpayment = driver.findElement(By.xpath("//*[@id='downPayment']"));
         EnterDownpayment.sendKeys("500000");
         System.out.println("Account no. entered.");
 

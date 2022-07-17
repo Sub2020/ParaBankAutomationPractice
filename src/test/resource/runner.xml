@@ -114,6 +114,12 @@
             <class name="com.parasoftbank.SignOut"></class>
         </classes>
     </test>
+
+    <test name="Forget Login Info">
+        <classes>
+            <class name="com.parasoftbank.ForgetLogInInfo"></class>
+        </classes>
+    </test>
 </suite>
 
 

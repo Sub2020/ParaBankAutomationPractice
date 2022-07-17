@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="19" passed="15" failed="4" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-16T20:01:00 EDT" name="parasoftbank test" finished-at="2022-07-16T20:03:08 EDT" duration-ms="128250">
+    <groups>
+    </groups>
+    <test started-at="2022-07-16T20:01:00 EDT" name="Main Title" finished-at="2022-07-16T20:01:19 EDT" duration-ms="18351">
+      <class name="com.parasoftbank.Title">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.parasoftbank.Title@1ebd319f]" started-at="2022-07-16T20:01:00 EDT" name="setup" finished-at="2022-07-16T20:01:18 EDT" duration-ms="17372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test19()[pri:0, instance:com.parasoftbank.Title@1ebd319f]" started-at="2022-07-16T20:01:18 EDT" name="test19" finished-at="2022-07-16T20:01:18 EDT" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test19 -->
+        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.Title@1ebd319f]" started-at="2022-07-16T20:01:18 EDT" name="getPageTitle" finished-at="2022-07-16T20:01:18 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.Title@1ebd319f]" started-at="2022-07-16T20:01:18 EDT" name="tearDown" finished-at="2022-07-16T20:01:19 EDT" duration-ms="837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.parasoftbank.Title -->
+    </test> <!-- Main Title -->
+    <test started-at="2022-07-16T20:01:19 EDT" name="basic components" finished-at="2022-07-16T20:01:24 EDT" duration-ms="5666">
+      <class name="com.parasoftbank.BasicTestComponents">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.parasoftbank.BasicTestComponents@747edf66]" started-at="2022-07-16T20:01:19 EDT" name="setup" finished-at="2022-07-16T20:01:24 EDT" duration-ms="5122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="firstPageTest1()[pri:0, instance:com.parasoftbank.BasicTestComponents@747edf66]" started-at="2022-07-16T20:01:24 EDT" name="firstPageTest1" finished-at="2022-07-16T20:01:24 EDT" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstPageTest1 -->
+        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.BasicTestComponents@747edf66]" started-at="2022-07-16T20:01:24 EDT" name="getPageTitle" finished-at="2022-07-16T20:01:24 EDT" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.BasicTestComponents@747edf66]" started-at="2022-07-16T20:01:24 EDT" name="tearDown" finished-at="2022-07-16T20:01:24 EDT" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.parasoftbank.BasicTestComponents -->
+    </test> <!-- basic components -->
+    <test started-at="2022-07-16T20:01:24 EDT" name="login" finished-at="2022-07-16T20:01:34 EDT" duration-ms="9952">
+      <class name="com.parasoftbank.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.parasoftbank.LoginTest@e7edb54]" started-at="2022-07-16T20:01:24 EDT" name="setup" finished-at="2022-07-16T20:01:30 EDT" duration-ms="5561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest2()[pri:0, instance:com.parasoftbank.LoginTest@e7edb54]" started-at="2022-07-16T20:01:30 EDT" name="loginTest2" finished-at="2022-07-16T20:01:30 EDT" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest2 -->
+        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.LoginTest@e7edb54]" started-at="2022-07-16T20:01:30 EDT" name="getPageTitle" finished-at="2022-07-16T20:01:30 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.LoginTest@e7edb54]" started-at="2022-07-16T20:01:30 EDT" name="tearDown" finished-at="2022-07-16T20:01:34 EDT" duration-ms="4137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.parasoftbank.LoginTest -->
+    </test> <!-- login -->
+    <test started-at="2022-07-16T20:01:34 EDT" name="Log-in" finished-at="2022-07-16T20:01:40 EDT" duration-ms="5162">
+      <class name="com.parasoftbank.Login">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.parasoftbank.Login@79da8dc5]" started-at="2022-07-16T20:01:34 EDT" name="setup" finished-at="2022-07-16T20:01:39 EDT" duration-ms="4667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test3()[pri:0, instance:com.parasoftbank.Login@79da8dc5]" started-at="2022-07-16T20:01:39 EDT" name="test3" finished-at="2022-07-16T20:01:39 EDT" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.Login@79da8dc5]" started-at="2022-07-16T20:01:39 EDT" name="getPageTitle" finished-at="2022-07-16T20:01:39 EDT" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.Login@79da8dc5]" started-at="2022-07-16T20:01:39 EDT" name="tearDown" finished-at="2022-07-16T20:01:40 EDT" duration-ms="143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.parasoftbank.Login -->
+    </test> <!-- Log-in -->
+    <test started-at="2022-07-16T20:01:40 EDT" name="Bill Pay" finished-at="2022-07-16T20:01:46 EDT" duration-ms="6564">
+      <class name="com.parasoftbank.BillPay">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.parasoftbank.BillPay@4e7912d8]" started-at="2022-07-16T20:01:40 EDT" name="setup" finished-at="2022-07-16T20:01:44 EDT" duration-ms="4627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test4()[pri:0, instance:com.parasoftbank.BillPay@4e7912d8]" started-at="2022-07-16T20:01:44 EDT" name="test4" finished-at="2022-07-16T20:01:46 EDT" duration-ms="1532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.BillPay@4e7912d8]" started-at="2022-07-16T20:01:46 EDT" name="getPageTitle" finished-at="2022-07-16T20:01:46 EDT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.BillPay@4e7912d8]" started-at="2022-07-16T20:01:46 EDT" name="tearDown" finished-at="2022-07-16T20:01:46 EDT" duration-ms="396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.parasoftbank.BillPay -->
+    </test> <!-- Bill Pay -->
+    <test started-at="2022-07-16T20:01:46 EDT" name="Bank News" finished-at="2022-07-16T20:01:52 EDT" duration-ms="6036">
+      <class name="com.parasoftbank.BankNews">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.parasoftbank.BankNews@be35cd9]" started-at="2022-07-16T20:01:46 EDT" name="setup" finished-at="2022-07-16T20:01:51 EDT" duration-ms="4928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test5()[pri:0, instance:com.parasoftbank.BankNews@be35cd9]" started-at="2022-07-16T20:01:51 EDT" name="test5" finished-at="2022-07-16T20:01:52 EDT" duration-ms="692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.BankNews@be35cd9]" started-at="2022-07-16T20:01:52 EDT" name="getPageTitle" finished-at="2022-07-16T20:01:52 EDT" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.BankNews@be35cd9]" started-at="2022-07-16T20:01:52 EDT" name="tearDown" finished-at="2022-07-16T20:01:52 EDT" duration-ms="388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.parasoftbank.BankNews -->
+    </test> <!-- Bank News -->
+    <test started-at="2022-07-16T20:01:52 EDT" name="About Us" finished-at="2022-07-16T20:01:58 EDT" duration-ms="5312">
+      <class name="com.parasoftbank.aboutUs">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.parasoftbank.aboutUs@272ed83b]" started-at="2022-07-16T20:01:52 EDT" name="setup" finished-at="2022-07-16T20:01:57 EDT" duration-ms="4778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test6()[pri:0, instance:com.parasoftbank.aboutUs@272ed83b]" started-at="2022-07-16T20:01:57 EDT" name="test6" finished-at="2022-07-16T20:01:57 EDT" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.aboutUs@272ed83b]" started-at="2022-07-16T20:01:57 EDT" name="getPageTitle" finished-at="2022-07-16T20:01:57 EDT" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.aboutUs@272ed83b]" started-at="2022-07-16T20:01:57 EDT" name="tearDown" finished-at="2022-07-16T20:01:58 EDT" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.parasoftbank.aboutUs -->
+    </test> <!-- About Us -->
+    <test started-at="2022-07-16T20:01:58 EDT" name="Service" finished-at="2022-07-16T20:02:03 EDT" duration-ms="4961">
+      <class name="com.parasoftbank.Service">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.parasoftbank.Service@1e6454ec]" started-at="2022-07-16T20:01:58 EDT" name="setup" finished-at="2022-07-16T20:02:02 EDT" duration-ms="4470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test6()[pri:0, instance:com.parasoftbank.Service@1e6454ec]" started-at="2022-07-16T20:02:02 EDT" name="test6" finished-at="2022-07-16T20:02:02 EDT" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.Service@1e6454ec]" started-at="2022-07-16T20:02:02 EDT" name="getPageTitle" finished-at="2022-07-16T20:02:02 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.Service@1e6454ec]" started-at="2022-07-16T20:02:02 EDT" name="tearDown" finished-at="2022-07-16T20:02:03 EDT" duration-ms="375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.parasoftbank.Service -->
+    </test> <!-- Service -->
+    <test started-at="2022-07-16T20:02:03 EDT" name="Product" finished-at="2022-07-16T20:02:09 EDT" duration-ms="6124">
+      <class name="com.parasoftbank.product">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.parasoftbank.product@27ff5d15]" started-at="2022-07-16T20:02:03 EDT" name="setup" finished-at="2022-07-16T20:02:08 EDT" duration-ms="5565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test7()[pri:0, instance:com.parasoftbank.product@27ff5d15]" started-at="2022-07-16T20:02:08 EDT" name="test7" finished-at="2022-07-16T20:02:08 EDT" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test7 -->
+        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.product@27ff5d15]" started-at="2022-07-16T20:02:08 EDT" name="getPageTitle" finished-at="2022-07-16T20:02:08 EDT" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.product@27ff5d15]" started-at="2022-07-16T20:02:08 EDT" name="tearDown" finished-at="2022-07-16T20:02:09 EDT" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.parasoftbank.product -->
+    </test> <!-- Product -->
+    <test started-at="2022-07-16T20:02:09 EDT" name="Site Map" finished-at="2022-07-16T20:02:16 EDT" duration-ms="6806">
+      <class name="com.parasoftbank.siteMap">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.parasoftbank.siteMap@a2431d0]" started-at="2022-07-16T20:02:09 EDT" name="setup" finished-at="2022-07-16T20:02:14 EDT" duration-ms="5399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test9()[pri:0, instance:com.parasoftbank.siteMap@a2431d0]" started-at="2022-07-16T20:02:14 EDT" name="test9" finished-at="2022-07-16T20:02:15 EDT" duration-ms="987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test9 -->
+        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.siteMap@a2431d0]" started-at="2022-07-16T20:02:15 EDT" name="getPageTitle" finished-at="2022-07-16T20:02:15 EDT" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.siteMap@a2431d0]" started-at="2022-07-16T20:02:15 EDT" name="tearDown" finished-at="2022-07-16T20:02:16 EDT" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.parasoftbank.siteMap -->
+    </test> <!-- Site Map -->
+    <test started-at="2022-07-16T20:02:16 EDT" name="Payee Information" finished-at="2022-07-16T20:02:23 EDT" duration-ms="7575">
+      <class name="com.parasoftbank.EnterBillPayeeInformation">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.parasoftbank.EnterBillPayeeInformation@22e357dc]" started-at="2022-07-16T20:02:16 EDT" name="setup" finished-at="2022-07-16T20:02:21 EDT" duration-ms="5029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test10()[pri:0, instance:com.parasoftbank.EnterBillPayeeInformation@22e357dc]" started-at="2022-07-16T20:02:21 EDT" name="test10" finished-at="2022-07-16T20:02:23 EDT" duration-ms="2397" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"button"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-IA81GD4', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [50438240a9e416c6a80d2691d4d27158, findElement {using=xpath, value=button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Devraj\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53371}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53371/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 50438240a9e416c6a80d2691d4d27158]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"button"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-IA81GD4', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [50438240a9e416c6a80d2691d4d27158, findElement {using=xpath, value=button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Devraj\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53371}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53371/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 50438240a9e416c6a80d2691d4d27158
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
+at Base.CommonAPI.click(CommonAPI.java:35)
+at com.parasoftbank.EnterBillPayeeInformation.test10(EnterBillPayeeInformation.java:55)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test10 -->
+        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.EnterBillPayeeInformation@22e357dc]" started-at="2022-07-16T20:02:23 EDT" name="getPageTitle" finished-at="2022-07-16T20:02:23 EDT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.EnterBillPayeeInformation@22e357dc]" started-at="2022-07-16T20:02:23 EDT" name="tearDown" finished-at="2022-07-16T20:02:23 EDT" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.parasoftbank.EnterBillPayeeInformation -->
+    </test> <!-- Payee Information -->
+    <test started-at="2022-07-16T20:02:23 EDT" name="Request Loan" finished-at="2022-07-16T20:02:29 EDT" duration-ms="5365">
+      <class name="com.parasoftbank.requestLoan">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.parasoftbank.requestLoan@5f9b2141]" started-at="2022-07-16T20:02:23 EDT" name="setup" finished-at="2022-07-16T20:02:28 EDT" duration-ms="4749" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test11()[pri:0, instance:com.parasoftbank.requestLoan@5f9b2141]" started-at="2022-07-16T20:02:28 EDT" name="test11" finished-at="2022-07-16T20:02:28 EDT" duration-ms="491" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='amount']"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-IA81GD4', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8896ec155209b8f2b54d01679d7117e2, findElement {using=xpath, value=//*[@id='amount']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Devraj\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53389}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53389/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8896ec155209b8f2b54d01679d7117e2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='amount']"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-IA81GD4', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8896ec155209b8f2b54d01679d7117e2, findElement {using=xpath, value=//*[@id='amount']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Devraj\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53389}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53389/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8896ec155209b8f2b54d01679d7117e2
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
+at Base.CommonAPI.type(CommonAPI.java:51)
+at com.parasoftbank.requestLoan.test11(requestLoan.java:27)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test11 -->
+        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.requestLoan@5f9b2141]" started-at="2022-07-16T20:02:28 EDT" name="getPageTitle" finished-at="2022-07-16T20:02:28 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.requestLoan@5f9b2141]" started-at="2022-07-16T20:02:28 EDT" name="tearDown" finished-at="2022-07-16T20:02:29 EDT" duration-ms="125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.parasoftbank.requestLoan -->
+    </test> <!-- Request Loan -->
+    <test started-at="2022-07-16T20:02:29 EDT" name="Transfer fund" finished-at="2022-07-16T20:02:34 EDT" duration-ms="5376">
+      <class name="com.parasoftbank.TransferFund">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.parasoftbank.TransferFund@223aa2f7]" started-at="2022-07-16T20:02:29 EDT" name="setup" finished-at="2022-07-16T20:02:33 EDT" duration-ms="4695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test12()[pri:0, instance:com.parasoftbank.TransferFund@223aa2f7]" started-at="2022-07-16T20:02:33 EDT" name="test12" finished-at="2022-07-16T20:02:34 EDT" duration-ms="395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test12 -->
+        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.TransferFund@223aa2f7]" started-at="2022-07-16T20:02:34 EDT" name="getPageTitle" finished-at="2022-07-16T20:02:34 EDT" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.TransferFund@223aa2f7]" started-at="2022-07-16T20:02:34 EDT" name="tearDown" finished-at="2022-07-16T20:02:34 EDT" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.parasoftbank.TransferFund -->
+    </test> <!-- Transfer fund -->
+    <test started-at="2022-07-16T20:02:34 EDT" name="Contact" finished-at="2022-07-16T20:02:40 EDT" duration-ms="5599">
+      <class name="com.parasoftbank.contact">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.parasoftbank.contact@932bc4a]" started-at="2022-07-16T20:02:34 EDT" name="setup" finished-at="2022-07-16T20:02:39 EDT" duration-ms="4910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test13()[pri:0, instance:com.parasoftbank.contact@932bc4a]" started-at="2022-07-16T20:02:39 EDT" name="test13" finished-at="2022-07-16T20:02:39 EDT" duration-ms="527" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test13 -->
+        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.contact@932bc4a]" started-at="2022-07-16T20:02:39 EDT" name="getPageTitle" finished-at="2022-07-16T20:02:39 EDT" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.contact@932bc4a]" started-at="2022-07-16T20:02:39 EDT" name="tearDown" finished-at="2022-07-16T20:02:40 EDT" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.parasoftbank.contact -->
+    </test> <!-- Contact -->
+    <test started-at="2022-07-16T20:02:40 EDT" name="Find Transaction" finished-at="2022-07-16T20:02:46 EDT" duration-ms="5937">
+      <class name="com.parasoftbank.FindTransactions">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.parasoftbank.FindTransactions@446293d]" started-at="2022-07-16T20:02:40 EDT" name="setup" finished-at="2022-07-16T20:02:44 EDT" duration-ms="4748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test14()[pri:0, instance:com.parasoftbank.FindTransactions@446293d]" started-at="2022-07-16T20:02:44 EDT" name="test14" finished-at="2022-07-16T20:02:45 EDT" duration-ms="448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test14 -->
+        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.FindTransactions@446293d]" started-at="2022-07-16T20:02:45 EDT" name="getPageTitle" finished-at="2022-07-16T20:02:45 EDT" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.FindTransactions@446293d]" started-at="2022-07-16T20:02:45 EDT" name="tearDown" finished-at="2022-07-16T20:02:46 EDT" duration-ms="730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.parasoftbank.FindTransactions -->
+    </test> <!-- Find Transaction -->
+    <test started-at="2022-07-16T20:02:46 EDT" name="Admin Page" finished-at="2022-07-16T20:02:52 EDT" duration-ms="6130">
+      <class name="com.parasoftbank.adminPage">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.parasoftbank.adminPage@33990a0c]" started-at="2022-07-16T20:02:46 EDT" name="setup" finished-at="2022-07-16T20:02:50 EDT" duration-ms="4892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test15()[pri:0, instance:com.parasoftbank.adminPage@33990a0c]" started-at="2022-07-16T20:02:50 EDT" name="test15" finished-at="2022-07-16T20:02:51 EDT" duration-ms="906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test15 -->
+        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.adminPage@33990a0c]" started-at="2022-07-16T20:02:51 EDT" name="getPageTitle" finished-at="2022-07-16T20:02:51 EDT" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.adminPage@33990a0c]" started-at="2022-07-16T20:02:51 EDT" name="tearDown" finished-at="2022-07-16T20:02:52 EDT" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.parasoftbank.adminPage -->
+    </test> <!-- Admin Page -->
+    <test started-at="2022-07-16T20:02:52 EDT" name="Home" finished-at="2022-07-16T20:02:57 EDT" duration-ms="5372">
+      <class name="com.parasoftbank.home">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.parasoftbank.home@7ea9e1e2]" started-at="2022-07-16T20:02:52 EDT" name="setup" finished-at="2022-07-16T20:02:57 EDT" duration-ms="4803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test16()[pri:0, instance:com.parasoftbank.home@7ea9e1e2]" started-at="2022-07-16T20:02:57 EDT" name="test16" finished-at="2022-07-16T20:02:57 EDT" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test16 -->
+        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.home@7ea9e1e2]" started-at="2022-07-16T20:02:57 EDT" name="getPageTitle" finished-at="2022-07-16T20:02:57 EDT" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.home@7ea9e1e2]" started-at="2022-07-16T20:02:57 EDT" name="tearDown" finished-at="2022-07-16T20:02:57 EDT" duration-ms="438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.parasoftbank.home -->
+    </test> <!-- Home -->
+    <test started-at="2022-07-16T20:02:57 EDT" name="Update Info" finished-at="2022-07-16T20:03:03 EDT" duration-ms="5786">
+      <class name="com.parasoftbank.upDateInfo">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.parasoftbank.upDateInfo@2b48a640]" started-at="2022-07-16T20:02:57 EDT" name="setup" finished-at="2022-07-16T20:03:02 EDT" duration-ms="4391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test18()[pri:0, instance:com.parasoftbank.upDateInfo@2b48a640]" started-at="2022-07-16T20:03:02 EDT" name="test18" finished-at="2022-07-16T20:03:03 EDT" duration-ms="1224" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"customer.firstName"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-IA81GD4', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4422cc143098e5b07bbcf30a6ff5bdce, findElement {using=xpath, value=customer.firstName}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Devraj\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53494}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53494/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4422cc143098e5b07bbcf30a6ff5bdce]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"customer.firstName"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-IA81GD4', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4422cc143098e5b07bbcf30a6ff5bdce, findElement {using=xpath, value=customer.firstName}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Devraj\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53494}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53494/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4422cc143098e5b07bbcf30a6ff5bdce
+at jdk.internal.reflect.GeneratedConstructorAccessor11.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
+at Base.CommonAPI.type(CommonAPI.java:51)
+at com.parasoftbank.upDateInfo.test18(upDateInfo.java:26)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test18 -->
+        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.upDateInfo@2b48a640]" started-at="2022-07-16T20:03:03 EDT" name="getPageTitle" finished-at="2022-07-16T20:03:03 EDT" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.upDateInfo@2b48a640]" started-at="2022-07-16T20:03:03 EDT" name="tearDown" finished-at="2022-07-16T20:03:03 EDT" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.parasoftbank.upDateInfo -->
+    </test> <!-- Update Info -->
+    <test started-at="2022-07-16T20:03:03 EDT" name="Sign-out" finished-at="2022-07-16T20:03:08 EDT" duration-ms="5482">
+      <class name="com.parasoftbank.SignOut">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.parasoftbank.SignOut@4bb33f74]" started-at="2022-07-16T20:03:03 EDT" name="setup" finished-at="2022-07-16T20:03:08 EDT" duration-ms="4612" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test19()[pri:0, instance:com.parasoftbank.SignOut@4bb33f74]" started-at="2022-07-16T20:03:08 EDT" name="test19" finished-at="2022-07-16T20:03:08 EDT" duration-ms="443" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Log Out"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-IA81GD4', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [17b38864614cdae0919cf1aea65bf53b, findElement {using=link text, value=Log Out}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Devraj\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53512}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53512/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 17b38864614cdae0919cf1aea65bf53b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Log Out"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-IA81GD4', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [17b38864614cdae0919cf1aea65bf53b, findElement {using=link text, value=Log Out}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Devraj\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:53512}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53512/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 17b38864614cdae0919cf1aea65bf53b
+at jdk.internal.reflect.GeneratedConstructorAccessor11.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
+at com.parasoftbank.SignOut.test19(SignOut.java:24)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test19 -->
+        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.SignOut@4bb33f74]" started-at="2022-07-16T20:03:08 EDT" name="getPageTitle" finished-at="2022-07-16T20:03:08 EDT" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.SignOut@4bb33f74]" started-at="2022-07-16T20:03:08 EDT" name="tearDown" finished-at="2022-07-16T20:03:08 EDT" duration-ms="412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.parasoftbank.SignOut -->
+    </test> <!-- Sign-out -->
+  </suite> <!-- parasoftbank test -->
+</testng-results>

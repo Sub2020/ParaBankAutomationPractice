@@ -6,25 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4a3c8022-3a49-4fd3-9c45-0f234a5f4c5a" name="Changes" comment="ParaBank Automation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Base/CommonAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/BankNews.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/BankNews.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/BasicTestComponents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/BasicTestComponents.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/BillPay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/BillPay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/EnterBillPayeeInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/EnterBillPayeeInformation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/FindTransactions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/FindTransactions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/LoginTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/Service.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/SignOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/SignOut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/TransferFund.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/TransferFund.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/aboutUs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/aboutUs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/adminPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/adminPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/contact.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/home.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/locations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/locations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/requestLoan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/requestLoan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/upDateInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/upDateInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resource/runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resource/runner.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,24 +37,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Devraj/IdeaProjects/ParabankParasoftCom/ChromeDriver",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Devraj/IdeaProjects/ParabankParasoftCom/ChromeDriver&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Devraj\IdeaProjects\ParabankParasoftCom\ChromeDriver" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TransferFund.test12">
-    <configuration name="FindTransactions.test14" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.Register.test20">
+    <configuration name="ForgetLogInInfo.Test20" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ParabankParasoftCom" />
       <extension name="coverage">
         <pattern>
@@ -79,8 +63,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.parasoftbank" />
-      <option name="MAIN_CLASS_NAME" value="com.parasoftbank.FindTransactions" />
-      <option name="METHOD_NAME" value="test14" />
+      <option name="MAIN_CLASS_NAME" value="com.parasoftbank.ForgetLogInInfo" />
+      <option name="METHOD_NAME" value="Test20" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -88,7 +72,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Login.test3" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Register" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ParabankParasoftCom" />
       <extension name="coverage">
         <pattern>
@@ -97,8 +81,25 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.parasoftbank" />
-      <option name="MAIN_CLASS_NAME" value="com.parasoftbank.Login" />
-      <option name="METHOD_NAME" value="test3" />
+      <option name="MAIN_CLASS_NAME" value="com.parasoftbank.Register" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Register.test20" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ParabankParasoftCom" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.parasoftbank.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.parasoftbank" />
+      <option name="MAIN_CLASS_NAME" value="com.parasoftbank.Register" />
+      <option name="METHOD_NAME" value="test20" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -106,7 +107,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TransferFund.test12" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SignOut.test19" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ParabankParasoftCom" />
       <extension name="coverage">
         <pattern>
@@ -115,8 +116,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.parasoftbank" />
-      <option name="MAIN_CLASS_NAME" value="com.parasoftbank.TransferFund" />
-      <option name="METHOD_NAME" value="test12" />
+      <option name="MAIN_CLASS_NAME" value="com.parasoftbank.SignOut" />
+      <option name="METHOD_NAME" value="test19" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -124,7 +125,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="product.test7" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="upDateInfo.test18" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ParabankParasoftCom" />
       <extension name="coverage">
         <pattern>
@@ -133,26 +134,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.parasoftbank" />
-      <option name="MAIN_CLASS_NAME" value="com.parasoftbank.product" />
-      <option name="METHOD_NAME" value="test7" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="requestLoan.test11" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ParabankParasoftCom" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.parasoftbank.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.parasoftbank" />
-      <option name="MAIN_CLASS_NAME" value="com.parasoftbank.requestLoan" />
-      <option name="METHOD_NAME" value="test11" />
+      <option name="MAIN_CLASS_NAME" value="com.parasoftbank.upDateInfo" />
+      <option name="METHOD_NAME" value="test18" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -161,19 +144,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.FindTransactions.test14" />
-      <item itemvalue="TestNG.TransferFund.test12" />
-      <item itemvalue="TestNG.product.test7" />
-      <item itemvalue="TestNG.requestLoan.test11" />
-      <item itemvalue="TestNG.Login.test3" />
+      <item itemvalue="TestNG.ForgetLogInInfo.Test20" />
+      <item itemvalue="TestNG.Register" />
+      <item itemvalue="TestNG.Register.test20" />
+      <item itemvalue="TestNG.SignOut.test19" />
+      <item itemvalue="TestNG.upDateInfo.test18" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TransferFund.test12" />
-        <item itemvalue="TestNG.requestLoan.test11" />
-        <item itemvalue="TestNG.product.test7" />
-        <item itemvalue="TestNG.FindTransactions.test14" />
-        <item itemvalue="TestNG.Login.test3" />
+        <item itemvalue="TestNG.Register.test20" />
+        <item itemvalue="TestNG.ForgetLogInInfo.Test20" />
+        <item itemvalue="TestNG.SignOut.test19" />
+        <item itemvalue="TestNG.upDateInfo.test18" />
+        <item itemvalue="TestNG.Register" />
       </list>
     </recent_temporary>
   </component>
@@ -291,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657915857342</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="ParaBank Automation">
+      <created>1657948818576</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1657948818576</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
