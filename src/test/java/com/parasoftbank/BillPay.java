@@ -14,11 +14,11 @@ public class BillPay extends CommonAPI {
         System.out.println("password entered");
 
 
-        click("//*[@id=\"loginPanel\"]/form/div[3]/input");
+        click("//*[@id='loginPanel']");
         System.out.println("Login Success!!");
 
 
-        click("//*[@id=\"leftPanel\"]/ul/li[4]/a");
+        click("//*[@id='leftPanel']");
         System.out.println("Click on Bill Pay success!!");
     }
 }

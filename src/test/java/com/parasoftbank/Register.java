@@ -49,8 +49,9 @@ public class Register extends CommonAPI {
         type("repeatedPassword", "smith2025@");
         System.out.println("Customer confirmed password.");
 
-        WebElement registerClick = driver.findElement(By.xpath("//*[@id='customerForm']"));
-        registerClick.click();
+        click("//*[@id='customerForm']");
+        System.out.println("Register success.");
+
 
     }
 }

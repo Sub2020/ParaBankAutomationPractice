@@ -1,8 +1,6 @@
 package com.parasoftbank;
 
 import Base.CommonAPI;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
 public class SignOut extends CommonAPI {
@@ -15,15 +13,10 @@ public class SignOut extends CommonAPI {
         type("password", "subrat123");
         System.out.println("password entered");
 
-        WebElement clickLogIn = driver.findElement(By.xpath("//*[@id='loginPanel']"));
-        //click("//*[@id='loginPanel']");
-
-        clickLogIn.click();
+        click("//*[@id='loginPanel']");
         System.out.println("Login Success!!");
 
-        WebElement SignOutButton = driver.findElement(By.linkText("Log Out"));
-        SignOutButton.click();
-
+        click("//*[@id='leftPanel']");
         System.out.println("Sign Out success");
 
     }

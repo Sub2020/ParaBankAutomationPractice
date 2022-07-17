@@ -9,8 +9,7 @@ public class siteMap extends CommonAPI {
 
     @Test
     public void test9(){
-        WebElement SiteMapclick = driver.findElement(By.linkText("Site Map"));
-        SiteMapclick.click();
+        click("//*[@id='footerPanel']");
         System.out.println("clicked on Site Map button success");
     }
 }

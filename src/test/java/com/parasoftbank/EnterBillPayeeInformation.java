@@ -13,13 +13,10 @@ public class EnterBillPayeeInformation extends CommonAPI {
 
         type("password", "subrat123");
 
-        //WebElement clickLogIn = driver.findElement(By.xpath("//*[@id=\"loginPanel\"]/form/div[3]/input"));
-        click("//*[@id=\"loginPanel\"]/form/div[3]/input");
-        //clickLogIn.click();
+        click("//*[@id='loginPanel']/form/div[3]/input");
 
-        //WebElement clickBillPay = driver.findElement(By.xpath("//*[@id=\"leftPanel\"]/ul/li[4]/a"));
-        click("//*[@id=\"leftPanel\"]/ul/li[4]/a");
-        //clickBillPay.click();
+        click("//*[@id='leftPanel']/ul/li[4]/a");
+
 
         type("payee.name", "James Bond");
         System.out.println("Payee Name entered.");
@@ -51,9 +48,9 @@ public class EnterBillPayeeInformation extends CommonAPI {
         type("fromAccountId", "19116");
         System.out.println("Payee entered account no..");
 
-        //WebElement sendPaymentClick = driver.findElement(By.className("button"));
-        click("button");
-        //sendPaymentClick.click();
+        click("//*[@id='rightPanel']");
+        System.out.println("Click on send payment success.");
+
 
     }
 }

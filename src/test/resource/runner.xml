@@ -120,6 +120,12 @@
             <class name="com.parasoftbank.ForgetLogInInfo"></class>
         </classes>
     </test>
+
+    <test name="Register">
+        <classes>
+            <class name="com.parasoftbank.Register"></class>
+        </classes>
+    </test>
 </suite>
 
 

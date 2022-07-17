@@ -15,15 +15,13 @@ public class upDateInfo extends CommonAPI {
         type("password", "subrat123");
         System.out.println("password entered");
 
-        WebElement clickLogIn = driver.findElement(By.xpath("//*[@id=\"loginPanel\"]/form/div[3]/input"));
-        clickLogIn.click();
+        click("//*[@id=\"loginPanel\"]/form/div[3]/input");
         System.out.println("Login Success!!");
 
-        WebElement ClickUpdateInfo = driver.findElement(By.xpath("//*[@id=\"leftPanel\"]/ul/li[6]/a"));
-        ClickUpdateInfo.click();
+        click("//*[@id=\"leftPanel\"]/ul/li[6]/a");
         System.out.println("Click on Update Contact Info success.");
 
-        type("customer.firstName", "James");
+        type("customer.firstName", "James007");
         System.out.println("Customer entered first name.");
 
         type("customer.lastName", "Bond");
@@ -44,8 +42,9 @@ public class upDateInfo extends CommonAPI {
         type("customer.phoneNumber", "911-123-4567");
         System.out.println("Customer entered phone #.");
 
-        WebElement ClickOnUpdate = driver.findElement(By.xpath("//*[@id='rightPanel']"));
-        ClickOnUpdate.click();
+
+        click("//*[@id='rightPanel']");
+        System.out.println("Click on update success.");
 
 
     }

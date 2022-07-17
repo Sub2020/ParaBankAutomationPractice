@@ -9,8 +9,7 @@ public class contact extends CommonAPI {
 
     @Test
     public void test13(){
-        WebElement homeclick = driver.findElement(By.linkText("contact"));
-        homeclick.click();
+        click("//*[@id='headerPanel']");
         System.out.println("click on contact success");
 
     }
