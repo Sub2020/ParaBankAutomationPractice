@@ -6,123 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4a3c8022-3a49-4fd3-9c45-0f234a5f4c5a" name="Changes" comment="ParaBank Automation updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/BankNews.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/BankNews.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/BillPay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/BillPay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/EnterBillPayeeInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/EnterBillPayeeInformation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/Register.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/SignOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/SignOut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/TransferFund.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/TransferFund.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/adminPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/adminPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/contact.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/requestLoan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/requestLoan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/siteMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/siteMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/upDateInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/upDateInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resource/runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resource/runner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/bullet_point.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/collapseall.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/failed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/jquery-3.6.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.parasoftbank.BankNews.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.parasoftbank.BasicTestComponents.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.parasoftbank.BillPay.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.parasoftbank.EnterBillPayeeInformation.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.parasoftbank.FindTransactions.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.parasoftbank.Login.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.parasoftbank.LoginTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.parasoftbank.Service.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.parasoftbank.SignOut.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.parasoftbank.Title.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.parasoftbank.TransferFund.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.parasoftbank.aboutUs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.parasoftbank.adminPage.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.parasoftbank.contact.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.parasoftbank.home.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.parasoftbank.product.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.parasoftbank.requestLoan.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.parasoftbank.siteMap.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.parasoftbank.upDateInfo.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/navigator-bullet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/parasoftbank test/About Us.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/parasoftbank test/Admin Page.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/parasoftbank test/Bank News.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/parasoftbank test/Bill Pay.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/parasoftbank test/Contact.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/parasoftbank test/Find Transaction.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/parasoftbank test/Home.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/parasoftbank test/Log-in.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/parasoftbank test/Main Title.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/parasoftbank test/Payee Information.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/parasoftbank test/Product.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/parasoftbank test/Request Loan.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/parasoftbank test/Service.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/parasoftbank test/Sign-out.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/parasoftbank test/Site Map.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/parasoftbank test/Transfer fund.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/parasoftbank test/Update Info.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/parasoftbank test/basic components.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/parasoftbank test/classes.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/parasoftbank test/groups.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/parasoftbank test/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/parasoftbank test/login.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/parasoftbank test/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/parasoftbank test/methods-alphabetical.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/parasoftbank test/methods-not-run.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/parasoftbank test/methods.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/parasoftbank test/reporter-output.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/parasoftbank test/testng.xml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/parasoftbank test/toc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/parasoftbank test/About Us.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/parasoftbank test/About Us.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/parasoftbank test/Admin Page.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/parasoftbank test/Admin Page.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/parasoftbank test/Bank News.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/parasoftbank test/Bank News.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/parasoftbank test/Bill Pay.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/parasoftbank test/Bill Pay.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/parasoftbank test/Contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/parasoftbank test/Contact.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/parasoftbank test/Find Transaction.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/parasoftbank test/Find Transaction.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/parasoftbank test/Home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/parasoftbank test/Home.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/parasoftbank test/Log-in.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/parasoftbank test/Log-in.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/parasoftbank test/Main Title.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/parasoftbank test/Main Title.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/parasoftbank test/Payee Information.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/parasoftbank test/Payee Information.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/parasoftbank test/Product.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/parasoftbank test/Product.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/parasoftbank test/Request Loan.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/parasoftbank test/Request Loan.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/parasoftbank test/Service.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/parasoftbank test/Service.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/parasoftbank test/Sign-out.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/parasoftbank test/Sign-out.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/parasoftbank test/Site Map.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/parasoftbank test/Site Map.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/parasoftbank test/Transfer fund.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/parasoftbank test/Transfer fund.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/parasoftbank test/Update Info.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/parasoftbank test/Update Info.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/parasoftbank test/basic components.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/parasoftbank test/basic components.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/parasoftbank test/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/parasoftbank test/login.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/parasoftbank test/testng-failed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/passed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/skipped.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-reports.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-reports.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-reports1.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-reports2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng.css" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,8 +53,18 @@
   <component name="RunManager" selected="TestNG.C:/Users/Devraj/IdeaProjects/ParabankParasoftCom/src/test/resource/runner.xml">
     <configuration name="C:/Users/Devraj/IdeaProjects/ParabankParasoftCom/src/test/resource/runner.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ParabankParasoftCom" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resource/runner.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -405,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658022506462</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="ParaBank Automation updated">
+      <created>1658037307403</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1658037307403</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
