@@ -1,8 +1,6 @@
 package com.parasoftbank;
 
 import Base.CommonAPI;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
 public class upDateInfo extends CommonAPI {
@@ -45,7 +43,5 @@ public class upDateInfo extends CommonAPI {
 
         click("//*[@id='rightPanel']");
         System.out.println("Click on update success.");
-
-
     }
 }
