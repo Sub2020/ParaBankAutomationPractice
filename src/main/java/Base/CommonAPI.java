@@ -24,7 +24,7 @@ public class CommonAPI {
             } else if (browser.equalsIgnoreCase("firefox")){
                 System.setProperty("webdriver.gecko.driver",currentDir +"\\driver\\mac\\geckodriver\\");
                 driver = new FirefoxDriver();
-            } else if (browser.equalsIgnoreCase("Microsoft Edge")) {
+            } else if (browser.equalsIgnoreCase("Edge")) {
                 System.setProperty("webdriver.edge.driver", currentDir +"\\driver\\mac\\msedgedriver");
                 driver = new EdgeDriver();
 
@@ -37,6 +37,9 @@ public class CommonAPI {
             } else if (browser.equalsIgnoreCase("firefox")){
                 System.setProperty("webdriver.gecko.driver",currentDir + "\\driver\\windows\\geckodriver.exe");
                 driver = new FirefoxDriver();
+            } else if (browser.equalsIgnoreCase("Edge")) {
+                System.setProperty("webdriver.edge.driver", currentDir + "\\driver\\windows\\msedgedriver.exe" );
+                driver = new EdgeDriver();
 
             }
         }

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
+<testng-results ignored="0" total="21" passed="18" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-18T23:55:08 EDT" name="parasoftbank test" finished-at="2022-07-18T23:57:12 EDT" duration-ms="124113">
+  <suite started-at="2022-07-19T01:02:10 EDT" name="parasoftbank test" finished-at="2022-07-19T01:04:42 EDT" duration-ms="151471">
     <groups>
     </groups>
-    <test started-at="2022-07-18T23:55:08 EDT" name="Main Title" finished-at="2022-07-18T23:55:16 EDT" duration-ms="8583">
+    <test started-at="2022-07-19T01:02:10 EDT" name="Main Title" finished-at="2022-07-19T01:02:33 EDT" duration-ms="22798">
       <class name="com.parasoftbank.Title">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.Title@65b3f4a4]" started-at="2022-07-18T23:55:08 EDT" name="setUp" finished-at="2022-07-18T23:55:15 EDT" duration-ms="7532" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.Title@7748410a]" started-at="2022-07-19T01:02:10 EDT" name="setUp" finished-at="2022-07-19T01:02:33 EDT" duration-ms="22363" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -28,23 +28,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test19()[pri:0, instance:com.parasoftbank.Title@65b3f4a4]" started-at="2022-07-18T23:55:15 EDT" name="test19" finished-at="2022-07-18T23:55:15 EDT" duration-ms="4" status="PASS">
+        <test-method signature="test19()[pri:0, instance:com.parasoftbank.Title@7748410a]" started-at="2022-07-19T01:02:33 EDT" name="test19" finished-at="2022-07-19T01:02:33 EDT" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test19 -->
-        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.Title@65b3f4a4]" started-at="2022-07-18T23:55:15 EDT" name="getPageTitle" finished-at="2022-07-18T23:55:15 EDT" duration-ms="54" status="PASS">
+        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.Title@7748410a]" started-at="2022-07-19T01:02:33 EDT" name="getPageTitle" finished-at="2022-07-19T01:02:33 EDT" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.Title@65b3f4a4]" started-at="2022-07-18T23:55:15 EDT" name="tearDown" finished-at="2022-07-18T23:55:16 EDT" duration-ms="835" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.Title@7748410a]" started-at="2022-07-19T01:02:33 EDT" name="tearDown" finished-at="2022-07-19T01:02:33 EDT" duration-ms="294" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.parasoftbank.Title -->
     </test> <!-- Main Title -->
-    <test started-at="2022-07-18T23:55:16 EDT" name="basic components" finished-at="2022-07-18T23:55:21 EDT" duration-ms="5043">
+    <test started-at="2022-07-19T01:02:33 EDT" name="basic components" finished-at="2022-07-19T01:02:40 EDT" duration-ms="6873">
       <class name="com.parasoftbank.BasicTestComponents">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.BasicTestComponents@1cbb87f3]" started-at="2022-07-18T23:55:16 EDT" name="setUp" finished-at="2022-07-18T23:55:21 EDT" duration-ms="4459" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.BasicTestComponents@27ff5d15]" started-at="2022-07-19T01:02:33 EDT" name="setUp" finished-at="2022-07-19T01:02:40 EDT" duration-ms="6359" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -65,23 +65,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="firstPageTest1()[pri:0, instance:com.parasoftbank.BasicTestComponents@1cbb87f3]" started-at="2022-07-18T23:55:21 EDT" name="firstPageTest1" finished-at="2022-07-18T23:55:21 EDT" duration-ms="268" status="PASS">
+        <test-method signature="firstPageTest1()[pri:0, instance:com.parasoftbank.BasicTestComponents@27ff5d15]" started-at="2022-07-19T01:02:40 EDT" name="firstPageTest1" finished-at="2022-07-19T01:02:40 EDT" duration-ms="361" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstPageTest1 -->
-        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.BasicTestComponents@1cbb87f3]" started-at="2022-07-18T23:55:21 EDT" name="getPageTitle" finished-at="2022-07-18T23:55:21 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.BasicTestComponents@27ff5d15]" started-at="2022-07-19T01:02:40 EDT" name="getPageTitle" finished-at="2022-07-19T01:02:40 EDT" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.BasicTestComponents@1cbb87f3]" started-at="2022-07-18T23:55:21 EDT" name="tearDown" finished-at="2022-07-18T23:55:21 EDT" duration-ms="315" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.BasicTestComponents@27ff5d15]" started-at="2022-07-19T01:02:40 EDT" name="tearDown" finished-at="2022-07-19T01:02:40 EDT" duration-ms="122" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.parasoftbank.BasicTestComponents -->
     </test> <!-- basic components -->
-    <test started-at="2022-07-18T23:55:21 EDT" name="login" finished-at="2022-07-18T23:55:26 EDT" duration-ms="5141">
+    <test started-at="2022-07-19T01:02:40 EDT" name="login" finished-at="2022-07-19T01:02:45 EDT" duration-ms="5301">
       <class name="com.parasoftbank.LoginTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.LoginTest@49912c99]" started-at="2022-07-18T23:55:21 EDT" name="setUp" finished-at="2022-07-18T23:55:26 EDT" duration-ms="4491" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.LoginTest@a2431d0]" started-at="2022-07-19T01:02:40 EDT" name="setUp" finished-at="2022-07-19T01:02:45 EDT" duration-ms="4722" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -102,23 +102,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest2()[pri:0, instance:com.parasoftbank.LoginTest@49912c99]" started-at="2022-07-18T23:55:26 EDT" name="loginTest2" finished-at="2022-07-18T23:55:26 EDT" duration-ms="229" status="PASS">
+        <test-method signature="loginTest2()[pri:0, instance:com.parasoftbank.LoginTest@a2431d0]" started-at="2022-07-19T01:02:45 EDT" name="loginTest2" finished-at="2022-07-19T01:02:45 EDT" duration-ms="267" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest2 -->
-        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.LoginTest@49912c99]" started-at="2022-07-18T23:55:26 EDT" name="getPageTitle" finished-at="2022-07-18T23:55:26 EDT" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.LoginTest@a2431d0]" started-at="2022-07-19T01:02:45 EDT" name="getPageTitle" finished-at="2022-07-19T01:02:45 EDT" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.LoginTest@49912c99]" started-at="2022-07-18T23:55:26 EDT" name="tearDown" finished-at="2022-07-18T23:55:26 EDT" duration-ms="409" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.LoginTest@a2431d0]" started-at="2022-07-19T01:02:45 EDT" name="tearDown" finished-at="2022-07-19T01:02:45 EDT" duration-ms="296" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.parasoftbank.LoginTest -->
     </test> <!-- login -->
-    <test started-at="2022-07-18T23:55:27 EDT" name="Log-in" finished-at="2022-07-18T23:55:32 EDT" duration-ms="5302">
+    <test started-at="2022-07-19T01:02:45 EDT" name="Log-in" finished-at="2022-07-19T01:02:51 EDT" duration-ms="5395">
       <class name="com.parasoftbank.Login">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.Login@247d8ae]" started-at="2022-07-18T23:55:27 EDT" name="setUp" finished-at="2022-07-18T23:55:31 EDT" duration-ms="4679" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.Login@22e357dc]" started-at="2022-07-19T01:02:45 EDT" name="setUp" finished-at="2022-07-19T01:02:50 EDT" duration-ms="4645" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -139,23 +139,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test3()[pri:0, instance:com.parasoftbank.Login@247d8ae]" started-at="2022-07-18T23:55:31 EDT" name="test3" finished-at="2022-07-18T23:55:32 EDT" duration-ms="338" status="PASS">
+        <test-method signature="test3()[pri:0, instance:com.parasoftbank.Login@22e357dc]" started-at="2022-07-19T01:02:50 EDT" name="test3" finished-at="2022-07-19T01:02:50 EDT" duration-ms="394" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3 -->
-        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.Login@247d8ae]" started-at="2022-07-18T23:55:32 EDT" name="getPageTitle" finished-at="2022-07-18T23:55:32 EDT" duration-ms="8" status="PASS">
+        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.Login@22e357dc]" started-at="2022-07-19T01:02:50 EDT" name="getPageTitle" finished-at="2022-07-19T01:02:50 EDT" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.Login@247d8ae]" started-at="2022-07-18T23:55:32 EDT" name="tearDown" finished-at="2022-07-18T23:55:32 EDT" duration-ms="276" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.Login@22e357dc]" started-at="2022-07-19T01:02:50 EDT" name="tearDown" finished-at="2022-07-19T01:02:51 EDT" duration-ms="343" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.parasoftbank.Login -->
     </test> <!-- Log-in -->
-    <test started-at="2022-07-18T23:55:32 EDT" name="Bill Pay" finished-at="2022-07-18T23:55:37 EDT" duration-ms="5503">
+    <test started-at="2022-07-19T01:02:51 EDT" name="Bill Pay" finished-at="2022-07-19T01:02:57 EDT" duration-ms="5954">
       <class name="com.parasoftbank.BillPay">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.BillPay@6d3a388c]" started-at="2022-07-18T23:55:32 EDT" name="setUp" finished-at="2022-07-18T23:55:37 EDT" duration-ms="5018" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.BillPay@5f9b2141]" started-at="2022-07-19T01:02:51 EDT" name="setUp" finished-at="2022-07-19T01:02:56 EDT" duration-ms="5199" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -176,23 +176,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test4()[pri:0, instance:com.parasoftbank.BillPay@6d3a388c]" started-at="2022-07-18T23:55:37 EDT" name="test4" finished-at="2022-07-18T23:55:37 EDT" duration-ms="377" status="PASS">
+        <test-method signature="test4()[pri:0, instance:com.parasoftbank.BillPay@5f9b2141]" started-at="2022-07-19T01:02:56 EDT" name="test4" finished-at="2022-07-19T01:02:56 EDT" duration-ms="470" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test4 -->
-        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.BillPay@6d3a388c]" started-at="2022-07-18T23:55:37 EDT" name="getPageTitle" finished-at="2022-07-18T23:55:37 EDT" duration-ms="12" status="PASS">
+        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.BillPay@5f9b2141]" started-at="2022-07-19T01:02:56 EDT" name="getPageTitle" finished-at="2022-07-19T01:02:56 EDT" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.BillPay@6d3a388c]" started-at="2022-07-18T23:55:37 EDT" name="tearDown" finished-at="2022-07-18T23:55:37 EDT" duration-ms="94" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.BillPay@5f9b2141]" started-at="2022-07-19T01:02:56 EDT" name="tearDown" finished-at="2022-07-19T01:02:57 EDT" duration-ms="271" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.parasoftbank.BillPay -->
     </test> <!-- Bill Pay -->
-    <test started-at="2022-07-18T23:55:37 EDT" name="Bank News" finished-at="2022-07-18T23:55:43 EDT" duration-ms="5189">
+    <test started-at="2022-07-19T01:02:57 EDT" name="Bank News" finished-at="2022-07-19T01:03:02 EDT" duration-ms="5393">
       <class name="com.parasoftbank.BankNews">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.BankNews@d29f28]" started-at="2022-07-18T23:55:37 EDT" name="setUp" finished-at="2022-07-18T23:55:42 EDT" duration-ms="4968" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.BankNews@223aa2f7]" started-at="2022-07-19T01:02:57 EDT" name="setUp" finished-at="2022-07-19T01:03:02 EDT" duration-ms="4957" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -213,23 +213,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test5()[pri:0, instance:com.parasoftbank.BankNews@d29f28]" started-at="2022-07-18T23:55:42 EDT" name="test5" finished-at="2022-07-18T23:55:42 EDT" duration-ms="117" status="PASS">
+        <test-method signature="test5()[pri:0, instance:com.parasoftbank.BankNews@223aa2f7]" started-at="2022-07-19T01:03:02 EDT" name="test5" finished-at="2022-07-19T01:03:02 EDT" duration-ms="110" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test5 -->
-        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.BankNews@d29f28]" started-at="2022-07-18T23:55:42 EDT" name="getPageTitle" finished-at="2022-07-18T23:55:42 EDT" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.BankNews@223aa2f7]" started-at="2022-07-19T01:03:02 EDT" name="getPageTitle" finished-at="2022-07-19T01:03:02 EDT" duration-ms="25" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.BankNews@d29f28]" started-at="2022-07-18T23:55:42 EDT" name="tearDown" finished-at="2022-07-18T23:55:43 EDT" duration-ms="88" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.BankNews@223aa2f7]" started-at="2022-07-19T01:03:02 EDT" name="tearDown" finished-at="2022-07-19T01:03:02 EDT" duration-ms="296" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.parasoftbank.BankNews -->
     </test> <!-- Bank News -->
-    <test started-at="2022-07-18T23:55:43 EDT" name="About Us" finished-at="2022-07-18T23:55:48 EDT" duration-ms="5292">
+    <test started-at="2022-07-19T01:03:02 EDT" name="About Us" finished-at="2022-07-19T01:03:08 EDT" duration-ms="5854">
       <class name="com.parasoftbank.aboutUs">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.aboutUs@69997e9d]" started-at="2022-07-18T23:55:43 EDT" name="setUp" finished-at="2022-07-18T23:55:47 EDT" duration-ms="4770" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.aboutUs@932bc4a]" started-at="2022-07-19T01:03:02 EDT" name="setUp" finished-at="2022-07-19T01:03:07 EDT" duration-ms="5281" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -250,23 +250,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test6()[pri:0, instance:com.parasoftbank.aboutUs@69997e9d]" started-at="2022-07-18T23:55:47 EDT" name="test6" finished-at="2022-07-18T23:55:48 EDT" duration-ms="169" status="PASS">
+        <test-method signature="test6()[pri:0, instance:com.parasoftbank.aboutUs@932bc4a]" started-at="2022-07-19T01:03:07 EDT" name="test6" finished-at="2022-07-19T01:03:08 EDT" duration-ms="165" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test6 -->
-        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.aboutUs@69997e9d]" started-at="2022-07-18T23:55:48 EDT" name="getPageTitle" finished-at="2022-07-18T23:55:48 EDT" duration-ms="19" status="PASS">
+        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.aboutUs@932bc4a]" started-at="2022-07-19T01:03:08 EDT" name="getPageTitle" finished-at="2022-07-19T01:03:08 EDT" duration-ms="20" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.aboutUs@69997e9d]" started-at="2022-07-18T23:55:48 EDT" name="tearDown" finished-at="2022-07-18T23:55:48 EDT" duration-ms="332" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.aboutUs@932bc4a]" started-at="2022-07-19T01:03:08 EDT" name="tearDown" finished-at="2022-07-19T01:03:08 EDT" duration-ms="384" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.parasoftbank.aboutUs -->
     </test> <!-- About Us -->
-    <test started-at="2022-07-18T23:55:48 EDT" name="Service" finished-at="2022-07-18T23:55:53 EDT" duration-ms="5519">
+    <test started-at="2022-07-19T01:03:08 EDT" name="Service" finished-at="2022-07-19T01:03:13 EDT" duration-ms="5321">
       <class name="com.parasoftbank.Service">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.Service@50b5ac82]" started-at="2022-07-18T23:55:48 EDT" name="setUp" finished-at="2022-07-18T23:55:53 EDT" duration-ms="5280" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.Service@69997e9d]" started-at="2022-07-19T01:03:08 EDT" name="setUp" finished-at="2022-07-19T01:03:13 EDT" duration-ms="5020" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -287,23 +287,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test6()[pri:0, instance:com.parasoftbank.Service@50b5ac82]" started-at="2022-07-18T23:55:53 EDT" name="test6" finished-at="2022-07-18T23:55:53 EDT" duration-ms="110" status="PASS">
+        <test-method signature="test6()[pri:0, instance:com.parasoftbank.Service@69997e9d]" started-at="2022-07-19T01:03:13 EDT" name="test6" finished-at="2022-07-19T01:03:13 EDT" duration-ms="136" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test6 -->
-        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.Service@50b5ac82]" started-at="2022-07-18T23:55:53 EDT" name="getPageTitle" finished-at="2022-07-18T23:55:53 EDT" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getPageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.Service@50b5ac82]" started-at="2022-07-18T23:55:53 EDT" name="tearDown" finished-at="2022-07-18T23:55:53 EDT" duration-ms="121" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.Service@69997e9d]" started-at="2022-07-19T01:03:13 EDT" name="tearDown" finished-at="2022-07-19T01:03:13 EDT" duration-ms="164" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.Service@69997e9d]" started-at="2022-07-19T01:03:13 EDT" name="getPageTitle" finished-at="2022-07-19T01:03:13 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageTitle -->
       </class> <!-- com.parasoftbank.Service -->
     </test> <!-- Service -->
-    <test started-at="2022-07-18T23:55:53 EDT" name="Product" finished-at="2022-07-18T23:55:59 EDT" duration-ms="5310">
+    <test started-at="2022-07-19T01:03:13 EDT" name="Product" finished-at="2022-07-19T01:03:19 EDT" duration-ms="5982">
       <class name="com.parasoftbank.product">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.product@10feca44]" started-at="2022-07-18T23:55:53 EDT" name="setUp" finished-at="2022-07-18T23:55:58 EDT" duration-ms="4608" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.product@4de4b452]" started-at="2022-07-19T01:03:13 EDT" name="setUp" finished-at="2022-07-19T01:03:19 EDT" duration-ms="5207" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -324,23 +324,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test7()[pri:0, instance:com.parasoftbank.product@10feca44]" started-at="2022-07-18T23:55:58 EDT" name="test7" finished-at="2022-07-18T23:55:58 EDT" duration-ms="231" status="PASS">
+        <test-method signature="test7()[pri:0, instance:com.parasoftbank.product@4de4b452]" started-at="2022-07-19T01:03:19 EDT" name="test7" finished-at="2022-07-19T01:03:19 EDT" duration-ms="223" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test7 -->
-        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.product@10feca44]" started-at="2022-07-18T23:55:58 EDT" name="getPageTitle" finished-at="2022-07-18T23:55:58 EDT" duration-ms="19" status="PASS">
+        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.product@4de4b452]" started-at="2022-07-19T01:03:19 EDT" name="getPageTitle" finished-at="2022-07-19T01:03:19 EDT" duration-ms="23" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.product@10feca44]" started-at="2022-07-18T23:55:58 EDT" name="tearDown" finished-at="2022-07-18T23:55:59 EDT" duration-ms="451" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.product@4de4b452]" started-at="2022-07-19T01:03:19 EDT" name="tearDown" finished-at="2022-07-19T01:03:19 EDT" duration-ms="524" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.parasoftbank.product -->
     </test> <!-- Product -->
-    <test started-at="2022-07-18T23:55:59 EDT" name="Site Map" finished-at="2022-07-18T23:56:04 EDT" duration-ms="5107">
+    <test started-at="2022-07-19T01:03:19 EDT" name="Site Map" finished-at="2022-07-19T01:03:24 EDT" duration-ms="5078">
       <class name="com.parasoftbank.siteMap">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.siteMap@2053d869]" started-at="2022-07-18T23:55:59 EDT" name="setUp" finished-at="2022-07-18T23:56:04 EDT" duration-ms="4847" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.siteMap@24fcf36f]" started-at="2022-07-19T01:03:19 EDT" name="setUp" finished-at="2022-07-19T01:03:24 EDT" duration-ms="4798" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -361,23 +361,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test9()[pri:0, instance:com.parasoftbank.siteMap@2053d869]" started-at="2022-07-18T23:56:04 EDT" name="test9" finished-at="2022-07-18T23:56:04 EDT" duration-ms="110" status="PASS">
+        <test-method signature="test9()[pri:0, instance:com.parasoftbank.siteMap@24fcf36f]" started-at="2022-07-19T01:03:24 EDT" name="test9" finished-at="2022-07-19T01:03:24 EDT" duration-ms="109" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test9 -->
-        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.siteMap@2053d869]" started-at="2022-07-18T23:56:04 EDT" name="getPageTitle" finished-at="2022-07-18T23:56:04 EDT" duration-ms="12" status="PASS">
+        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.siteMap@24fcf36f]" started-at="2022-07-19T01:03:24 EDT" name="getPageTitle" finished-at="2022-07-19T01:03:24 EDT" duration-ms="34" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.siteMap@2053d869]" started-at="2022-07-18T23:56:04 EDT" name="tearDown" finished-at="2022-07-18T23:56:04 EDT" duration-ms="137" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.siteMap@24fcf36f]" started-at="2022-07-19T01:03:24 EDT" name="tearDown" finished-at="2022-07-19T01:03:24 EDT" duration-ms="119" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.parasoftbank.siteMap -->
     </test> <!-- Site Map -->
-    <test started-at="2022-07-18T23:56:04 EDT" name="Payee Information" finished-at="2022-07-18T23:56:12 EDT" duration-ms="7503">
+    <test started-at="2022-07-19T01:03:24 EDT" name="Payee Information" finished-at="2022-07-19T01:03:34 EDT" duration-ms="10004">
       <class name="com.parasoftbank.EnterBillPayeeInformation">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.EnterBillPayeeInformation@3d5c822d]" started-at="2022-07-18T23:56:04 EDT" name="setUp" finished-at="2022-07-18T23:56:09 EDT" duration-ms="4689" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.EnterBillPayeeInformation@1e683a3e]" started-at="2022-07-19T01:03:24 EDT" name="setUp" finished-at="2022-07-19T01:03:29 EDT" duration-ms="4745" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -398,23 +398,92 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test10()[pri:0, instance:com.parasoftbank.EnterBillPayeeInformation@3d5c822d]" started-at="2022-07-18T23:56:09 EDT" name="test10" finished-at="2022-07-18T23:56:11 EDT" duration-ms="2455" status="PASS">
+        <test-method signature="test10()[pri:0, instance:com.parasoftbank.EnterBillPayeeInformation@1e683a3e]" started-at="2022-07-19T01:03:29 EDT" name="test10" finished-at="2022-07-19T01:03:30 EDT" duration-ms="693" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='leftPanel']/ul/li[4]/a"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-IA81GD4', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e29af6f77555fb0056fd8c3467e847a0, findElement {using=xpath, value=//*[@id='leftPanel']/ul/li[4]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Devraj\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61105}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61105/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e29af6f77555fb0056fd8c3467e847a0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='leftPanel']/ul/li[4]/a"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-IA81GD4', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e29af6f77555fb0056fd8c3467e847a0, findElement {using=xpath, value=//*[@id='leftPanel']/ul/li[4]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Devraj\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61105}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61105/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e29af6f77555fb0056fd8c3467e847a0
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
+at Base.CommonAPI.click(CommonAPI.java:66)
+at com.parasoftbank.EnterBillPayeeInformation.test10(EnterBillPayeeInformation.java:18)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test10 -->
-        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.EnterBillPayeeInformation@3d5c822d]" started-at="2022-07-18T23:56:11 EDT" name="getPageTitle" finished-at="2022-07-18T23:56:11 EDT" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.EnterBillPayeeInformation@1e683a3e]" started-at="2022-07-19T01:03:30 EDT" name="getPageTitle" finished-at="2022-07-19T01:03:30 EDT" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.EnterBillPayeeInformation@3d5c822d]" started-at="2022-07-18T23:56:11 EDT" name="tearDown" finished-at="2022-07-18T23:56:12 EDT" duration-ms="350" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.EnterBillPayeeInformation@1e683a3e]" started-at="2022-07-19T01:03:30 EDT" name="tearDown" finished-at="2022-07-19T01:03:34 EDT" duration-ms="4519" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.parasoftbank.EnterBillPayeeInformation -->
     </test> <!-- Payee Information -->
-    <test started-at="2022-07-18T23:56:12 EDT" name="Request Loan" finished-at="2022-07-18T23:56:18 EDT" duration-ms="6473">
+    <test started-at="2022-07-19T01:03:35 EDT" name="Request Loan" finished-at="2022-07-19T01:03:40 EDT" duration-ms="5354">
       <class name="com.parasoftbank.requestLoan">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.requestLoan@3e84448c]" started-at="2022-07-18T23:56:12 EDT" name="setUp" finished-at="2022-07-18T23:56:16 EDT" duration-ms="4648" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.requestLoan@3c73951]" started-at="2022-07-19T01:03:35 EDT" name="setUp" finished-at="2022-07-19T01:03:39 EDT" duration-ms="4258" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -435,23 +504,92 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test11()[pri:0, instance:com.parasoftbank.requestLoan@3e84448c]" started-at="2022-07-18T23:56:16 EDT" name="test11" finished-at="2022-07-18T23:56:18 EDT" duration-ms="1711" status="PASS">
+        <test-method signature="test11()[pri:0, instance:com.parasoftbank.requestLoan@3c73951]" started-at="2022-07-19T01:03:39 EDT" name="test11" finished-at="2022-07-19T01:03:40 EDT" duration-ms="745" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="leftPanel"]/ul/li[7]/a"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-IA81GD4', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [50ea74c885b86858de6c5c3fa8880d82, findElement {using=xpath, value=//*[@id="leftPanel"]/ul/li[7]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Devraj\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61161}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61161/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 50ea74c885b86858de6c5c3fa8880d82]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="leftPanel"]/ul/li[7]/a"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-IA81GD4', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [50ea74c885b86858de6c5c3fa8880d82, findElement {using=xpath, value=//*[@id="leftPanel"]/ul/li[7]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Devraj\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61161}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61161/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 50ea74c885b86858de6c5c3fa8880d82
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
+at Base.CommonAPI.click(CommonAPI.java:66)
+at com.parasoftbank.requestLoan.test11(requestLoan.java:21)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test11 -->
-        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.requestLoan@3e84448c]" started-at="2022-07-18T23:56:18 EDT" name="getPageTitle" finished-at="2022-07-18T23:56:18 EDT" duration-ms="11" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getPageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.requestLoan@3e84448c]" started-at="2022-07-18T23:56:18 EDT" name="tearDown" finished-at="2022-07-18T23:56:18 EDT" duration-ms="102" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.requestLoan@3c73951]" started-at="2022-07-19T01:03:40 EDT" name="tearDown" finished-at="2022-07-19T01:03:40 EDT" duration-ms="351" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.requestLoan@3c73951]" started-at="2022-07-19T01:03:40 EDT" name="getPageTitle" finished-at="2022-07-19T01:03:40 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageTitle -->
       </class> <!-- com.parasoftbank.requestLoan -->
     </test> <!-- Request Loan -->
-    <test started-at="2022-07-18T23:56:18 EDT" name="Transfer fund" finished-at="2022-07-18T23:56:23 EDT" duration-ms="5365">
+    <test started-at="2022-07-19T01:03:40 EDT" name="Transfer fund" finished-at="2022-07-19T01:03:46 EDT" duration-ms="6035">
       <class name="com.parasoftbank.TransferFund">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.TransferFund@63a12c68]" started-at="2022-07-18T23:56:18 EDT" name="setUp" finished-at="2022-07-18T23:56:23 EDT" duration-ms="4793" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.TransferFund@4d5b6aac]" started-at="2022-07-19T01:03:40 EDT" name="setUp" finished-at="2022-07-19T01:03:45 EDT" duration-ms="5246" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -472,23 +610,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test12()[pri:0, instance:com.parasoftbank.TransferFund@63a12c68]" started-at="2022-07-18T23:56:23 EDT" name="test12" finished-at="2022-07-18T23:56:23 EDT" duration-ms="457" status="PASS">
+        <test-method signature="test12()[pri:0, instance:com.parasoftbank.TransferFund@4d5b6aac]" started-at="2022-07-19T01:03:45 EDT" name="test12" finished-at="2022-07-19T01:03:46 EDT" duration-ms="468" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test12 -->
-        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.TransferFund@63a12c68]" started-at="2022-07-18T23:56:23 EDT" name="getPageTitle" finished-at="2022-07-18T23:56:23 EDT" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.TransferFund@4d5b6aac]" started-at="2022-07-19T01:03:46 EDT" name="getPageTitle" finished-at="2022-07-19T01:03:46 EDT" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.TransferFund@63a12c68]" started-at="2022-07-18T23:56:23 EDT" name="tearDown" finished-at="2022-07-18T23:56:23 EDT" duration-ms="103" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.TransferFund@4d5b6aac]" started-at="2022-07-19T01:03:46 EDT" name="tearDown" finished-at="2022-07-19T01:03:46 EDT" duration-ms="308" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.parasoftbank.TransferFund -->
     </test> <!-- Transfer fund -->
-    <test started-at="2022-07-18T23:56:23 EDT" name="Contact" finished-at="2022-07-18T23:56:29 EDT" duration-ms="5295">
+    <test started-at="2022-07-19T01:03:46 EDT" name="Contact" finished-at="2022-07-19T01:03:51 EDT" duration-ms="4606">
       <class name="com.parasoftbank.contact">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.contact@57d7f8ca]" started-at="2022-07-18T23:56:23 EDT" name="setUp" finished-at="2022-07-18T23:56:28 EDT" duration-ms="5016" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.contact@7e5afaa6]" started-at="2022-07-19T01:03:46 EDT" name="setUp" finished-at="2022-07-19T01:03:50 EDT" duration-ms="4308" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -509,23 +647,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test13()[pri:0, instance:com.parasoftbank.contact@57d7f8ca]" started-at="2022-07-18T23:56:28 EDT" name="test13" finished-at="2022-07-18T23:56:29 EDT" duration-ms="122" status="PASS">
+        <test-method signature="test13()[pri:0, instance:com.parasoftbank.contact@7e5afaa6]" started-at="2022-07-19T01:03:50 EDT" name="test13" finished-at="2022-07-19T01:03:50 EDT" duration-ms="168" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test13 -->
-        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.contact@57d7f8ca]" started-at="2022-07-18T23:56:29 EDT" name="getPageTitle" finished-at="2022-07-18T23:56:29 EDT" duration-ms="16" status="PASS">
+        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.contact@7e5afaa6]" started-at="2022-07-19T01:03:50 EDT" name="getPageTitle" finished-at="2022-07-19T01:03:50 EDT" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.contact@57d7f8ca]" started-at="2022-07-18T23:56:29 EDT" name="tearDown" finished-at="2022-07-18T23:56:29 EDT" duration-ms="141" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.contact@7e5afaa6]" started-at="2022-07-19T01:03:50 EDT" name="tearDown" finished-at="2022-07-19T01:03:51 EDT" duration-ms="117" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.parasoftbank.contact -->
     </test> <!-- Contact -->
-    <test started-at="2022-07-18T23:56:29 EDT" name="Find Transaction" finished-at="2022-07-18T23:56:34 EDT" duration-ms="5367">
+    <test started-at="2022-07-19T01:03:51 EDT" name="Find Transaction" finished-at="2022-07-19T01:03:56 EDT" duration-ms="5587">
       <class name="com.parasoftbank.FindTransactions">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.FindTransactions@fa49800]" started-at="2022-07-18T23:56:29 EDT" name="setUp" finished-at="2022-07-18T23:56:33 EDT" duration-ms="4641" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.FindTransactions@6d4e5011]" started-at="2022-07-19T01:03:51 EDT" name="setUp" finished-at="2022-07-19T01:03:56 EDT" duration-ms="5000" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -546,23 +684,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test14()[pri:0, instance:com.parasoftbank.FindTransactions@fa49800]" started-at="2022-07-18T23:56:33 EDT" name="test14" finished-at="2022-07-18T23:56:34 EDT" duration-ms="435" status="PASS">
+        <test-method signature="test14()[pri:0, instance:com.parasoftbank.FindTransactions@6d4e5011]" started-at="2022-07-19T01:03:56 EDT" name="test14" finished-at="2022-07-19T01:03:56 EDT" duration-ms="468" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test14 -->
-        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.FindTransactions@fa49800]" started-at="2022-07-18T23:56:34 EDT" name="getPageTitle" finished-at="2022-07-18T23:56:34 EDT" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.FindTransactions@6d4e5011]" started-at="2022-07-19T01:03:56 EDT" name="getPageTitle" finished-at="2022-07-19T01:03:56 EDT" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.FindTransactions@fa49800]" started-at="2022-07-18T23:56:34 EDT" name="tearDown" finished-at="2022-07-18T23:56:34 EDT" duration-ms="265" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.FindTransactions@6d4e5011]" started-at="2022-07-19T01:03:56 EDT" name="tearDown" finished-at="2022-07-19T01:03:56 EDT" duration-ms="104" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.parasoftbank.FindTransactions -->
     </test> <!-- Find Transaction -->
-    <test started-at="2022-07-18T23:56:34 EDT" name="Admin Page" finished-at="2022-07-18T23:56:39 EDT" duration-ms="5416">
+    <test started-at="2022-07-19T01:03:56 EDT" name="Admin Page" finished-at="2022-07-19T01:04:01 EDT" duration-ms="5347">
       <class name="com.parasoftbank.adminPage">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.adminPage@5fbdfdcf]" started-at="2022-07-18T23:56:34 EDT" name="setUp" finished-at="2022-07-18T23:56:39 EDT" duration-ms="4606" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.adminPage@662b4c69]" started-at="2022-07-19T01:03:56 EDT" name="setUp" finished-at="2022-07-19T01:04:01 EDT" duration-ms="4696" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -583,23 +721,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test15()[pri:0, instance:com.parasoftbank.adminPage@5fbdfdcf]" started-at="2022-07-18T23:56:39 EDT" name="test15" finished-at="2022-07-18T23:56:39 EDT" duration-ms="662" status="PASS">
+        <test-method signature="test15()[pri:0, instance:com.parasoftbank.adminPage@662b4c69]" started-at="2022-07-19T01:04:01 EDT" name="test15" finished-at="2022-07-19T01:04:01 EDT" duration-ms="494" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test15 -->
-        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.adminPage@5fbdfdcf]" started-at="2022-07-18T23:56:39 EDT" name="getPageTitle" finished-at="2022-07-18T23:56:39 EDT" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.adminPage@662b4c69]" started-at="2022-07-19T01:04:01 EDT" name="getPageTitle" finished-at="2022-07-19T01:04:01 EDT" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.adminPage@5fbdfdcf]" started-at="2022-07-18T23:56:39 EDT" name="tearDown" finished-at="2022-07-18T23:56:39 EDT" duration-ms="123" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.adminPage@662b4c69]" started-at="2022-07-19T01:04:01 EDT" name="tearDown" finished-at="2022-07-19T01:04:01 EDT" duration-ms="152" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.parasoftbank.adminPage -->
     </test> <!-- Admin Page -->
-    <test started-at="2022-07-18T23:56:39 EDT" name="Home" finished-at="2022-07-18T23:56:49 EDT" duration-ms="9679">
+    <test started-at="2022-07-19T01:04:01 EDT" name="Home" finished-at="2022-07-19T01:04:07 EDT" duration-ms="5334">
       <class name="com.parasoftbank.home">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.home@16610890]" started-at="2022-07-18T23:56:39 EDT" name="setUp" finished-at="2022-07-18T23:56:45 EDT" duration-ms="5146" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.home@505fc5a4]" started-at="2022-07-19T01:04:01 EDT" name="setUp" finished-at="2022-07-19T01:04:07 EDT" duration-ms="5040" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -620,23 +758,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test16()[pri:0, instance:com.parasoftbank.home@16610890]" started-at="2022-07-18T23:56:45 EDT" name="test16" finished-at="2022-07-18T23:56:45 EDT" duration-ms="123" status="PASS">
+        <test-method signature="test16()[pri:0, instance:com.parasoftbank.home@505fc5a4]" started-at="2022-07-19T01:04:07 EDT" name="test16" finished-at="2022-07-19T01:04:07 EDT" duration-ms="157" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test16 -->
-        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.home@16610890]" started-at="2022-07-18T23:56:45 EDT" name="getPageTitle" finished-at="2022-07-18T23:56:45 EDT" duration-ms="10" status="PASS">
+        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.home@505fc5a4]" started-at="2022-07-19T01:04:07 EDT" name="getPageTitle" finished-at="2022-07-19T01:04:07 EDT" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.home@16610890]" started-at="2022-07-18T23:56:45 EDT" name="tearDown" finished-at="2022-07-18T23:56:49 EDT" duration-ms="4400" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.home@505fc5a4]" started-at="2022-07-19T01:04:07 EDT" name="tearDown" finished-at="2022-07-19T01:04:07 EDT" duration-ms="124" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.parasoftbank.home -->
     </test> <!-- Home -->
-    <test started-at="2022-07-18T23:56:49 EDT" name="Update Info" finished-at="2022-07-18T23:56:56 EDT" duration-ms="6836">
+    <test started-at="2022-07-19T01:04:07 EDT" name="Update Info" finished-at="2022-07-19T01:04:16 EDT" duration-ms="9073">
       <class name="com.parasoftbank.upDateInfo">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.upDateInfo@32ee6fee]" started-at="2022-07-18T23:56:49 EDT" name="setUp" finished-at="2022-07-18T23:56:54 EDT" duration-ms="4464" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.upDateInfo@3bf9ce3e]" started-at="2022-07-19T01:04:07 EDT" name="setUp" finished-at="2022-07-19T01:04:15 EDT" duration-ms="8115" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -657,23 +795,91 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test18()[pri:0, instance:com.parasoftbank.upDateInfo@32ee6fee]" started-at="2022-07-18T23:56:54 EDT" name="test18" finished-at="2022-07-18T23:56:56 EDT" duration-ms="2081" status="PASS">
+        <test-method signature="test18()[pri:0, instance:com.parasoftbank.upDateInfo@3bf9ce3e]" started-at="2022-07-19T01:04:15 EDT" name="test18" finished-at="2022-07-19T01:04:16 EDT" duration-ms="835" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="leftPanel"]/ul/li[6]/a"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-IA81GD4', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4e52c6e7ddd899416ace06da5c3f842d, findElement {using=xpath, value=//*[@id="leftPanel"]/ul/li[6]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Devraj\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61371}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61371/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4e52c6e7ddd899416ace06da5c3f842d]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="leftPanel"]/ul/li[6]/a"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DESKTOP-IA81GD4', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4e52c6e7ddd899416ace06da5c3f842d, findElement {using=xpath, value=//*[@id="leftPanel"]/ul/li[6]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Devraj\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61371}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61371/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4e52c6e7ddd899416ace06da5c3f842d
+at jdk.internal.reflect.GeneratedConstructorAccessor10.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
+at Base.CommonAPI.click(CommonAPI.java:66)
+at com.parasoftbank.upDateInfo.test18(upDateInfo.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:806)
+at org.testng.TestRunner.run(TestRunner.java:601)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test18 -->
-        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.upDateInfo@32ee6fee]" started-at="2022-07-18T23:56:56 EDT" name="getPageTitle" finished-at="2022-07-18T23:56:56 EDT" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.upDateInfo@3bf9ce3e]" started-at="2022-07-19T01:04:16 EDT" name="getPageTitle" finished-at="2022-07-19T01:04:16 EDT" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.upDateInfo@32ee6fee]" started-at="2022-07-18T23:56:56 EDT" name="tearDown" finished-at="2022-07-18T23:56:56 EDT" duration-ms="281" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.upDateInfo@3bf9ce3e]" started-at="2022-07-19T01:04:16 EDT" name="tearDown" finished-at="2022-07-19T01:04:16 EDT" duration-ms="106" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.parasoftbank.upDateInfo -->
     </test> <!-- Update Info -->
-    <test started-at="2022-07-18T23:56:56 EDT" name="Sign-out" finished-at="2022-07-18T23:57:01 EDT" duration-ms="5257">
+    <test started-at="2022-07-19T01:04:16 EDT" name="Sign-out" finished-at="2022-07-19T01:04:32 EDT" duration-ms="16078">
       <class name="com.parasoftbank.SignOut">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.SignOut@47faa49c]" started-at="2022-07-18T23:56:56 EDT" name="setUp" finished-at="2022-07-18T23:57:01 EDT" duration-ms="4564" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.SignOut@53fdffa1]" started-at="2022-07-19T01:04:16 EDT" name="setUp" finished-at="2022-07-19T01:04:27 EDT" duration-ms="11281" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -694,23 +900,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test19()[pri:0, instance:com.parasoftbank.SignOut@47faa49c]" started-at="2022-07-18T23:57:01 EDT" name="test19" finished-at="2022-07-18T23:57:01 EDT" duration-ms="393" status="PASS">
+        <test-method signature="test19()[pri:0, instance:com.parasoftbank.SignOut@53fdffa1]" started-at="2022-07-19T01:04:27 EDT" name="test19" finished-at="2022-07-19T01:04:28 EDT" duration-ms="646" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test19 -->
-        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.SignOut@47faa49c]" started-at="2022-07-18T23:57:01 EDT" name="getPageTitle" finished-at="2022-07-18T23:57:01 EDT" duration-ms="11" status="PASS">
+        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.SignOut@53fdffa1]" started-at="2022-07-19T01:04:28 EDT" name="getPageTitle" finished-at="2022-07-19T01:04:28 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.SignOut@47faa49c]" started-at="2022-07-18T23:57:01 EDT" name="tearDown" finished-at="2022-07-18T23:57:01 EDT" duration-ms="288" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.SignOut@53fdffa1]" started-at="2022-07-19T01:04:28 EDT" name="tearDown" finished-at="2022-07-19T01:04:32 EDT" duration-ms="4149" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.parasoftbank.SignOut -->
     </test> <!-- Sign-out -->
-    <test started-at="2022-07-18T23:57:01 EDT" name="Forget Login Info" finished-at="2022-07-18T23:57:06 EDT" duration-ms="4995">
+    <test started-at="2022-07-19T01:04:32 EDT" name="Forget Login Info" finished-at="2022-07-19T01:04:37 EDT" duration-ms="4676">
       <class name="com.parasoftbank.ForgetLogInInfo">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.ForgetLogInInfo@56cdfb3b]" started-at="2022-07-18T23:57:01 EDT" name="setUp" finished-at="2022-07-18T23:57:06 EDT" duration-ms="4559" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.ForgetLogInInfo@73e22a3d]" started-at="2022-07-19T01:04:32 EDT" name="setUp" finished-at="2022-07-19T01:04:36 EDT" duration-ms="4442" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -731,23 +937,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Test20()[pri:0, instance:com.parasoftbank.ForgetLogInInfo@56cdfb3b]" started-at="2022-07-18T23:57:06 EDT" name="Test20" finished-at="2022-07-18T23:57:06 EDT" duration-ms="193" status="PASS">
+        <test-method signature="Test20()[pri:0, instance:com.parasoftbank.ForgetLogInInfo@73e22a3d]" started-at="2022-07-19T01:04:36 EDT" name="Test20" finished-at="2022-07-19T01:04:37 EDT" duration-ms="104" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test20 -->
-        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.ForgetLogInInfo@56cdfb3b]" started-at="2022-07-18T23:57:06 EDT" name="getPageTitle" finished-at="2022-07-18T23:57:06 EDT" duration-ms="18" status="PASS">
+        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.ForgetLogInInfo@73e22a3d]" started-at="2022-07-19T01:04:37 EDT" name="getPageTitle" finished-at="2022-07-19T01:04:37 EDT" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.ForgetLogInInfo@56cdfb3b]" started-at="2022-07-18T23:57:06 EDT" name="tearDown" finished-at="2022-07-18T23:57:06 EDT" duration-ms="222" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.ForgetLogInInfo@73e22a3d]" started-at="2022-07-19T01:04:37 EDT" name="tearDown" finished-at="2022-07-19T01:04:37 EDT" duration-ms="122" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.parasoftbank.ForgetLogInInfo -->
     </test> <!-- Forget Login Info -->
-    <test started-at="2022-07-18T23:57:06 EDT" name="Register" finished-at="2022-07-18T23:57:12 EDT" duration-ms="5311">
+    <test started-at="2022-07-19T01:04:37 EDT" name="Register" finished-at="2022-07-19T01:04:42 EDT" duration-ms="5054">
       <class name="com.parasoftbank.Register">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.Register@47987356]" started-at="2022-07-18T23:57:06 EDT" name="setUp" finished-at="2022-07-18T23:57:11 EDT" duration-ms="4713" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.Register@56cdfb3b]" started-at="2022-07-19T01:04:37 EDT" name="setUp" finished-at="2022-07-19T01:04:41 EDT" duration-ms="4666" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -768,15 +974,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="test20()[pri:0, instance:com.parasoftbank.Register@47987356]" started-at="2022-07-18T23:57:11 EDT" name="test20" finished-at="2022-07-18T23:57:11 EDT" duration-ms="124" status="PASS">
+        <test-method signature="test20()[pri:0, instance:com.parasoftbank.Register@56cdfb3b]" started-at="2022-07-19T01:04:41 EDT" name="test20" finished-at="2022-07-19T01:04:42 EDT" duration-ms="132" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test20 -->
-        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.Register@47987356]" started-at="2022-07-18T23:57:11 EDT" name="getPageTitle" finished-at="2022-07-18T23:57:11 EDT" duration-ms="16" status="PASS">
+        <test-method is-config="true" signature="getPageTitle()[pri:0, instance:com.parasoftbank.Register@56cdfb3b]" started-at="2022-07-19T01:04:42 EDT" name="getPageTitle" finished-at="2022-07-19T01:04:42 EDT" duration-ms="43" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getPageTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.Register@47987356]" started-at="2022-07-18T23:57:11 EDT" name="tearDown" finished-at="2022-07-18T23:57:12 EDT" duration-ms="458" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parasoftbank.Register@56cdfb3b]" started-at="2022-07-19T01:04:42 EDT" name="tearDown" finished-at="2022-07-19T01:04:42 EDT" duration-ms="180" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
