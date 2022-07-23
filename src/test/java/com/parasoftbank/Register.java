@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 public class Register extends CommonAPI {
 
     @Test
-    public void test20(){
+    public void ClickOnRegister(){
         click("//*[@id='loginPanel']");
         System.out.println("Click on Register Success.");
 

@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 public class contact extends CommonAPI {
 
     @Test
-    public void test13(){
+    public void ClickOnContact(){
         click("//*[@id='headerPanel']");
         System.out.println("click on contact success");
 

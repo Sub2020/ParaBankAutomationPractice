@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 public class siteMap extends CommonAPI {
 
     @Test
-    public void test9(){
+    public void ClickOnSiteMap(){
         click("//*[@id='footerPanel']");
         System.out.println("clicked on Site Map button success");
     }

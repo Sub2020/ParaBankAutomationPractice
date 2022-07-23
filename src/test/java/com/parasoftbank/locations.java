@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 public class locations extends CommonAPI {
 
     @Test
-    public void test8(){
+    public void ClickOnlocations(){
         click("//*[@id='headerPanel']");
         System.out.println("Click on locations success.");
         driver.navigate().back();

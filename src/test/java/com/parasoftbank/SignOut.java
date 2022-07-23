@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 public class SignOut extends CommonAPI {
 
     @Test
-    public void test19(){
+    public void ClickOnSignOut(){
         type("username", "BabuNepali");
         System.out.println("Username entered");
 

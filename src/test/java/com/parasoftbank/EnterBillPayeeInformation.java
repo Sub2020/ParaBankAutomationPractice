@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 public class EnterBillPayeeInformation extends CommonAPI {
 
     @Test
-    public void test10(){
+    public void ClickBillPayeeInformation(){
         type("username", "BabuNepali");
 
         type("password", "subrat123");

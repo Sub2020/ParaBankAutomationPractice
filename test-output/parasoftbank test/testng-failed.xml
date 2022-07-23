@@ -1,47 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [parasoftbank test]" guice-stage="DEVELOPMENT">
-  <parameter name="useCloudEnv" value="true"/>
+  <parameter name="useCloudEnv" value="false"/>
   <parameter name="osVersion" value="windows10"/>
   <parameter name="os" value="Windows"/>
   <parameter name="envName" value="browserstack"/>
   <parameter name="browserVersion" value="100"/>
   <parameter name="browser" value="chrome"/>
   <parameter name="url" value="https://parabank.parasoft.com/"/>
-  <test thread-count="5" name="Main Title(failed)">
+  <test thread-count="5" name="Update Info(failed)">
     <classes>
-      <class name="com.parasoftbank.Title">
+      <class name="com.parasoftbank.upDateInfo">
         <methods>
-          <include name="tearDown"/>
-          <include name="getPageTitle"/>
+          <include name="afterEachTestMethod"/>
           <include name="setUp"/>
-          <include name="test19"/>
+          <include name="ClickOnUpDateInfo"/>
+          <include name="startExtent"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
         </methods>
-      </class> <!-- com.parasoftbank.Title -->
+      </class> <!-- com.parasoftbank.upDateInfo -->
     </classes>
-  </test> <!-- Main Title(failed) -->
-  <test thread-count="5" name="basic components(failed)">
-    <classes>
-      <class name="com.parasoftbank.BasicTestComponents">
-        <methods>
-          <include name="tearDown"/>
-          <include name="firstPageTest1"/>
-          <include name="getPageTitle"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.parasoftbank.BasicTestComponents -->
-    </classes>
-  </test> <!-- basic components(failed) -->
-  <test thread-count="5" name="login(failed)">
-    <classes>
-      <class name="com.parasoftbank.LoginTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="loginTest2"/>
-          <include name="getPageTitle"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- com.parasoftbank.LoginTest -->
-    </classes>
-  </test> <!-- login(failed) -->
+  </test> <!-- Update Info(failed) -->
 </suite> <!-- Failed suite [parasoftbank test] -->

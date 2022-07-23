@@ -1,18 +1,19 @@
 package com.parasoftbank;
 
 import Base.CommonAPI;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-;import static org.testng.AssertJUnit.assertTrue;
+
+import static org.testng.AssertJUnit.assertTrue;
+
+;
 
 
 public class BasicTestComponents extends CommonAPI {
 
 
     @Test
-    public void firstPageTest1() {
+    public void UserNamePasswordFieldDispalyed() {
 
         boolean nameFieldDisplayed = isPresent("username");
         System.out.printf("Check if UserName field is displayed: %s%n", nameFieldDisplayed);

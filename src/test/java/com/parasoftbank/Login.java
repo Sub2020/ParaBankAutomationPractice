@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class Login extends CommonAPI {
     @Test
-    public void test3(){
+    public void ClickLogin(){
         type("username","BabuNepali" );
         System.out.println("Username entered ");
 

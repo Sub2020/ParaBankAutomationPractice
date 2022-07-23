@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 public class upDateInfo extends CommonAPI {
 
     @Test
-    public void test18(){
+    public void ClickOnUpDateInfo(){
         type("username", "BabuNepali");
         System.out.println("Username entered");
 

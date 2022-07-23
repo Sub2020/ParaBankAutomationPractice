@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class requestLoan extends CommonAPI {
 
     @Test
-    public void test11(){
+    public void ClickRequestLoanForm(){
         type("username", "BabuNepali");
         System.out.println("Username entered");
 

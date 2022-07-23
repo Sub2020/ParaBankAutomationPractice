@@ -10,7 +10,7 @@ public class LoginTest extends CommonAPI {
 
 
     @Test
-    public void loginTest2() {
+    public void ClickOnLoginTest() {
         boolean nameFieldDisplayed = isPresent("username");
         System.out.printf("Check if UserName field is displayed: %s%n", nameFieldDisplayed);
         assertTrue(nameFieldDisplayed);

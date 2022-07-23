@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 public class BillPay extends CommonAPI {
 
     @Test
-    public void test4() {
+    public void ClickOnBillPay() {
         type("username","BabuNepali");
         System.out.println("Username entered");
 
