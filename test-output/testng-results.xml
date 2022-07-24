@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="21" passed="20" failed="1" skipped="0">
+<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Extent Report DirectoryC:\Users\Devraj\IdeaProjects\ParabankParasoftCom\test-output\html]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-07-23T00:05:21 EDT" name="parasoftbank test" finished-at="2022-07-23T00:07:50 EDT" duration-ms="149193">
+  <suite started-at="2022-07-24T01:06:36 EDT" name="parasoftbank test" finished-at="2022-07-24T01:09:44 EDT" duration-ms="188599">
     <groups>
     </groups>
-    <test started-at="2022-07-23T00:05:21 EDT" name="Main Title" finished-at="2022-07-23T00:05:33 EDT" duration-ms="12097">
+    <test started-at="2022-07-24T01:06:36 EDT" name="Main Title" finished-at="2022-07-24T01:07:11 EDT" duration-ms="35358">
       <class name="com.parasoftbank.Title">
-        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.Title@378542de]" started-at="2022-07-23T00:05:21 EDT" name="setUp" finished-at="2022-07-23T00:05:31 EDT" duration-ms="10108" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.Title@66498326]" started-at="2022-07-24T01:06:36 EDT" name="setUp" finished-at="2022-07-24T01:07:04 EDT" duration-ms="28102" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,7 +51,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.parasoftbank.Title@378542de]" started-at="2022-07-23T00:05:31 EDT" name="startExtent" finished-at="2022-07-23T00:05:31 EDT" duration-ms="36" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.parasoftbank.Title@66498326]" started-at="2022-07-24T01:07:04 EDT" name="startExtent" finished-at="2022-07-24T01:07:04 EDT" duration-ms="278" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -62,15 +62,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method signature="ClickOnTitle()[pri:0, instance:com.parasoftbank.Title@378542de]" started-at="2022-07-23T00:05:31 EDT" name="ClickOnTitle" finished-at="2022-07-23T00:05:31 EDT" duration-ms="15" status="PASS">
+        <test-method signature="ClickOnTitle()[pri:0, instance:com.parasoftbank.Title@66498326]" started-at="2022-07-24T01:07:04 EDT" name="ClickOnTitle" finished-at="2022-07-24T01:07:04 EDT" duration-ms="27" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickOnTitle -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.parasoftbank.Title@378542de]" started-at="2022-07-23T00:05:31 EDT" name="afterEachTestMethod" finished-at="2022-07-23T00:05:33 EDT" duration-ms="1890" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.parasoftbank.Title@66498326]" started-at="2022-07-24T01:07:04 EDT" name="afterEachTestMethod" finished-at="2022-07-24T01:07:11 EDT" duration-ms="6859" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ClickOnTitle status=SUCCESS method=Title.ClickOnTitle()[pri:0, instance:com.parasoftbank.Title@378542de] output={null}]]]>
+                <![CDATA[[TestResult name=ClickOnTitle status=SUCCESS method=Title.ClickOnTitle()[pri:0, instance:com.parasoftbank.Title@66498326] output={null}]]]>
               </value>
             </param>
           </params>
@@ -79,9 +79,9 @@
         </test-method> <!-- afterEachTestMethod -->
       </class> <!-- com.parasoftbank.Title -->
     </test> <!-- Main Title -->
-    <test started-at="2022-07-23T00:05:33 EDT" name="basic components" finished-at="2022-07-23T00:05:44 EDT" duration-ms="11100">
+    <test started-at="2022-07-24T01:07:11 EDT" name="basic components" finished-at="2022-07-24T01:07:20 EDT" duration-ms="9221">
       <class name="com.parasoftbank.BasicTestComponents">
-        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.BasicTestComponents@793be5ca]" started-at="2022-07-23T00:05:33 EDT" name="setUp" finished-at="2022-07-23T00:05:43 EDT" duration-ms="9816" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.BasicTestComponents@10d307f1]" started-at="2022-07-24T01:07:11 EDT" name="setUp" finished-at="2022-07-24T01:07:19 EDT" duration-ms="7640" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -122,7 +122,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.parasoftbank.BasicTestComponents@793be5ca]" started-at="2022-07-23T00:05:43 EDT" name="startExtent" finished-at="2022-07-23T00:05:43 EDT" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.parasoftbank.BasicTestComponents@10d307f1]" started-at="2022-07-24T01:07:19 EDT" name="startExtent" finished-at="2022-07-24T01:07:19 EDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -133,15 +133,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method signature="UserNamePasswordFieldDispalyed()[pri:0, instance:com.parasoftbank.BasicTestComponents@793be5ca]" started-at="2022-07-23T00:05:43 EDT" name="UserNamePasswordFieldDispalyed" finished-at="2022-07-23T00:05:43 EDT" duration-ms="288" status="PASS">
+        <test-method signature="UserNamePasswordFieldDispalyed()[pri:0, instance:com.parasoftbank.BasicTestComponents@10d307f1]" started-at="2022-07-24T01:07:19 EDT" name="UserNamePasswordFieldDispalyed" finished-at="2022-07-24T01:07:19 EDT" duration-ms="362" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserNamePasswordFieldDispalyed -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.parasoftbank.BasicTestComponents@793be5ca]" started-at="2022-07-23T00:05:43 EDT" name="afterEachTestMethod" finished-at="2022-07-23T00:05:44 EDT" duration-ms="992" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.parasoftbank.BasicTestComponents@10d307f1]" started-at="2022-07-24T01:07:19 EDT" name="afterEachTestMethod" finished-at="2022-07-24T01:07:20 EDT" duration-ms="1217" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=UserNamePasswordFieldDispalyed status=SUCCESS method=BasicTestComponents.UserNamePasswordFieldDispalyed()[pri:0, instance:com.parasoftbank.BasicTestComponents@793be5ca] output={null}]]]>
+                <![CDATA[[TestResult name=UserNamePasswordFieldDispalyed status=SUCCESS method=BasicTestComponents.UserNamePasswordFieldDispalyed()[pri:0, instance:com.parasoftbank.BasicTestComponents@10d307f1] output={null}]]]>
               </value>
             </param>
           </params>
@@ -150,9 +150,9 @@
         </test-method> <!-- afterEachTestMethod -->
       </class> <!-- com.parasoftbank.BasicTestComponents -->
     </test> <!-- basic components -->
-    <test started-at="2022-07-23T00:05:44 EDT" name="login" finished-at="2022-07-23T00:05:52 EDT" duration-ms="8108">
+    <test started-at="2022-07-24T01:07:20 EDT" name="login" finished-at="2022-07-24T01:07:30 EDT" duration-ms="9268">
       <class name="com.parasoftbank.LoginTest">
-        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.LoginTest@50b5ac82]" started-at="2022-07-23T00:05:44 EDT" name="setUp" finished-at="2022-07-23T00:05:50 EDT" duration-ms="6613" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.LoginTest@483f6d77]" started-at="2022-07-24T01:07:20 EDT" name="setUp" finished-at="2022-07-24T01:07:28 EDT" duration-ms="8010" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -193,7 +193,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.parasoftbank.LoginTest@50b5ac82]" started-at="2022-07-23T00:05:50 EDT" name="startExtent" finished-at="2022-07-23T00:05:50 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.parasoftbank.LoginTest@483f6d77]" started-at="2022-07-24T01:07:28 EDT" name="startExtent" finished-at="2022-07-24T01:07:28 EDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -204,15 +204,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method signature="ClickOnLoginTest()[pri:0, instance:com.parasoftbank.LoginTest@50b5ac82]" started-at="2022-07-23T00:05:50 EDT" name="ClickOnLoginTest" finished-at="2022-07-23T00:05:51 EDT" duration-ms="277" status="PASS">
+        <test-method signature="ClickOnLoginTest()[pri:0, instance:com.parasoftbank.LoginTest@483f6d77]" started-at="2022-07-24T01:07:28 EDT" name="ClickOnLoginTest" finished-at="2022-07-24T01:07:29 EDT" duration-ms="180" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickOnLoginTest -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.parasoftbank.LoginTest@50b5ac82]" started-at="2022-07-23T00:05:51 EDT" name="afterEachTestMethod" finished-at="2022-07-23T00:05:52 EDT" duration-ms="1200" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.parasoftbank.LoginTest@483f6d77]" started-at="2022-07-24T01:07:29 EDT" name="afterEachTestMethod" finished-at="2022-07-24T01:07:30 EDT" duration-ms="1077" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ClickOnLoginTest status=SUCCESS method=LoginTest.ClickOnLoginTest()[pri:0, instance:com.parasoftbank.LoginTest@50b5ac82] output={null}]]]>
+                <![CDATA[[TestResult name=ClickOnLoginTest status=SUCCESS method=LoginTest.ClickOnLoginTest()[pri:0, instance:com.parasoftbank.LoginTest@483f6d77] output={null}]]]>
               </value>
             </param>
           </params>
@@ -221,9 +221,9 @@
         </test-method> <!-- afterEachTestMethod -->
       </class> <!-- com.parasoftbank.LoginTest -->
     </test> <!-- login -->
-    <test started-at="2022-07-23T00:05:52 EDT" name="Log-in" finished-at="2022-07-23T00:05:58 EDT" duration-ms="5969">
+    <test started-at="2022-07-24T01:07:30 EDT" name="Log-in" finished-at="2022-07-24T01:07:39 EDT" duration-ms="8841">
       <class name="com.parasoftbank.Login">
-        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.Login@10feca44]" started-at="2022-07-23T00:05:52 EDT" name="setUp" finished-at="2022-07-23T00:05:56 EDT" duration-ms="4426" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.Login@581ac8a8]" started-at="2022-07-24T01:07:30 EDT" name="setUp" finished-at="2022-07-24T01:07:37 EDT" duration-ms="7522" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -264,7 +264,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.parasoftbank.Login@10feca44]" started-at="2022-07-23T00:05:56 EDT" name="startExtent" finished-at="2022-07-23T00:05:56 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.parasoftbank.Login@581ac8a8]" started-at="2022-07-24T01:07:37 EDT" name="startExtent" finished-at="2022-07-24T01:07:37 EDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -275,15 +275,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method signature="ClickLogin()[pri:0, instance:com.parasoftbank.Login@10feca44]" started-at="2022-07-23T00:05:56 EDT" name="ClickLogin" finished-at="2022-07-23T00:05:57 EDT" duration-ms="370" status="PASS">
+        <test-method signature="ClickLogin()[pri:0, instance:com.parasoftbank.Login@581ac8a8]" started-at="2022-07-24T01:07:37 EDT" name="ClickLogin" finished-at="2022-07-24T01:07:38 EDT" duration-ms="617" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickLogin -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.parasoftbank.Login@10feca44]" started-at="2022-07-23T00:05:57 EDT" name="afterEachTestMethod" finished-at="2022-07-23T00:05:58 EDT" duration-ms="1154" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.parasoftbank.Login@581ac8a8]" started-at="2022-07-24T01:07:38 EDT" name="afterEachTestMethod" finished-at="2022-07-24T01:07:39 EDT" duration-ms="700" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ClickLogin status=SUCCESS method=Login.ClickLogin()[pri:0, instance:com.parasoftbank.Login@10feca44] output={null}]]]>
+                <![CDATA[[TestResult name=ClickLogin status=SUCCESS method=Login.ClickLogin()[pri:0, instance:com.parasoftbank.Login@581ac8a8] output={null}]]]>
               </value>
             </param>
           </params>
@@ -292,9 +292,9 @@
         </test-method> <!-- afterEachTestMethod -->
       </class> <!-- com.parasoftbank.Login -->
     </test> <!-- Log-in -->
-    <test started-at="2022-07-23T00:05:58 EDT" name="Bill Pay" finished-at="2022-07-23T00:06:05 EDT" duration-ms="6663">
+    <test started-at="2022-07-24T01:07:39 EDT" name="Bill Pay" finished-at="2022-07-24T01:07:48 EDT" duration-ms="9637">
       <class name="com.parasoftbank.BillPay">
-        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.BillPay@2053d869]" started-at="2022-07-23T00:05:58 EDT" name="setUp" finished-at="2022-07-23T00:06:03 EDT" duration-ms="4819" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.BillPay@fba92d3]" started-at="2022-07-24T01:07:39 EDT" name="setUp" finished-at="2022-07-24T01:07:46 EDT" duration-ms="7726" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -335,7 +335,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.parasoftbank.BillPay@2053d869]" started-at="2022-07-23T00:06:03 EDT" name="startExtent" finished-at="2022-07-23T00:06:03 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.parasoftbank.BillPay@fba92d3]" started-at="2022-07-24T01:07:46 EDT" name="startExtent" finished-at="2022-07-24T01:07:46 EDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -346,15 +346,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method signature="ClickOnBillPay()[pri:0, instance:com.parasoftbank.BillPay@2053d869]" started-at="2022-07-23T00:06:03 EDT" name="ClickOnBillPay" finished-at="2022-07-23T00:06:03 EDT" duration-ms="493" status="PASS">
+        <test-method signature="ClickOnBillPay()[pri:0, instance:com.parasoftbank.BillPay@fba92d3]" started-at="2022-07-24T01:07:46 EDT" name="ClickOnBillPay" finished-at="2022-07-24T01:07:47 EDT" duration-ms="763" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickOnBillPay -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.parasoftbank.BillPay@2053d869]" started-at="2022-07-23T00:06:03 EDT" name="afterEachTestMethod" finished-at="2022-07-23T00:06:05 EDT" duration-ms="1349" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.parasoftbank.BillPay@fba92d3]" started-at="2022-07-24T01:07:47 EDT" name="afterEachTestMethod" finished-at="2022-07-24T01:07:48 EDT" duration-ms="1130" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ClickOnBillPay status=SUCCESS method=BillPay.ClickOnBillPay()[pri:0, instance:com.parasoftbank.BillPay@2053d869] output={null}]]]>
+                <![CDATA[[TestResult name=ClickOnBillPay status=SUCCESS method=BillPay.ClickOnBillPay()[pri:0, instance:com.parasoftbank.BillPay@fba92d3] output={null}]]]>
               </value>
             </param>
           </params>
@@ -363,9 +363,9 @@
         </test-method> <!-- afterEachTestMethod -->
       </class> <!-- com.parasoftbank.BillPay -->
     </test> <!-- Bill Pay -->
-    <test started-at="2022-07-23T00:06:05 EDT" name="Bank News" finished-at="2022-07-23T00:06:10 EDT" duration-ms="5831">
+    <test started-at="2022-07-24T01:07:48 EDT" name="Bank News" finished-at="2022-07-24T01:07:56 EDT" duration-ms="7623">
       <class name="com.parasoftbank.BankNews">
-        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.BankNews@3d5c822d]" started-at="2022-07-23T00:06:05 EDT" name="setUp" finished-at="2022-07-23T00:06:09 EDT" duration-ms="4786" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.BankNews@3d6f0054]" started-at="2022-07-24T01:07:48 EDT" name="setUp" finished-at="2022-07-24T01:07:55 EDT" duration-ms="6304" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -406,7 +406,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.parasoftbank.BankNews@3d5c822d]" started-at="2022-07-23T00:06:09 EDT" name="startExtent" finished-at="2022-07-23T00:06:09 EDT" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.parasoftbank.BankNews@3d6f0054]" started-at="2022-07-24T01:07:55 EDT" name="startExtent" finished-at="2022-07-24T01:07:55 EDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -417,15 +417,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method signature="ClickOnBankNews()[pri:0, instance:com.parasoftbank.BankNews@3d5c822d]" started-at="2022-07-23T00:06:09 EDT" name="ClickOnBankNews" finished-at="2022-07-23T00:06:10 EDT" duration-ms="138" status="PASS">
+        <test-method signature="ClickOnBankNews()[pri:0, instance:com.parasoftbank.BankNews@3d6f0054]" started-at="2022-07-24T01:07:55 EDT" name="ClickOnBankNews" finished-at="2022-07-24T01:07:55 EDT" duration-ms="187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickOnBankNews -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.parasoftbank.BankNews@3d5c822d]" started-at="2022-07-23T00:06:10 EDT" name="afterEachTestMethod" finished-at="2022-07-23T00:06:10 EDT" duration-ms="904" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.parasoftbank.BankNews@3d6f0054]" started-at="2022-07-24T01:07:55 EDT" name="afterEachTestMethod" finished-at="2022-07-24T01:07:56 EDT" duration-ms="1129" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ClickOnBankNews status=SUCCESS method=BankNews.ClickOnBankNews()[pri:0, instance:com.parasoftbank.BankNews@3d5c822d] output={null}]]]>
+                <![CDATA[[TestResult name=ClickOnBankNews status=SUCCESS method=BankNews.ClickOnBankNews()[pri:0, instance:com.parasoftbank.BankNews@3d6f0054] output={null}]]]>
               </value>
             </param>
           </params>
@@ -434,9 +434,9 @@
         </test-method> <!-- afterEachTestMethod -->
       </class> <!-- com.parasoftbank.BankNews -->
     </test> <!-- Bank News -->
-    <test started-at="2022-07-23T00:06:10 EDT" name="About Us" finished-at="2022-07-23T00:06:17 EDT" duration-ms="6131">
+    <test started-at="2022-07-24T01:07:56 EDT" name="About Us" finished-at="2022-07-24T01:08:02 EDT" duration-ms="6585">
       <class name="com.parasoftbank.aboutUs">
-        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.aboutUs@3e84448c]" started-at="2022-07-23T00:06:10 EDT" name="setUp" finished-at="2022-07-23T00:06:15 EDT" duration-ms="4737" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.aboutUs@156b88f5]" started-at="2022-07-24T01:07:56 EDT" name="setUp" finished-at="2022-07-24T01:08:01 EDT" duration-ms="4867" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -477,11 +477,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="ClickOnAboutUs()[pri:0, instance:com.parasoftbank.aboutUs@3e84448c]" started-at="2022-07-23T00:06:15 EDT" name="ClickOnAboutUs" finished-at="2022-07-23T00:06:15 EDT" duration-ms="125" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ClickOnAboutUs -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.parasoftbank.aboutUs@3e84448c]" started-at="2022-07-23T00:06:15 EDT" name="startExtent" finished-at="2022-07-23T00:06:15 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.parasoftbank.aboutUs@156b88f5]" started-at="2022-07-24T01:08:01 EDT" name="startExtent" finished-at="2022-07-24T01:08:01 EDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -492,11 +488,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.parasoftbank.aboutUs@3e84448c]" started-at="2022-07-23T00:06:15 EDT" name="afterEachTestMethod" finished-at="2022-07-23T00:06:17 EDT" duration-ms="1269" status="PASS">
+        <test-method signature="ClickOnAboutUs()[pri:0, instance:com.parasoftbank.aboutUs@156b88f5]" started-at="2022-07-24T01:08:01 EDT" name="ClickOnAboutUs" finished-at="2022-07-24T01:08:01 EDT" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnAboutUs -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.parasoftbank.aboutUs@156b88f5]" started-at="2022-07-24T01:08:01 EDT" name="afterEachTestMethod" finished-at="2022-07-24T01:08:02 EDT" duration-ms="1543" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ClickOnAboutUs status=SUCCESS method=aboutUs.ClickOnAboutUs()[pri:0, instance:com.parasoftbank.aboutUs@3e84448c] output={null}]]]>
+                <![CDATA[[TestResult name=ClickOnAboutUs status=SUCCESS method=aboutUs.ClickOnAboutUs()[pri:0, instance:com.parasoftbank.aboutUs@156b88f5] output={null}]]]>
               </value>
             </param>
           </params>
@@ -505,9 +505,9 @@
         </test-method> <!-- afterEachTestMethod -->
       </class> <!-- com.parasoftbank.aboutUs -->
     </test> <!-- About Us -->
-    <test started-at="2022-07-23T00:06:17 EDT" name="Service" finished-at="2022-07-23T00:06:23 EDT" duration-ms="6114">
+    <test started-at="2022-07-24T01:08:02 EDT" name="Service" finished-at="2022-07-24T01:08:10 EDT" duration-ms="7531">
       <class name="com.parasoftbank.Service">
-        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.Service@1b1426f4]" started-at="2022-07-23T00:06:17 EDT" name="setUp" finished-at="2022-07-23T00:06:21 EDT" duration-ms="4740" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.Service@32ee6fee]" started-at="2022-07-24T01:08:02 EDT" name="setUp" finished-at="2022-07-24T01:08:09 EDT" duration-ms="6104" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -548,7 +548,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.parasoftbank.Service@1b1426f4]" started-at="2022-07-23T00:06:21 EDT" name="startExtent" finished-at="2022-07-23T00:06:21 EDT" duration-ms="1" status="PASS">
+        <test-method signature="ClickOnService()[pri:0, instance:com.parasoftbank.Service@32ee6fee]" started-at="2022-07-24T01:08:09 EDT" name="ClickOnService" finished-at="2022-07-24T01:08:09 EDT" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnService -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.parasoftbank.Service@32ee6fee]" started-at="2022-07-24T01:08:09 EDT" name="startExtent" finished-at="2022-07-24T01:08:09 EDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -559,15 +563,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method signature="ClickOnService()[pri:0, instance:com.parasoftbank.Service@1b1426f4]" started-at="2022-07-23T00:06:21 EDT" name="ClickOnService" finished-at="2022-07-23T00:06:21 EDT" duration-ms="144" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ClickOnService -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.parasoftbank.Service@1b1426f4]" started-at="2022-07-23T00:06:21 EDT" name="afterEachTestMethod" finished-at="2022-07-23T00:06:23 EDT" duration-ms="1228" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.parasoftbank.Service@32ee6fee]" started-at="2022-07-24T01:08:09 EDT" name="afterEachTestMethod" finished-at="2022-07-24T01:08:10 EDT" duration-ms="1317" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ClickOnService status=SUCCESS method=Service.ClickOnService()[pri:0, instance:com.parasoftbank.Service@1b1426f4] output={null}]]]>
+                <![CDATA[[TestResult name=ClickOnService status=SUCCESS method=Service.ClickOnService()[pri:0, instance:com.parasoftbank.Service@32ee6fee] output={null}]]]>
               </value>
             </param>
           </params>
@@ -576,9 +576,9 @@
         </test-method> <!-- afterEachTestMethod -->
       </class> <!-- com.parasoftbank.Service -->
     </test> <!-- Service -->
-    <test started-at="2022-07-23T00:06:23 EDT" name="Product" finished-at="2022-07-23T00:06:28 EDT" duration-ms="5723">
+    <test started-at="2022-07-24T01:08:10 EDT" name="Product" finished-at="2022-07-24T01:08:17 EDT" duration-ms="7446">
       <class name="com.parasoftbank.product">
-        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.product@78123e82]" started-at="2022-07-23T00:06:23 EDT" name="setUp" finished-at="2022-07-23T00:06:27 EDT" duration-ms="4269" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.product@28f2a10f]" started-at="2022-07-24T01:08:10 EDT" name="setUp" finished-at="2022-07-24T01:08:16 EDT" duration-ms="5732" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -619,7 +619,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.parasoftbank.product@78123e82]" started-at="2022-07-23T00:06:27 EDT" name="startExtent" finished-at="2022-07-23T00:06:27 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.parasoftbank.product@28f2a10f]" started-at="2022-07-24T01:08:16 EDT" name="startExtent" finished-at="2022-07-24T01:08:16 EDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -630,15 +630,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method signature="ClickProduct()[pri:0, instance:com.parasoftbank.product@78123e82]" started-at="2022-07-23T00:06:27 EDT" name="ClickProduct" finished-at="2022-07-23T00:06:27 EDT" duration-ms="207" status="PASS">
+        <test-method signature="ClickProduct()[pri:0, instance:com.parasoftbank.product@28f2a10f]" started-at="2022-07-24T01:08:16 EDT" name="ClickProduct" finished-at="2022-07-24T01:08:16 EDT" duration-ms="220" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickProduct -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.parasoftbank.product@78123e82]" started-at="2022-07-23T00:06:27 EDT" name="afterEachTestMethod" finished-at="2022-07-23T00:06:28 EDT" duration-ms="1242" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.parasoftbank.product@28f2a10f]" started-at="2022-07-24T01:08:16 EDT" name="afterEachTestMethod" finished-at="2022-07-24T01:08:17 EDT" duration-ms="1493" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ClickProduct status=SUCCESS method=product.ClickProduct()[pri:0, instance:com.parasoftbank.product@78123e82] output={null}]]]>
+                <![CDATA[[TestResult name=ClickProduct status=SUCCESS method=product.ClickProduct()[pri:0, instance:com.parasoftbank.product@28f2a10f] output={null}]]]>
               </value>
             </param>
           </params>
@@ -647,9 +647,9 @@
         </test-method> <!-- afterEachTestMethod -->
       </class> <!-- com.parasoftbank.product -->
     </test> <!-- Product -->
-    <test started-at="2022-07-23T00:06:28 EDT" name="Site Map" finished-at="2022-07-23T00:06:36 EDT" duration-ms="7226">
+    <test started-at="2022-07-24T01:08:17 EDT" name="Site Map" finished-at="2022-07-24T01:08:25 EDT" duration-ms="7159">
       <class name="com.parasoftbank.siteMap">
-        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.siteMap@2a54a73f]" started-at="2022-07-23T00:06:28 EDT" name="setUp" finished-at="2022-07-23T00:06:34 EDT" duration-ms="5907" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.siteMap@2b91004a]" started-at="2022-07-24T01:08:17 EDT" name="setUp" finished-at="2022-07-24T01:08:23 EDT" duration-ms="5011" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -690,7 +690,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.parasoftbank.siteMap@2a54a73f]" started-at="2022-07-23T00:06:34 EDT" name="startExtent" finished-at="2022-07-23T00:06:34 EDT" duration-ms="1" status="PASS">
+        <test-method signature="ClickOnSiteMap()[pri:0, instance:com.parasoftbank.siteMap@2b91004a]" started-at="2022-07-24T01:08:23 EDT" name="ClickOnSiteMap" finished-at="2022-07-24T01:08:23 EDT" duration-ms="184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnSiteMap -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.parasoftbank.siteMap@2b91004a]" started-at="2022-07-24T01:08:23 EDT" name="startExtent" finished-at="2022-07-24T01:08:23 EDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -701,15 +705,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method signature="ClickOnSiteMap()[pri:0, instance:com.parasoftbank.siteMap@2a54a73f]" started-at="2022-07-23T00:06:34 EDT" name="ClickOnSiteMap" finished-at="2022-07-23T00:06:34 EDT" duration-ms="123" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ClickOnSiteMap -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.parasoftbank.siteMap@2a54a73f]" started-at="2022-07-23T00:06:34 EDT" name="afterEachTestMethod" finished-at="2022-07-23T00:06:36 EDT" duration-ms="1195" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.parasoftbank.siteMap@2b91004a]" started-at="2022-07-24T01:08:23 EDT" name="afterEachTestMethod" finished-at="2022-07-24T01:08:25 EDT" duration-ms="1964" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ClickOnSiteMap status=SUCCESS method=siteMap.ClickOnSiteMap()[pri:0, instance:com.parasoftbank.siteMap@2a54a73f] output={null}]]]>
+                <![CDATA[[TestResult name=ClickOnSiteMap status=SUCCESS method=siteMap.ClickOnSiteMap()[pri:0, instance:com.parasoftbank.siteMap@2b91004a] output={null}]]]>
               </value>
             </param>
           </params>
@@ -718,9 +718,9 @@
         </test-method> <!-- afterEachTestMethod -->
       </class> <!-- com.parasoftbank.siteMap -->
     </test> <!-- Site Map -->
-    <test started-at="2022-07-23T00:06:36 EDT" name="Payee Information" finished-at="2022-07-23T00:06:44 EDT" duration-ms="8735">
+    <test started-at="2022-07-24T01:08:25 EDT" name="Payee Information" finished-at="2022-07-24T01:08:33 EDT" duration-ms="8771">
       <class name="com.parasoftbank.EnterBillPayeeInformation">
-        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.EnterBillPayeeInformation@bd4dc25]" started-at="2022-07-23T00:06:36 EDT" name="setUp" finished-at="2022-07-23T00:06:41 EDT" duration-ms="5004" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.EnterBillPayeeInformation@47987356]" started-at="2022-07-24T01:08:25 EDT" name="setUp" finished-at="2022-07-24T01:08:30 EDT" duration-ms="4895" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -761,11 +761,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="ClickBillPayeeInformation()[pri:0, instance:com.parasoftbank.EnterBillPayeeInformation@bd4dc25]" started-at="2022-07-23T00:06:41 EDT" name="ClickBillPayeeInformation" finished-at="2022-07-23T00:06:43 EDT" duration-ms="2482" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ClickBillPayeeInformation -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.parasoftbank.EnterBillPayeeInformation@bd4dc25]" started-at="2022-07-23T00:06:41 EDT" name="startExtent" finished-at="2022-07-23T00:06:41 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.parasoftbank.EnterBillPayeeInformation@47987356]" started-at="2022-07-24T01:08:30 EDT" name="startExtent" finished-at="2022-07-24T01:08:30 EDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -776,11 +772,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.parasoftbank.EnterBillPayeeInformation@bd4dc25]" started-at="2022-07-23T00:06:43 EDT" name="afterEachTestMethod" finished-at="2022-07-23T00:06:44 EDT" duration-ms="1247" status="PASS">
+        <test-method signature="ClickBillPayeeInformation()[pri:0, instance:com.parasoftbank.EnterBillPayeeInformation@47987356]" started-at="2022-07-24T01:08:30 EDT" name="ClickBillPayeeInformation" finished-at="2022-07-24T01:08:33 EDT" duration-ms="3030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickBillPayeeInformation -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.parasoftbank.EnterBillPayeeInformation@47987356]" started-at="2022-07-24T01:08:33 EDT" name="afterEachTestMethod" finished-at="2022-07-24T01:08:33 EDT" duration-ms="844" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ClickBillPayeeInformation status=SUCCESS method=EnterBillPayeeInformation.ClickBillPayeeInformation()[pri:0, instance:com.parasoftbank.EnterBillPayeeInformation@bd4dc25] output={null}]]]>
+                <![CDATA[[TestResult name=ClickBillPayeeInformation status=SUCCESS method=EnterBillPayeeInformation.ClickBillPayeeInformation()[pri:0, instance:com.parasoftbank.EnterBillPayeeInformation@47987356] output={null}]]]>
               </value>
             </param>
           </params>
@@ -789,9 +789,9 @@
         </test-method> <!-- afterEachTestMethod -->
       </class> <!-- com.parasoftbank.EnterBillPayeeInformation -->
     </test> <!-- Payee Information -->
-    <test started-at="2022-07-23T00:06:44 EDT" name="Request Loan" finished-at="2022-07-23T00:06:52 EDT" duration-ms="7996">
+    <test started-at="2022-07-24T01:08:34 EDT" name="Request Loan" finished-at="2022-07-24T01:08:42 EDT" duration-ms="8387">
       <class name="com.parasoftbank.requestLoan">
-        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.requestLoan@383bfa16]" started-at="2022-07-23T00:06:44 EDT" name="setUp" finished-at="2022-07-23T00:06:50 EDT" duration-ms="5144" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.requestLoan@1da2cb77]" started-at="2022-07-24T01:08:34 EDT" name="setUp" finished-at="2022-07-24T01:08:38 EDT" duration-ms="4781" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -832,11 +832,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="ClickRequestLoanForm()[pri:0, instance:com.parasoftbank.requestLoan@383bfa16]" started-at="2022-07-23T00:06:50 EDT" name="ClickRequestLoanForm" finished-at="2022-07-23T00:06:51 EDT" duration-ms="1684" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ClickRequestLoanForm -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.parasoftbank.requestLoan@383bfa16]" started-at="2022-07-23T00:06:50 EDT" name="startExtent" finished-at="2022-07-23T00:06:50 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.parasoftbank.requestLoan@1da2cb77]" started-at="2022-07-24T01:08:38 EDT" name="startExtent" finished-at="2022-07-24T01:08:38 EDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -847,11 +843,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.parasoftbank.requestLoan@383bfa16]" started-at="2022-07-23T00:06:51 EDT" name="afterEachTestMethod" finished-at="2022-07-23T00:06:52 EDT" duration-ms="1168" status="PASS">
+        <test-method signature="ClickRequestLoanForm()[pri:0, instance:com.parasoftbank.requestLoan@1da2cb77]" started-at="2022-07-24T01:08:38 EDT" name="ClickRequestLoanForm" finished-at="2022-07-24T01:08:41 EDT" duration-ms="2394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickRequestLoanForm -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.parasoftbank.requestLoan@1da2cb77]" started-at="2022-07-24T01:08:41 EDT" name="afterEachTestMethod" finished-at="2022-07-24T01:08:42 EDT" duration-ms="1210" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ClickRequestLoanForm status=SUCCESS method=requestLoan.ClickRequestLoanForm()[pri:0, instance:com.parasoftbank.requestLoan@383bfa16] output={null}]]]>
+                <![CDATA[[TestResult name=ClickRequestLoanForm status=SUCCESS method=requestLoan.ClickRequestLoanForm()[pri:0, instance:com.parasoftbank.requestLoan@1da2cb77] output={null}]]]>
               </value>
             </param>
           </params>
@@ -860,9 +860,9 @@
         </test-method> <!-- afterEachTestMethod -->
       </class> <!-- com.parasoftbank.requestLoan -->
     </test> <!-- Request Loan -->
-    <test started-at="2022-07-23T00:06:52 EDT" name="Transfer fund" finished-at="2022-07-23T00:06:59 EDT" duration-ms="6861">
+    <test started-at="2022-07-24T01:08:42 EDT" name="Transfer fund" finished-at="2022-07-24T01:08:49 EDT" duration-ms="6707">
       <class name="com.parasoftbank.TransferFund">
-        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.TransferFund@7133da86]" started-at="2022-07-23T00:06:52 EDT" name="setUp" finished-at="2022-07-23T00:06:58 EDT" duration-ms="5194" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.TransferFund@7e7be63f]" started-at="2022-07-24T01:08:42 EDT" name="setUp" finished-at="2022-07-24T01:08:47 EDT" duration-ms="4839" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -903,7 +903,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.parasoftbank.TransferFund@7133da86]" started-at="2022-07-23T00:06:58 EDT" name="startExtent" finished-at="2022-07-23T00:06:58 EDT" duration-ms="1" status="PASS">
+        <test-method signature="ClickOnTransferFund()[pri:0, instance:com.parasoftbank.TransferFund@7e7be63f]" started-at="2022-07-24T01:08:47 EDT" name="ClickOnTransferFund" finished-at="2022-07-24T01:08:47 EDT" duration-ms="426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnTransferFund -->
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.parasoftbank.TransferFund@7e7be63f]" started-at="2022-07-24T01:08:47 EDT" name="startExtent" finished-at="2022-07-24T01:08:47 EDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -914,15 +918,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method signature="ClickOnTransferFund()[pri:0, instance:com.parasoftbank.TransferFund@7133da86]" started-at="2022-07-23T00:06:58 EDT" name="ClickOnTransferFund" finished-at="2022-07-23T00:06:58 EDT" duration-ms="448" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ClickOnTransferFund -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.parasoftbank.TransferFund@7133da86]" started-at="2022-07-23T00:06:58 EDT" name="afterEachTestMethod" finished-at="2022-07-23T00:06:59 EDT" duration-ms="1217" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.parasoftbank.TransferFund@7e7be63f]" started-at="2022-07-24T01:08:47 EDT" name="afterEachTestMethod" finished-at="2022-07-24T01:08:49 EDT" duration-ms="1439" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ClickOnTransferFund status=SUCCESS method=TransferFund.ClickOnTransferFund()[pri:0, instance:com.parasoftbank.TransferFund@7133da86] output={null}]]]>
+                <![CDATA[[TestResult name=ClickOnTransferFund status=SUCCESS method=TransferFund.ClickOnTransferFund()[pri:0, instance:com.parasoftbank.TransferFund@7e7be63f] output={null}]]]>
               </value>
             </param>
           </params>
@@ -931,9 +931,9 @@
         </test-method> <!-- afterEachTestMethod -->
       </class> <!-- com.parasoftbank.TransferFund -->
     </test> <!-- Transfer fund -->
-    <test started-at="2022-07-23T00:06:59 EDT" name="Contact" finished-at="2022-07-23T00:07:06 EDT" duration-ms="6441">
+    <test started-at="2022-07-24T01:08:49 EDT" name="Contact" finished-at="2022-07-24T01:08:54 EDT" duration-ms="5794">
       <class name="com.parasoftbank.contact">
-        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.contact@6da21078]" started-at="2022-07-23T00:06:59 EDT" name="setUp" finished-at="2022-07-23T00:07:04 EDT" duration-ms="4838" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.contact@1af2d44a]" started-at="2022-07-24T01:08:49 EDT" name="setUp" finished-at="2022-07-24T01:08:53 EDT" duration-ms="4489" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -974,11 +974,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="ClickOnContact()[pri:0, instance:com.parasoftbank.contact@6da21078]" started-at="2022-07-23T00:07:04 EDT" name="ClickOnContact" finished-at="2022-07-23T00:07:04 EDT" duration-ms="129" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ClickOnContact -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.parasoftbank.contact@6da21078]" started-at="2022-07-23T00:07:04 EDT" name="startExtent" finished-at="2022-07-23T00:07:04 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.parasoftbank.contact@1af2d44a]" started-at="2022-07-24T01:08:53 EDT" name="startExtent" finished-at="2022-07-24T01:08:53 EDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -989,11 +985,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.parasoftbank.contact@6da21078]" started-at="2022-07-23T00:07:04 EDT" name="afterEachTestMethod" finished-at="2022-07-23T00:07:06 EDT" duration-ms="1474" status="PASS">
+        <test-method signature="ClickOnContact()[pri:0, instance:com.parasoftbank.contact@1af2d44a]" started-at="2022-07-24T01:08:53 EDT" name="ClickOnContact" finished-at="2022-07-24T01:08:53 EDT" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnContact -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.parasoftbank.contact@1af2d44a]" started-at="2022-07-24T01:08:53 EDT" name="afterEachTestMethod" finished-at="2022-07-24T01:08:54 EDT" duration-ms="1176" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ClickOnContact status=SUCCESS method=contact.ClickOnContact()[pri:0, instance:com.parasoftbank.contact@6da21078] output={null}]]]>
+                <![CDATA[[TestResult name=ClickOnContact status=SUCCESS method=contact.ClickOnContact()[pri:0, instance:com.parasoftbank.contact@1af2d44a] output={null}]]]>
               </value>
             </param>
           </params>
@@ -1002,9 +1002,9 @@
         </test-method> <!-- afterEachTestMethod -->
       </class> <!-- com.parasoftbank.contact -->
     </test> <!-- Contact -->
-    <test started-at="2022-07-23T00:07:06 EDT" name="Find Transaction" finished-at="2022-07-23T00:07:12 EDT" duration-ms="6546">
+    <test started-at="2022-07-24T01:08:54 EDT" name="Find Transaction" finished-at="2022-07-24T01:09:01 EDT" duration-ms="6485">
       <class name="com.parasoftbank.FindTransactions">
-        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.FindTransactions@2fb3536e]" started-at="2022-07-23T00:07:06 EDT" name="setUp" finished-at="2022-07-23T00:07:11 EDT" duration-ms="4887" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.FindTransactions@4fb3ee4e]" started-at="2022-07-24T01:08:54 EDT" name="setUp" finished-at="2022-07-24T01:08:59 EDT" duration-ms="4701" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1045,11 +1045,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="ClickFindTransactions()[pri:0, instance:com.parasoftbank.FindTransactions@2fb3536e]" started-at="2022-07-23T00:07:11 EDT" name="ClickFindTransactions" finished-at="2022-07-23T00:07:11 EDT" duration-ms="444" status="PASS">
+        <test-method signature="ClickFindTransactions()[pri:0, instance:com.parasoftbank.FindTransactions@4fb3ee4e]" started-at="2022-07-24T01:08:59 EDT" name="ClickFindTransactions" finished-at="2022-07-24T01:09:00 EDT" duration-ms="502" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickFindTransactions -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.parasoftbank.FindTransactions@2fb3536e]" started-at="2022-07-23T00:07:11 EDT" name="startExtent" finished-at="2022-07-23T00:07:11 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.parasoftbank.FindTransactions@4fb3ee4e]" started-at="2022-07-24T01:08:59 EDT" name="startExtent" finished-at="2022-07-24T01:08:59 EDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1060,11 +1060,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.parasoftbank.FindTransactions@2fb3536e]" started-at="2022-07-23T00:07:11 EDT" name="afterEachTestMethod" finished-at="2022-07-23T00:07:12 EDT" duration-ms="1215" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.parasoftbank.FindTransactions@4fb3ee4e]" started-at="2022-07-24T01:09:00 EDT" name="afterEachTestMethod" finished-at="2022-07-24T01:09:01 EDT" duration-ms="1282" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ClickFindTransactions status=SUCCESS method=FindTransactions.ClickFindTransactions()[pri:0, instance:com.parasoftbank.FindTransactions@2fb3536e] output={null}]]]>
+                <![CDATA[[TestResult name=ClickFindTransactions status=SUCCESS method=FindTransactions.ClickFindTransactions()[pri:0, instance:com.parasoftbank.FindTransactions@4fb3ee4e] output={null}]]]>
               </value>
             </param>
           </params>
@@ -1073,9 +1073,9 @@
         </test-method> <!-- afterEachTestMethod -->
       </class> <!-- com.parasoftbank.FindTransactions -->
     </test> <!-- Find Transaction -->
-    <test started-at="2022-07-23T00:07:12 EDT" name="Admin Page" finished-at="2022-07-23T00:07:19 EDT" duration-ms="6776">
+    <test started-at="2022-07-24T01:09:01 EDT" name="Admin Page" finished-at="2022-07-24T01:09:08 EDT" duration-ms="7290">
       <class name="com.parasoftbank.adminPage">
-        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.adminPage@6283d8b8]" started-at="2022-07-23T00:07:12 EDT" name="setUp" finished-at="2022-07-23T00:07:17 EDT" duration-ms="4812" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.adminPage@21e360a]" started-at="2022-07-24T01:09:01 EDT" name="setUp" finished-at="2022-07-24T01:09:06 EDT" duration-ms="4882" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1116,7 +1116,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.parasoftbank.adminPage@6283d8b8]" started-at="2022-07-23T00:07:17 EDT" name="startExtent" finished-at="2022-07-23T00:07:17 EDT" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.parasoftbank.adminPage@21e360a]" started-at="2022-07-24T01:09:06 EDT" name="startExtent" finished-at="2022-07-24T01:09:06 EDT" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1127,15 +1127,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method signature="ClickOnAdmiLink()[pri:0, instance:com.parasoftbank.adminPage@6283d8b8]" started-at="2022-07-23T00:07:17 EDT" name="ClickOnAdmiLink" finished-at="2022-07-23T00:07:18 EDT" duration-ms="501" status="PASS">
+        <test-method signature="ClickOnAdmiLink()[pri:0, instance:com.parasoftbank.adminPage@21e360a]" started-at="2022-07-24T01:09:06 EDT" name="ClickOnAdmiLink" finished-at="2022-07-24T01:09:07 EDT" duration-ms="1244" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickOnAdmiLink -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.parasoftbank.adminPage@6283d8b8]" started-at="2022-07-23T00:07:18 EDT" name="afterEachTestMethod" finished-at="2022-07-23T00:07:19 EDT" duration-ms="1456" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.parasoftbank.adminPage@21e360a]" started-at="2022-07-24T01:09:07 EDT" name="afterEachTestMethod" finished-at="2022-07-24T01:09:08 EDT" duration-ms="1161" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ClickOnAdmiLink status=SUCCESS method=adminPage.ClickOnAdmiLink()[pri:0, instance:com.parasoftbank.adminPage@6283d8b8] output={null}]]]>
+                <![CDATA[[TestResult name=ClickOnAdmiLink status=SUCCESS method=adminPage.ClickOnAdmiLink()[pri:0, instance:com.parasoftbank.adminPage@21e360a] output={null}]]]>
               </value>
             </param>
           </params>
@@ -1144,9 +1144,9 @@
         </test-method> <!-- afterEachTestMethod -->
       </class> <!-- com.parasoftbank.adminPage -->
     </test> <!-- Admin Page -->
-    <test started-at="2022-07-23T00:07:19 EDT" name="Home" finished-at="2022-07-23T00:07:24 EDT" duration-ms="5393">
+    <test started-at="2022-07-24T01:09:08 EDT" name="Home" finished-at="2022-07-24T01:09:15 EDT" duration-ms="6485">
       <class name="com.parasoftbank.home">
-        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.home@2f217633]" started-at="2022-07-23T00:07:19 EDT" name="setUp" finished-at="2022-07-23T00:07:23 EDT" duration-ms="4128" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.home@52af26ee]" started-at="2022-07-24T01:09:08 EDT" name="setUp" finished-at="2022-07-24T01:09:13 EDT" duration-ms="4743" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1187,7 +1187,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.parasoftbank.home@2f217633]" started-at="2022-07-23T00:07:23 EDT" name="startExtent" finished-at="2022-07-23T00:07:23 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.parasoftbank.home@52af26ee]" started-at="2022-07-24T01:09:13 EDT" name="startExtent" finished-at="2022-07-24T01:09:13 EDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1198,15 +1198,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method signature="ClickOnHome()[pri:0, instance:com.parasoftbank.home@2f217633]" started-at="2022-07-23T00:07:23 EDT" name="ClickOnHome" finished-at="2022-07-23T00:07:23 EDT" duration-ms="147" status="PASS">
+        <test-method signature="ClickOnHome()[pri:0, instance:com.parasoftbank.home@52af26ee]" started-at="2022-07-24T01:09:13 EDT" name="ClickOnHome" finished-at="2022-07-24T01:09:13 EDT" duration-ms="157" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickOnHome -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.parasoftbank.home@2f217633]" started-at="2022-07-23T00:07:23 EDT" name="afterEachTestMethod" finished-at="2022-07-23T00:07:24 EDT" duration-ms="1117" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.parasoftbank.home@52af26ee]" started-at="2022-07-24T01:09:13 EDT" name="afterEachTestMethod" finished-at="2022-07-24T01:09:15 EDT" duration-ms="1584" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ClickOnHome status=SUCCESS method=home.ClickOnHome()[pri:0, instance:com.parasoftbank.home@2f217633] output={null}]]]>
+                <![CDATA[[TestResult name=ClickOnHome status=SUCCESS method=home.ClickOnHome()[pri:0, instance:com.parasoftbank.home@52af26ee] output={null}]]]>
               </value>
             </param>
           </params>
@@ -1215,9 +1215,9 @@
         </test-method> <!-- afterEachTestMethod -->
       </class> <!-- com.parasoftbank.home -->
     </test> <!-- Home -->
-    <test started-at="2022-07-23T00:07:24 EDT" name="Update Info" finished-at="2022-07-23T00:07:31 EDT" duration-ms="6712">
+    <test started-at="2022-07-24T01:09:15 EDT" name="Update Info" finished-at="2022-07-24T01:09:23 EDT" duration-ms="8644">
       <class name="com.parasoftbank.upDateInfo">
-        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.upDateInfo@614ca7df]" started-at="2022-07-23T00:07:24 EDT" name="setUp" finished-at="2022-07-23T00:07:29 EDT" duration-ms="4373" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.upDateInfo@1b2abca6]" started-at="2022-07-24T01:09:15 EDT" name="setUp" finished-at="2022-07-24T01:09:20 EDT" duration-ms="4954" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1258,7 +1258,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.parasoftbank.upDateInfo@614ca7df]" started-at="2022-07-23T00:07:29 EDT" name="startExtent" finished-at="2022-07-23T00:07:29 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.parasoftbank.upDateInfo@1b2abca6]" started-at="2022-07-24T01:09:20 EDT" name="startExtent" finished-at="2022-07-24T01:09:20 EDT" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1269,83 +1269,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method signature="ClickOnUpDateInfo()[pri:0, instance:com.parasoftbank.upDateInfo@614ca7df]" started-at="2022-07-23T00:07:29 EDT" name="ClickOnUpDateInfo" finished-at="2022-07-23T00:07:30 EDT" duration-ms="1139" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"customer.firstName"}
-  (Session info: chrome=103.0.5060.134)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'DESKTOP-IA81GD4', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [eef66403c09e3f0523c34ce9b9c212bb, findElement {using=xpath, value=customer.firstName}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Devraj\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:54346}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54346/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: eef66403c09e3f0523c34ce9b9c212bb]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"customer.firstName"}
-  (Session info: chrome=103.0.5060.134)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'DESKTOP-IA81GD4', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [eef66403c09e3f0523c34ce9b9c212bb, findElement {using=xpath, value=customer.firstName}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Devraj\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:54346}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54346/devtoo..., se:cdpVersion: 103.0.5060.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: eef66403c09e3f0523c34ce9b9c212bb
-at jdk.internal.reflect.GeneratedConstructorAccessor12.newInstance(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
-at Base.CommonAPI.type(CommonAPI.java:198)
-at com.parasoftbank.upDateInfo.ClickOnUpDateInfo(upDateInfo.java:22)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="ClickOnUpDateInfo()[pri:0, instance:com.parasoftbank.upDateInfo@1b2abca6]" started-at="2022-07-24T01:09:20 EDT" name="ClickOnUpDateInfo" finished-at="2022-07-24T01:09:22 EDT" duration-ms="2480" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickOnUpDateInfo -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.parasoftbank.upDateInfo@614ca7df]" started-at="2022-07-23T00:07:30 EDT" name="afterEachTestMethod" finished-at="2022-07-23T00:07:31 EDT" duration-ms="1186" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.parasoftbank.upDateInfo@1b2abca6]" started-at="2022-07-24T01:09:22 EDT" name="afterEachTestMethod" finished-at="2022-07-24T01:09:23 EDT" duration-ms="1208" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ClickOnUpDateInfo status=FAILURE method=upDateInfo.ClickOnUpDateInfo()[pri:0, instance:com.parasoftbank.upDateInfo@614ca7df] output={null}]]]>
+                <![CDATA[[TestResult name=ClickOnUpDateInfo status=SUCCESS method=upDateInfo.ClickOnUpDateInfo()[pri:0, instance:com.parasoftbank.upDateInfo@1b2abca6] output={null}]]]>
               </value>
             </param>
           </params>
@@ -1354,9 +1286,9 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
         </test-method> <!-- afterEachTestMethod -->
       </class> <!-- com.parasoftbank.upDateInfo -->
     </test> <!-- Update Info -->
-    <test started-at="2022-07-23T00:07:31 EDT" name="Sign-out" finished-at="2022-07-23T00:07:38 EDT" duration-ms="6684">
+    <test started-at="2022-07-24T01:09:24 EDT" name="Sign-out" finished-at="2022-07-24T01:09:31 EDT" duration-ms="7456">
       <class name="com.parasoftbank.SignOut">
-        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.SignOut@618425b5]" started-at="2022-07-23T00:07:31 EDT" name="setUp" finished-at="2022-07-23T00:07:36 EDT" duration-ms="4986" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.SignOut@c88a337]" started-at="2022-07-24T01:09:24 EDT" name="setUp" finished-at="2022-07-24T01:09:29 EDT" duration-ms="5745" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1397,11 +1329,11 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="ClickOnSignOut()[pri:0, instance:com.parasoftbank.SignOut@618425b5]" started-at="2022-07-23T00:07:36 EDT" name="ClickOnSignOut" finished-at="2022-07-23T00:07:37 EDT" duration-ms="466" status="PASS">
+        <test-method signature="ClickOnSignOut()[pri:0, instance:com.parasoftbank.SignOut@c88a337]" started-at="2022-07-24T01:09:29 EDT" name="ClickOnSignOut" finished-at="2022-07-24T01:09:30 EDT" duration-ms="411" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickOnSignOut -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.parasoftbank.SignOut@618425b5]" started-at="2022-07-23T00:07:36 EDT" name="startExtent" finished-at="2022-07-23T00:07:36 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.parasoftbank.SignOut@c88a337]" started-at="2022-07-24T01:09:29 EDT" name="startExtent" finished-at="2022-07-24T01:09:29 EDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1412,11 +1344,11 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.parasoftbank.SignOut@618425b5]" started-at="2022-07-23T00:07:37 EDT" name="afterEachTestMethod" finished-at="2022-07-23T00:07:38 EDT" duration-ms="1231" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.parasoftbank.SignOut@c88a337]" started-at="2022-07-24T01:09:30 EDT" name="afterEachTestMethod" finished-at="2022-07-24T01:09:31 EDT" duration-ms="1299" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ClickOnSignOut status=SUCCESS method=SignOut.ClickOnSignOut()[pri:0, instance:com.parasoftbank.SignOut@618425b5] output={null}]]]>
+                <![CDATA[[TestResult name=ClickOnSignOut status=SUCCESS method=SignOut.ClickOnSignOut()[pri:0, instance:com.parasoftbank.SignOut@c88a337] output={null}]]]>
               </value>
             </param>
           </params>
@@ -1425,9 +1357,9 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
         </test-method> <!-- afterEachTestMethod -->
       </class> <!-- com.parasoftbank.SignOut -->
     </test> <!-- Sign-out -->
-    <test started-at="2022-07-23T00:07:38 EDT" name="Forget Login Info" finished-at="2022-07-23T00:07:44 EDT" duration-ms="6016">
+    <test started-at="2022-07-24T01:09:31 EDT" name="Forget Login Info" finished-at="2022-07-24T01:09:38 EDT" duration-ms="6852">
       <class name="com.parasoftbank.ForgetLogInInfo">
-        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.ForgetLogInInfo@25fb8912]" started-at="2022-07-23T00:07:38 EDT" name="setUp" finished-at="2022-07-23T00:07:43 EDT" duration-ms="4671" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.ForgetLogInInfo@5a56cdac]" started-at="2022-07-24T01:09:31 EDT" name="setUp" finished-at="2022-07-24T01:09:36 EDT" duration-ms="5454" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1468,7 +1400,7 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.parasoftbank.ForgetLogInInfo@25fb8912]" started-at="2022-07-23T00:07:43 EDT" name="startExtent" finished-at="2022-07-23T00:07:43 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.parasoftbank.ForgetLogInInfo@5a56cdac]" started-at="2022-07-24T01:09:36 EDT" name="startExtent" finished-at="2022-07-24T01:09:36 EDT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1479,15 +1411,15 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method signature="ClickForgetLogInInfo()[pri:0, instance:com.parasoftbank.ForgetLogInInfo@25fb8912]" started-at="2022-07-23T00:07:43 EDT" name="ClickForgetLogInInfo" finished-at="2022-07-23T00:07:43 EDT" duration-ms="107" status="PASS">
+        <test-method signature="ClickForgetLogInInfo()[pri:0, instance:com.parasoftbank.ForgetLogInInfo@5a56cdac]" started-at="2022-07-24T01:09:36 EDT" name="ClickForgetLogInInfo" finished-at="2022-07-24T01:09:37 EDT" duration-ms="149" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickForgetLogInInfo -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.parasoftbank.ForgetLogInInfo@25fb8912]" started-at="2022-07-23T00:07:43 EDT" name="afterEachTestMethod" finished-at="2022-07-23T00:07:44 EDT" duration-ms="1237" status="PASS">
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.parasoftbank.ForgetLogInInfo@5a56cdac]" started-at="2022-07-24T01:09:37 EDT" name="afterEachTestMethod" finished-at="2022-07-24T01:09:38 EDT" duration-ms="1242" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ClickForgetLogInInfo status=SUCCESS method=ForgetLogInInfo.ClickForgetLogInInfo()[pri:0, instance:com.parasoftbank.ForgetLogInInfo@25fb8912] output={null}]]]>
+                <![CDATA[[TestResult name=ClickForgetLogInInfo status=SUCCESS method=ForgetLogInInfo.ClickForgetLogInInfo()[pri:0, instance:com.parasoftbank.ForgetLogInInfo@5a56cdac] output={null}]]]>
               </value>
             </param>
           </params>
@@ -1496,13 +1428,13 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
         </test-method> <!-- afterEachTestMethod -->
       </class> <!-- com.parasoftbank.ForgetLogInInfo -->
     </test> <!-- Forget Login Info -->
-    <test started-at="2022-07-23T00:07:44 EDT" name="Register" finished-at="2022-07-23T00:07:50 EDT" duration-ms="5928">
+    <test started-at="2022-07-24T01:09:38 EDT" name="Register" finished-at="2022-07-24T01:09:44 EDT" duration-ms="6467">
       <class name="com.parasoftbank.Register">
-        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:com.parasoftbank.Register@74751b3]" started-at="2022-07-23T00:05:20 EDT" name="extentSetup" finished-at="2022-07-23T00:05:21 EDT" duration-ms="531" status="PASS">
+        <test-method is-config="true" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:com.parasoftbank.Register@2805d709]" started-at="2022-07-24T01:06:34 EDT" name="extentSetup" finished-at="2022-07-24T01:06:36 EDT" duration-ms="1889" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@6cc8c13c]]>
+                <![CDATA[org.testng.TestRunner@37cf91d8]]>
               </value>
             </param>
           </params>
@@ -1512,7 +1444,7 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
             </line>
           </reporter-output>
         </test-method> <!-- extentSetup -->
-        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.Register@74751b3]" started-at="2022-07-23T00:07:44 EDT" name="setUp" finished-at="2022-07-23T00:07:48 EDT" duration-ms="4387" status="PASS">
+        <test-method is-config="true" signature="setUp(boolean,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.parasoftbank.Register@2805d709]" started-at="2022-07-24T01:09:38 EDT" name="setUp" finished-at="2022-07-24T01:09:43 EDT" duration-ms="5134" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1553,11 +1485,7 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="ClickOnRegister()[pri:0, instance:com.parasoftbank.Register@74751b3]" started-at="2022-07-23T00:07:48 EDT" name="ClickOnRegister" finished-at="2022-07-23T00:07:48 EDT" duration-ms="140" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ClickOnRegister -->
-        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.parasoftbank.Register@74751b3]" started-at="2022-07-23T00:07:48 EDT" name="startExtent" finished-at="2022-07-23T00:07:48 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:com.parasoftbank.Register@2805d709]" started-at="2022-07-24T01:09:43 EDT" name="startExtent" finished-at="2022-07-24T01:09:43 EDT" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1568,18 +1496,22 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startExtent -->
-        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.parasoftbank.Register@74751b3]" started-at="2022-07-23T00:07:48 EDT" name="afterEachTestMethod" finished-at="2022-07-23T00:07:50 EDT" duration-ms="1400" status="PASS">
+        <test-method signature="ClickOnRegister()[pri:0, instance:com.parasoftbank.Register@2805d709]" started-at="2022-07-24T01:09:43 EDT" name="ClickOnRegister" finished-at="2022-07-24T01:09:43 EDT" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnRegister -->
+        <test-method is-config="true" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:com.parasoftbank.Register@2805d709]" started-at="2022-07-24T01:09:43 EDT" name="afterEachTestMethod" finished-at="2022-07-24T01:09:44 EDT" duration-ms="1221" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ClickOnRegister status=SUCCESS method=Register.ClickOnRegister()[pri:0, instance:com.parasoftbank.Register@74751b3] output={null}]]]>
+                <![CDATA[[TestResult name=ClickOnRegister status=SUCCESS method=Register.ClickOnRegister()[pri:0, instance:com.parasoftbank.Register@2805d709] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterEachTestMethod -->
-        <test-method is-config="true" signature="generateReport()[pri:0, instance:com.parasoftbank.Register@74751b3]" started-at="2022-07-23T00:07:50 EDT" name="generateReport" finished-at="2022-07-23T00:07:50 EDT" duration-ms="63" status="PASS">
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:com.parasoftbank.Register@2805d709]" started-at="2022-07-24T01:09:44 EDT" name="generateReport" finished-at="2022-07-24T01:09:44 EDT" duration-ms="47" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateReport -->
