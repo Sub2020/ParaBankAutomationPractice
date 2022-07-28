@@ -2,23 +2,20 @@ package com.parasoftbank;
 
 import Base.CommonAPI;
 import org.testng.annotations.Test;
+import pages.LogInPage;
 
 public class TransferFund extends CommonAPI {
 
     @Test
     public void ClickOnTransferFund(){
 
-        type("username", "BabuNepali");
-        System.out.println("Username entered");
+        LogInPage logInPage = new LogInPage(driver);
 
-        type("password", "subrat123");
-        System.out.println("password entered");
+        logInPage.EnterUserName("BabuNepali");
+        logInPage.EnterPassword("subrat123");
+        logInPage.ClickLoginButton();
+        logInPage.ClickTransferFoundsSuccess();
 
-        click("//*[@id='loginPanel']");
-        System.out.println("Login Success!!");
-
-        click("//*[@id='leftPanel']");
-        System.out.println("Click on transfer founds success!!");
 
     }
 }

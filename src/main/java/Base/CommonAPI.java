@@ -2,8 +2,8 @@ package Base;
 
 
 import com.relevantcodes.extentreports.LogStatus;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -64,7 +64,7 @@ public class CommonAPI {
         String[] var2 = result.getMethod().getGroups();
         int var3 = var2.length;
 
-        for(int var4 = 0; var4 < var3; ++var4) {
+        for (int var4 = 0; var4 < var3; ++var4) {
             String group = var2[var4];
             ExtentTestManager.getTest().assignCategory(new String[]{group});
         }
@@ -81,7 +81,6 @@ public class CommonAPI {
         extent.flush();
 
 
-
         this.driver.quit();
     }
 
@@ -93,7 +92,8 @@ public class CommonAPI {
     private Date getTime(long millis) {
         Calendar calendar = Calendar.getInstance();
         calendar.setTimeInMillis(millis);
-        return calendar.getTime();}
+        return calendar.getTime();
+    }
 
 
     public void getCloudDriver(String envName, String username, String password, String os, String osVersion, String browser, String browserVersion) throws MalformedURLException {
@@ -158,6 +158,7 @@ public class CommonAPI {
 
 
     }
+
     public WebDriver getDriver() {
         return this.driver;
     }
@@ -167,56 +168,22 @@ public class CommonAPI {
     }
 
 
-
-//    @AfterMethod
-//    public void tearDown() {
-//        driver.close();
-//    }
-
-
-    public void click(String locator) {
-        try {
-            driver.findElement(By.id(locator)).click();
-        } catch (Exception e) {
-            driver.findElement(By.xpath(locator)).click();
-        }
+    public void click(WebElement element) {
+        element.click();
     }
-
-    public void clear(String locator) {
-        try {
-            driver.findElement(By.cssSelector(locator)).clear();
-        } catch (Exception e) {
-            driver.findElement(By.xpath(locator)).clear();
-        }
+    public void clear(WebElement element) {
+        element.clear();
+    }
+    public void type(WebElement element, String text){
+        element.sendKeys(text);
+    }
+    public boolean isPresent(WebElement element) {
+         return element.isDisplayed();
+    }
+    public String getElementText(WebElement element) {
+        return element.getText();
 
     }
-
-    public void type(String locator, String text) {
-        try {
-            driver.findElement(By.name(locator)).sendKeys(text);
-        } catch (Exception e) {
-            driver.findElement(By.xpath(locator)).sendKeys(text);
-
-        }
-    }
-
-    public boolean isPresent(String locator) {
-        try {
-            return driver.findElement(By.name(locator)).isDisplayed();
-        } catch (Exception e) {
-            return driver.findElement(By.id(locator)).isDisplayed();
-        }
-    }
-
-    public String getElementText(String locator) {
-        try {
-            return driver.findElement(By.cssSelector(locator)).getText();
-        } catch (Exception e) {
-            return driver.findElement(By.xpath(locator)).getText();
-        }
-    }
-
-
     public static void main(String[] args) {
         String path = System.getProperty("user.dir");
         System.out.println(path);

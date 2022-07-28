@@ -16,11 +16,30 @@
         </classes>
     </test>
 
-    <test name="basic components">
-          <classes>
-              <class name="com.parasoftbank.BasicTestComponents"></class>
-          </classes>
-      </test>
+    <test name="Bank News">
+        <classes>
+            <class name="com.parasoftbank.BankNews"></class>
+        </classes>
+    </test>
+
+    <test name="About Us">
+        <classes>
+            <class name="com.parasoftbank.aboutUs"></class>
+        </classes>
+    </test>
+
+
+    <test name="Service">
+        <classes>
+            <class name="com.parasoftbank.Service"></class>
+        </classes>
+    </test>
+
+<!--    <test name="basic components">-->
+<!--          <classes>-->
+<!--              <class name="com.parasoftbank.BasicTestComponents"></class>-->
+<!--          </classes>-->
+<!--      </test>-->
     <test name="login">
         <classes>
             <class name="com.parasoftbank.LoginTest"></class>
@@ -36,24 +55,6 @@
     <test name="Bill Pay">
         <classes>
             <class name="com.parasoftbank.BillPay"></class>
-        </classes>
-    </test>
-
-    <test name="Bank News">
-        <classes>
-            <class name="com.parasoftbank.BankNews"></class>
-        </classes>
-    </test>
-
-    <test name="About Us">
-        <classes>
-            <class name="com.parasoftbank.aboutUs"></class>
-        </classes>
-    </test>
-
-    <test name="Service">
-        <classes>
-            <class name="com.parasoftbank.Service"></class>
         </classes>
     </test>
 

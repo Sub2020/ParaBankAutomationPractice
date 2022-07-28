@@ -2,12 +2,13 @@ package com.parasoftbank;
 
 import Base.CommonAPI;
 import org.testng.annotations.Test;
+import pages.LogInPage;
 
 public class ForgetLogInInfo extends CommonAPI {
 
     @Test
-    public void ClickForgetLogInInfo(){
-        click("//*[@id='loginPanel']");
-        System.out.println("Click on Forget Login Info Success.");
+    public void ClickForgetLogInInfo() {
+        LogInPage logInPage = new LogInPage(driver);
+        logInPage.ClickForgetLogInInfo();
     }
 }

@@ -2,17 +2,16 @@ package com.parasoftbank;
 
 import Base.CommonAPI;
 import org.testng.annotations.Test;
+import pages.LogInPage;
 
 public class Login extends CommonAPI {
     @Test
     public void ClickLogin(){
-        type("username","BabuNepali" );
-        System.out.println("Username entered ");
+        LogInPage logInPage = new LogInPage(driver);
 
-        type("password", "subrat123");
-        System.out.println("password entered ");
+        logInPage.EnterUserName("BabuNepali");
+        logInPage.passwordField("subrat123");
+        logInPage.ClickLoginButton();
 
-        click("//*[@id='loginPanel']");
-        System.out.println("Click on login Button Success");
     }
 }

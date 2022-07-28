@@ -2,52 +2,61 @@ package com.parasoftbank;
 
 import Base.CommonAPI;
 import org.testng.annotations.Test;
+import pages.LogInPage;
 
 public class EnterBillPayeeInformation extends CommonAPI {
 
     @Test
     public void ClickBillPayeeInformation(){
-        type("username", "BabuNepali");
+        LogInPage logInPage = new LogInPage(driver);
 
-        type("password", "subrat123");
+        logInPage.EnterUserName("BabuNepali");
+        logInPage.EnterPassword("subrat123");
+        logInPage.ClickLoginButton();
 
-        click("//*[@id='loginPanel']/form/div[3]/input");
-
-        click("//*[@id='leftPanel']/ul/li[4]/a");
+        logInPage.ClickOnBillPay();
 
 
-        type("payee.name", "James Bond");
-        System.out.println("Payee Name entered.");
+        logInPage.EnterPayeeName("James Bond");
+        //type("payee.name", "James Bond");
+        //System.out.println("Payee Name entered.");
 
-        type("payee.address.street", "7918 Ave. St.");
-        System.out.println("Payee address entered.");
+        logInPage.EnterPayeeAddSt("7918 Ave. St.");
+        //type("payee.address.street", "7918 Ave. St.");
+        //System.out.println("Payee address entered.");
 
-        type("payee.address.city", "Elmhurst");
-        System.out.println("Payee city entered.");
+        logInPage.EnterPayeeAddressCity("Elmhurst.");
+        //type("payee.address.city", "Elmhurst");
+        //System.out.println("Payee city entered.");
 
-        type("payee.address.state", "New York");
-        System.out.println("Payee State entered.");
 
-        type("payee.address.zipCode", "11373");
-        System.out.println("Payee ZipCode entered.");
+        logInPage.EnterPayeeAddressState("New-York");
+        //type("payee.address.state", "New York");
+        //System.out.println("Payee State entered.");
 
-        type("payee.phoneNumber", "191-911-0910");
-        System.out.println("Payee phone no. entered.");
+        logInPage.EnterpayeeAddressZipCode("11373");
+        //type("payee.address.zipCode", "11373");
+        //System.out.println("Payee ZipCode entered.");
 
-        type("payee.accountNumber", "1221233201");
-        System.out.println("Payee account no. entered.");
+        logInPage.EnterPayeePhone("191-911-0910");
+        //type("payee.phoneNumber", "191-911-0910");
+        //System.out.println("Payee phone no. entered.");
 
-        type("verifyAccount", "1221233201");
-        System.out.println("Payee account verified no. entered.");
+        logInPage.EnterVerifyAcc("1221233201");
+        //type("payee.accountNumber", "1221233201");
+        //System.out.println("Payee account no. entered.");
 
-        type("amount", "10000");
-        System.out.println("Payee entered amount.");
+        logInPage.EnterAmount("10000");
+        //type("amount", "10000");
+        //System.out.println("Payee entered amount.");
 
-        type("fromAccountId", "19116");
-        System.out.println("Payee entered account no..");
+        logInPage.EnterAccId("19116");
+        //type("fromAccountId", "19116");
+        //System.out.println("Payee entered account no..");
 
-        click("//*[@id='rightPanel']");
-        System.out.println("Click on send payment success.");
+        logInPage.ClickService();
+        //click("//*[@id='rightPanel']");
+        //System.out.println("Click on send payment success.");
 
 
     }

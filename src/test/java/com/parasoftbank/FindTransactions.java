@@ -2,22 +2,19 @@ package com.parasoftbank;
 
 import Base.CommonAPI;
 import org.testng.annotations.Test;
+import pages.LogInPage;
 
 public class FindTransactions extends CommonAPI {
 
     @Test
     public void ClickFindTransactions(){
-        type("username", "BabuNepali");
-        System.out.println("Username entered");
+        LogInPage logInPage = new LogInPage(driver);
 
-        type("password", "subrat123");
-        System.out.println("password entered");
+        logInPage.EnterUserName("BabuNepali");
+        logInPage.EnterPassword("subrat123");
+        logInPage.ClickLoginButton();
+        logInPage.ClickFindTran();
 
-        click("//*[@id='loginPanel']");
-        System.out.println("Login Success!!");
-
-        click("//*[@id='leftPanel']");
-        System.out.println("Click on Find Transactions success.");
 
     }
 

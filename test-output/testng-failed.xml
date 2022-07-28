@@ -8,6 +8,34 @@
   <parameter name="browserVersion" value="100"/>
   <parameter name="browser" value="chrome"/>
   <parameter name="url" value="https://parabank.parasoft.com/"/>
+  <test thread-count="5" name="Payee Information(failed)">
+    <classes>
+      <class name="com.parasoftbank.EnterBillPayeeInformation">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="ClickBillPayeeInformation"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+        </methods>
+      </class> <!-- com.parasoftbank.EnterBillPayeeInformation -->
+    </classes>
+  </test> <!-- Payee Information(failed) -->
+  <test thread-count="5" name="Request Loan(failed)">
+    <classes>
+      <class name="com.parasoftbank.requestLoan">
+        <methods>
+          <include name="ClickRequestLoanForm"/>
+          <include name="afterEachTestMethod"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+        </methods>
+      </class> <!-- com.parasoftbank.requestLoan -->
+    </classes>
+  </test> <!-- Request Loan(failed) -->
   <test thread-count="5" name="Update Info(failed)">
     <classes>
       <class name="com.parasoftbank.upDateInfo">
@@ -22,4 +50,18 @@
       </class> <!-- com.parasoftbank.upDateInfo -->
     </classes>
   </test> <!-- Update Info(failed) -->
+  <test thread-count="5" name="Register(failed)">
+    <classes>
+      <class name="com.parasoftbank.Register">
+        <methods>
+          <include name="afterEachTestMethod"/>
+          <include name="test20"/>
+          <include name="setUp"/>
+          <include name="startExtent"/>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+        </methods>
+      </class> <!-- com.parasoftbank.Register -->
+    </classes>
+  </test> <!-- Register(failed) -->
 </suite> <!-- Failed suite [parasoftbank test] -->
