@@ -4,35 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a3c8022-3a49-4fd3-9c45-0f234a5f4c5a" name="Changes" comment="ParaBank Automation updated with Extra Report">
+    <list default="true" id="4a3c8022-3a49-4fd3-9c45-0f234a5f4c5a" name="Changes" comment="ParaBank Automation updated with Extra Report, POM">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/extent-report/extent-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/extent-report/extent-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Base/CommonAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Base/CommonAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/BankNews.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/BankNews.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/BasicTestComponents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/BasicTestComponents.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/BillPay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/BillPay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/EnterBillPayeeInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/EnterBillPayeeInformation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/FindTransactions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/FindTransactions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/ForgetLogInInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/ForgetLogInInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/LoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/Register.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/SignOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/SignOut.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/TransferFund.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/TransferFund.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/aboutUs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/aboutUs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/adminPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/adminPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/contact.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/home.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/home.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/locations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/locations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/requestLoan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/requestLoan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/siteMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/siteMap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/parasoftbank/upDateInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/parasoftbank/upDateInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resource/runner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resource/runner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.parasoftbank.BankNews.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.parasoftbank.BankNews.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.parasoftbank.BasicTestComponents.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.parasoftbank.BasicTestComponents.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.parasoftbank.BillPay.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.parasoftbank.BillPay.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.parasoftbank.EnterBillPayeeInformation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.parasoftbank.EnterBillPayeeInformation.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.parasoftbank.FindTransactions.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.parasoftbank.FindTransactions.xml" afterDir="false" />
@@ -63,16 +45,11 @@
       <change beforePath="$PROJECT_DIR$/test-output/old/parasoftbank test/Home.properties" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/parasoftbank test/Home.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/old/parasoftbank test/Log-in.properties" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/parasoftbank test/Log-in.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/old/parasoftbank test/Main Title.properties" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/parasoftbank test/Main Title.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/parasoftbank test/Payee Information.properties" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/parasoftbank test/Payee Information.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/old/parasoftbank test/Product.properties" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/parasoftbank test/Product.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/parasoftbank test/Register.properties" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/parasoftbank test/Register.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/parasoftbank test/Request Loan.properties" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/parasoftbank test/Request Loan.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/old/parasoftbank test/Service.properties" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/parasoftbank test/Service.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/old/parasoftbank test/Sign-out.properties" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/parasoftbank test/Sign-out.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/old/parasoftbank test/Site Map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/parasoftbank test/Site Map.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/old/parasoftbank test/Transfer fund.properties" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/parasoftbank test/Transfer fund.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/parasoftbank test/Update Info.properties" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/parasoftbank test/Update Info.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/old/parasoftbank test/basic components.properties" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/parasoftbank test/basic components.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/old/parasoftbank test/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/parasoftbank test/classes.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/old/parasoftbank test/login.properties" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/parasoftbank test/login.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/old/parasoftbank test/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/parasoftbank test/methods-alphabetical.html" afterDir="false" />
@@ -117,8 +94,6 @@
       <change beforePath="$PROJECT_DIR$/test-output/parasoftbank test/Transfer fund.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/parasoftbank test/Transfer fund.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/parasoftbank test/Update Info.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/parasoftbank test/Update Info.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/parasoftbank test/Update Info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/parasoftbank test/Update Info.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/parasoftbank test/basic components.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/parasoftbank test/basic components.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/parasoftbank test/basic components.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/parasoftbank test/basic components.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/parasoftbank test/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/parasoftbank test/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/parasoftbank test/login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/parasoftbank test/login.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/parasoftbank test/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/parasoftbank test/testng-failed.xml" afterDir="false" />
@@ -147,7 +122,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2BKFfCyjabCMEJeONbFe4Fo3NOk" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -160,17 +135,21 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Devraj/IdeaProjects/ParabankParasoftCom/driver/mac&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Devraj/IdeaProjects/ParabankParasoftCom/data&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="utility" />
       <recent name="logInPage" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Devraj\IdeaProjects\ParabankParasoftCom\data" />
+      <recent name="C:\Users\Devraj\IdeaProjects\ParabankParasoftCom\src\main\java\Utility" />
       <recent name="C:\Users\Devraj\IdeaProjects\ParabankParasoftCom\driver\mac" />
       <recent name="C:\Users\Devraj\IdeaProjects\ParabankParasoftCom\driver" />
       <recent name="C:\Users\Devraj\IdeaProjects\ParabankParasoftCom\ChromeDriver" />
@@ -179,13 +158,52 @@
       <recent name="C:\Users\Devraj\IdeaProjects\ParabankParasoftCom\driver\windows" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Devraj/IdeaProjects/ParabankParasoftCom/src/test/resource/runner.xml">
-    <configuration name="requestLoan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.parasoftbank.requestLoan" />
+  <component name="RunManager" selected="Application.utility.ExcelReader">
+    <configuration name="ExcelReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Utility.ExcelReader" />
       <module name="ParabankParasoftCom" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.parasoftbank.*" />
+          <option name="PATTERN" value="Utility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExcelReaderExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utility.ExcelReaderExample2" />
+      <module name="ParabankParasoftCom" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="utility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="utility.ExcelReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utility.ExcelReader" />
+      <module name="ParabankParasoftCom" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="utility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="utility.ExcelReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utility.ExcelReader" />
+      <module name="ParabankParasoftCom" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="utility.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -214,7 +232,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Login.ClickLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="home.ClickHomeBtn" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ParabankParasoftCom" />
       <extension name="coverage">
         <pattern>
@@ -223,44 +241,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.parasoftbank" />
-      <option name="MAIN_CLASS_NAME" value="com.parasoftbank.Login" />
-      <option name="METHOD_NAME" value="ClickLogin" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="requestLoan.ClickRequestLoanForm" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ParabankParasoftCom" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.parasoftbank.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.parasoftbank" />
-      <option name="MAIN_CLASS_NAME" value="com.parasoftbank.requestLoan" />
-      <option name="METHOD_NAME" value="ClickRequestLoanForm" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="upDateInfo.ClickOnUpDateInfo" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="ParabankParasoftCom" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.parasoftbank.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.parasoftbank" />
-      <option name="MAIN_CLASS_NAME" value="com.parasoftbank.upDateInfo" />
-      <option name="METHOD_NAME" value="ClickOnUpDateInfo" />
+      <option name="MAIN_CLASS_NAME" value="com.parasoftbank.home" />
+      <option name="METHOD_NAME" value="ClickHomeBtn" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -269,19 +251,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.requestLoan" />
-      <item itemvalue="TestNG.Login.ClickLogin" />
-      <item itemvalue="TestNG.requestLoan.ClickRequestLoanForm" />
-      <item itemvalue="TestNG.upDateInfo.ClickOnUpDateInfo" />
+      <item itemvalue="Application.ExcelReaderExample2" />
+      <item itemvalue="Application.ExcelReader" />
+      <item itemvalue="Application.utility.ExcelReader" />
+      <item itemvalue="TestNG.home.ClickHomeBtn" />
       <item itemvalue="TestNG.C:/Users/Devraj/IdeaProjects/ParabankParasoftCom/src/test/resource/runner.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.utility.ExcelReader" />
         <item itemvalue="TestNG.C:/Users/Devraj/IdeaProjects/ParabankParasoftCom/src/test/resource/runner.xml" />
-        <item itemvalue="TestNG.requestLoan.ClickRequestLoanForm" />
-        <item itemvalue="TestNG.upDateInfo.ClickOnUpDateInfo" />
-        <item itemvalue="TestNG.Login.ClickLogin" />
-        <item itemvalue="Application.requestLoan" />
+        <item itemvalue="TestNG.home.ClickHomeBtn" />
+        <item itemvalue="Application.ExcelReaderExample2" />
+        <item itemvalue="Application.utility.ExcelReader" />
       </list>
     </recent_temporary>
   </component>
@@ -532,7 +514,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658639817431</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="ParaBank Automation updated with Extra Report, POM">
+      <created>1659047370168</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1659047370168</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -564,7 +553,18 @@
     <MESSAGE value="ParaBank Automation updated" />
     <MESSAGE value="ParaBank Automation updated with report" />
     <MESSAGE value="ParaBank Automation updated with Extra Report" />
-    <option name="LAST_COMMIT_MESSAGE" value="ParaBank Automation updated with Extra Report" />
+    <MESSAGE value="ParaBank Automation updated with Extra Report, POM" />
+    <option name="LAST_COMMIT_MESSAGE" value="ParaBank Automation updated with Extra Report, POM" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NoClassDefFoundError" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ParabankParasoftCom$AppTest_login.ic" NAME="AppTest.login Coverage Results" MODIFIED="1657257240810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -579,6 +579,9 @@
     <SUITE FILE_PATH="coverage/ParabankParasoftCom$C__Users_Devraj_IdeaProjects_ParabankParasoftCom_src_test_resource_runner_xml.ic" NAME="$PROJECT_DIR$/src/test/resource/runner.xml Coverage Results" MODIFIED="1658524658303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/ParabankParasoftCom$LoginTest.ic" NAME="LoginTest Coverage Results" MODIFIED="1657668573606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.parasoftbank.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/ParabankParasoftCom$ExecelReader.ic" NAME="ExecelReader Coverage Results" MODIFIED="1659762309382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Utility.*</FILTER>
     </SUITE>
   </component>
 </project>

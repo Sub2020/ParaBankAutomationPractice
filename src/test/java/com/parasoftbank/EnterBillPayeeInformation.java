@@ -17,7 +17,7 @@ public class EnterBillPayeeInformation extends CommonAPI {
         logInPage.ClickOnBillPay();
 
 
-        logInPage.EnterPayeeName("James Bond");
+        logInPage.EnterPayeeName1("James Bond");
         //type("payee.name", "James Bond");
         //System.out.println("Payee Name entered.");
 

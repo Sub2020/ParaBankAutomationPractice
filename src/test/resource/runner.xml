@@ -16,6 +16,12 @@
         </classes>
     </test>
 
+<!--    <test name="ErrorMsgUsername">-->
+<!--        <classes>-->
+<!--            <class name="com.parasoftbank.ErrorUserName"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
     <test name="Bank News">
         <classes>
             <class name="com.parasoftbank.BankNews"></class>
@@ -70,17 +76,17 @@
         </classes>
     </test>
 
-    <test name="Payee Information">
-        <classes>
-            <class name="com.parasoftbank.EnterBillPayeeInformation"></class>
-        </classes>
-    </test>
+<!--    <test name="Payee Information">-->
+<!--        <classes>-->
+<!--            <class name="com.parasoftbank.EnterBillPayeeInformation"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
 
-    <test name="Request Loan">
-        <classes>
-            <class name="com.parasoftbank.requestLoan"></class>
-        </classes>
-    </test>
+<!--    <test name="Request Loan">-->
+<!--        <classes>-->
+<!--            <class name="com.parasoftbank.requestLoan"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
 
     <test name="Transfer fund">
         <classes>
@@ -112,11 +118,11 @@
         </classes>
     </test>
 
-    <test name="Update Info">
-        <classes>
-            <class name="com.parasoftbank.upDateInfo"></class>
-        </classes>
-    </test>
+<!--    <test name="Update Info">-->
+<!--        <classes>-->
+<!--            <class name="com.parasoftbank.upDateInfo"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
 
     <test name="Sign-out">
         <classes>
@@ -130,11 +136,11 @@
         </classes>
     </test>
 
-    <test name="Register">
-        <classes>
-            <class name="com.parasoftbank.Register"></class>
-        </classes>
-    </test>
+<!--    <test name="Register">-->
+<!--        <classes>-->
+<!--            <class name="com.parasoftbank.Register"></class>-->
+<!--        </classes>-->
+<!--    </test>-->
 </suite>
 
 

@@ -14,7 +14,7 @@ public class Register extends CommonAPI {
         //System.out.println("Click on Register Success.");
 
 
-        logInPage.TypeCustomerFirstName1("Raja");
+        logInPage.TypeCustomerFirstName("Raja");
         //type("customer.firstName", "KingQueen");
         //System.out.println("Customer First Name entered.");
 

@@ -25,7 +25,7 @@ public class upDateInfo extends CommonAPI {
         //click("//*[@id=\"leftPanel\"]/ul/li[6]/a");
         //System.out.println("Click on Update Contact Info success.");
 
-        logInPage.TypeCustomerFirstName2("James007");
+        logInPage.TypeCustomerFirstName("James007");
         //type("customer.firstName", "James007");
         //System.out.println("Customer entered first name.");
 

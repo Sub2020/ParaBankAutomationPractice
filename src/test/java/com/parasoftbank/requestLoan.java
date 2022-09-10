@@ -15,7 +15,7 @@ public class requestLoan extends CommonAPI {
         logInPage.EnterPassword("subrat123");
         logInPage.ClickLoginButton();
         logInPage.ClickUpdateContactSuccess();
-        logInPage.TypeLoanAmountSuccess("100000000");
+        logInPage.EnterLoanRequestAmount("1000000");
         logInPage.TypeDownPaymentLoan("500000");
         logInPage.TypeLoanAccountNo("13344");
         logInPage.LoanButtonClick();
